@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@layer base {
+
+
+  @font-face {
+    font-family: "Lexend Deca";
+    font-style: regular;
+    font-weight: 200;
+    src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl;
+  }
+  .container-wide {
+    @apply max-w-screen-2xl;
+  }
+  .container-copy {
+    @apply max-w-3xl;
+  }
+  .container-narrow {
+    @apply max-w-xl;
+  }
+  .ultratitle {
+    @apply text-6xl lg:text-7xl xl:text-8xl font-bold;
+  }
+  .title {
+    @apply text-5xl lg:text-6xl xl:text-7xl font-bold;
+  }
+  .subtitle {
+    @apply mt-3 text-3xl lg:text-4xl;
+  }
+  .headline {
+    @apply text-5xl mt-3 mb-3;
+  }
+  .subheadline {
+    @apply text-3xl mt-0 mb-3;
+  }
+  .eyebrow {
+    @apply text-gray-400 text-4xl lg:text-5xl uppercase mt-0 mb-2;
+  }
+  .lead {
+    @apply text-3xl lg:text-4xl my-2 lg:my-3;
+  }
+  .caption {
+    @apply text-gray-400 font-medium;
+  }
+  .btn {
+    @apply rounded-md bg-blue-300 dark:bg-blue-500 p-2 px-4;
+  }
+}
