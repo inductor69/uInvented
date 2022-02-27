@@ -1,6 +1,4 @@
-# Next.js starter with Tailwind.
-
-Plenty of these exist, but this is my Next.js starter with Tailwind.
+# uInvented
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fexu3%2Fnext-tailwind-starter)
 
