@@ -41,14 +41,14 @@ export default function Landing() {
             </main>
             {/*SERVICES*/}
             <div className="flex flex-col  bg-black text-white ">
-            <div class="flex mt-5">
+            <div class="flex mt-5 mb-5">
 
                     <div class="flex-none w-14 h-14 ml-2" style={{ width: '90px', height: '40px', position: 'relative' }}>
 
                         <Image
                             src="/images/line-sm.svg" // Route of the image file
                             layout="fill"
-                            alt="Your Name"
+                            alt="Landing"
                         />
 
                     </div>

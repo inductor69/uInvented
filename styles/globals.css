@@ -6,10 +6,11 @@
 
 
   @font-face {
-    font-family: "DM";
+    font-family: "ITC";
     font-style: normal;
-    font-weight: 400;
-    src: url("/public/fonts/itc.ttf");
+    font-weight: 500;
+    src: local("DM Sans Medium"),
+      url("/fonts/itc.woff");
   }
 }
 
