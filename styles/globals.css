@@ -8,7 +8,7 @@
   @font-face {
     font-family: "ITC";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     src: local("DM Sans Medium"),
       url("/fonts/itc.woff");
   }

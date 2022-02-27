@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ["'ITC'", ...defaultTheme.fontFamily.sans],
       },
+      lineHeight: {
+        '15': '7rem',
+      }
     },
   },
   variants: {
