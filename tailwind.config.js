@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Lexend Deca", ...defaultTheme.fontFamily.sans],
+        sans:["DM"],
       },
     },
   },
