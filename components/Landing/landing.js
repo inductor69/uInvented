@@ -6,6 +6,7 @@ import { fill } from "tailwindcss/defaultTheme";
 
 export default function Landing() {
     return (
+        <>
         <main className="">
             <div className="container mx-auto my-16">
                 {/*center the text */}
@@ -26,17 +27,25 @@ export default function Landing() {
                 </div>
                 {/*center the image container */}
                 <div className="flex flex-col items-center justify-center ">
-                <div  style={{width: '900px', height: '400px', position: 'relative'}}>
+                    <div style={{ width: '900px', height: '400px', position: 'relative' }}>
 
-                    <Image
-                        src="/images/top.svg" // Route of the image file
-                        layout="fill"
-                        alt="Your Name"
-                    />
-                </div>
+                        <Image
+                            src="/images/top.svg" // Route of the image file
+                            layout="fill"
+                            alt="Your Name"
+                        />
+                    </div>
                 </div>
 
             </div>
         </main>
+        {/*SERVICES*/}
+        <div className="my-20 py-12 grid grid-cols-5 gap-3 px-16  flex justify-center items-center	">
+        <div className=" align-right text-3xl text-center col-span-2	 ">Services</div>
+        <div className="  text-xl col-span-3 ">Hire a team of programming experts and design professionals to design, develop, and deploy your project.</div>
+      </div>
+
+
+        </>
     );
 }
