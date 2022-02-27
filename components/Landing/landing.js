@@ -1,12 +1,10 @@
 import Link from "next/link";
-import { useTheme } from "next-themes";
 import Image from 'next/image'
 import { fill } from "tailwindcss/defaultTheme";
 
 
 
 export default function Landing() {
-    const { theme, setTheme } = useTheme();
     return (
         <main className="">
             <div className="container mx-auto my-16">

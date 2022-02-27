@@ -7,7 +7,6 @@ export default function Meta({ title }) {
   const author = "Ella";
   const twitter = "@ella";
   const themeColor = "#ffffff";
-  const darkThemeColor = "#000000";
   const image =
     "https://og-image.vercel.app/**Next.js**%20Starter%20%3Cbr%2F%3E%20%40exu3.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg";
   return (
@@ -29,11 +28,6 @@ export default function Meta({ title }) {
         name="theme-color"
         content={themeColor}
         media="(prefers-color-scheme: light)"
-      />
-      <meta
-        name="theme-color"
-        content={darkThemeColor}
-        media="(prefers-color-scheme: dark)"
       />
       <meta property="og:url" content="yourdomain.com" />
       <meta property="og:type" content="website" />
