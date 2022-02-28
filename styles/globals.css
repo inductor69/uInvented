@@ -15,6 +15,7 @@
 }
 
 @layer components {
+  .background: '#FFFBE9';
   .container {
     @apply max-w-7xl;
   }

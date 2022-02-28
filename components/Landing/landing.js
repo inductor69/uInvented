@@ -1,18 +1,18 @@
 import Link from "next/link";
 import Image from 'next/image'
 import { fill } from "tailwindcss/defaultTheme";
-
+import "./landing.module.css";
 
 
 export default function Landing() {
     return (
         <>
-            <main className="">
+            <main className=" bg-[#FFFBE9]">
                 <div className="container mx-auto my-16">
                     {/*center the text */}
                     <div className="flex flex-col items-center justify-center ">
                         <div className="sm:text-8xl text-4xl  text-center md:leading-[7rem] leading-[4rem] ">
-                        Designing the<br /> Digital World
+                            Designing the<br /> Digital World
                         </div>
                         <div className="sm:text-2xl text-md text-center md:leading-[7rem] " >
                             Mobile, AR/VR and Blockchain Services
@@ -87,8 +87,29 @@ export default function Landing() {
 
             </div>
 
+            {/*Our Portfolio*/}
+
+
+            <div className="sm:text-5xl text-md text-center md:leading-[7rem] mt-[4rem] mb-[7rem] " >
+                    Our Portfolio
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         </>
     );
 }
+
