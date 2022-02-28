@@ -7,7 +7,7 @@ import "./landing.module.css";
 export default function Landing() {
     return (
         <>
-            <main className=" bg-[#FFFBE9]">
+            <main className=" ">
                 <div className="container mx-auto my-16">
                     {/*center the text */}
                     <div className="flex flex-col items-center justify-center ">
@@ -19,6 +19,7 @@ export default function Landing() {
                             Mobile, AR/VR and Blockchain Services
 
                         </div>
+
                     </div>
                     <div class="py-8 flex justify-center text-xl space-x-8">
                         <Link href="#" passHref>

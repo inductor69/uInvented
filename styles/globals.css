@@ -4,6 +4,11 @@
 
 @layer base {
 
+  :root {
+    --bg-primary:  255, 251, 233;
+
+  }
+
 
   @font-face {
     font-family: "ITC";
