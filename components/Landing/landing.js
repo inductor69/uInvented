@@ -61,17 +61,17 @@ export default function Landing() {
                 </div>
                 <div class="w-full md:w-5/6">
 
-                    <div className="  text-4xl md:text-5xl mx-14 mb-14">
+                    <div className="  text-3xl md:text-5xl mx-8 md:mx-14 mb-14">
                         We design compelling Brand Identities and impactful Digital Experiences for innovative companies around the world. Using the industry-proven methods Jobs to be Done and Design Sprint, we've developed a highly optimised design delivery process that brings results in just a few weeks. Sounds like what you’re looking for?
                     </div>
                 </div>
                 {/*Our Workflow*/}
                 <div className="flex flex-col  mt-8  bg-black text-white ">
 
-                    <div className="text-6xl md:text-8xl mx-14 mb-8">
+                    <div className="text-5xl md:text-8xl mx-6  md:mx-14 mb-8">
                         Experiences
                     </div>
-                    <div className="text-2xl md:text-3xl mx-14 mb-14">
+                    <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14">
                         Digital products, websites and experiences for startups and iconic companies.
                         <ul class="list-disc text-2xl mt-4 mx-6 leading-10">
                             <li>3-4 weeks lead time</li>
