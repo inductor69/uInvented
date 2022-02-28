@@ -4,9 +4,9 @@ import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme="light" attribute="class">
+    <div className="bg-[#fffbe9]">
       <Component {...pageProps} />
-    </ThemeProvider>
+    </div>
   );
 }
 
