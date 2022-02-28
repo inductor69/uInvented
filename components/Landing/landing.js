@@ -12,7 +12,7 @@ export default function Landing() {
                     {/*center the text */}
                     <div className="flex flex-col items-center justify-center ">
                         <div className="sm:text-8xl text-4xl  text-center md:leading-[7rem] leading-[4rem] ">
-                        Designing the<br /> Digital World
+                            Designing the<br /> Digital World
                         </div>
                         <div className="sm:text-2xl text-md text-center md:leading-[7rem] " >
                             Mobile, AR/VR and Blockchain Services
@@ -26,15 +26,16 @@ export default function Landing() {
                         </Link>
                     </div>
                     {/*center the image container */}
-                    <div className="flex flex-col items-center justify-center ">
-                        <div style={{ width: '900px', height: '400px', position: 'relative' }}>
-
-                            <Image
-                                src="/images/top.svg" // Route of the image file
-                                layout="fill"
-                                alt="Your Name"
-                            />
-                        </div>
+                    <div className="flex flex-col items-center justify-center" >
+                    <div style={{maxWidth:'900px',width: '90%', height: '100%', position: 'relative'}}>
+                        <Image
+                            src="/images/top.svg" // Route of the image file
+                            width="200%" height="100%" layout="responsive" 
+                            alt="Your Name"
+                            objectFit='contain'
+                            
+                        />
+</div>
                     </div>
 
                 </div>
