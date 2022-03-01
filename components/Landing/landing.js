@@ -92,47 +92,55 @@ export default function Landing() {
             </div>
 
             {/*Our Portfolio*/}
-
-
-            <div className="sm:text-5xl text-white bg-black  text-md text-center md:leading-[7rem]  " >
+            <div className="text-4xl sm:text-5xl bg-black text-[#fffbe9] text-center py-4 " >
                 Our Portfolio
-
-            </div>
-
-            <div class="h-screen bg-black  ">
-                <div class="  border-2  rounded-[4rem] bg-[#FFFBE9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 hover:duration-700	 mx-10  ">
-                    <div class=" mx-auto px-4  flex flex-col lg:flex-row">
-                        <div class=" container relative lg:w-2/3 rounded-full p-16 ">
-                            <p class="max-w-md text-3xl md:text-6xl font-semibold">Checkstep</p>
-                            <p class="max-w-md pr-10 text-secondary md:text-3xl font-semibold mt-8">The Checkstep metaverse - a thriving, hate-free digital world</p>
-                            <Link href="#" passHref>
-
-                                <button href="#" class="border mt-20 px-8 py-2 rounded  hover:border-black bg-black hover:bg-white  text-white hover:text-black transition duration-500 font-bold">Case Study</button>
-                            </Link>
-                            <div class="absolute bottom-5 right-5 flex">
-                                <a href class="h-6 w-6 flex items-center justify-center rounded-md bg-white">
-                                    <svg class="h-3 text-gray-700" aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-left fa-w-8 fa-3x"><path fill="currentColor" d="M231.293 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L70.393 256 251.092 74.87c4.686-4.686 4.686-12.284 0-16.971L231.293 38.1c-4.686-4.686-12.284-4.686-16.971 0L4.908 247.515c-4.686 4.686-4.686 12.284 0 16.971L214.322 473.9c4.687 4.686 12.285 4.686 16.971-.001z"></path></svg>
-                                </a>
-                                <a href class="ml-1.5 h-6 w-6 flex items-center justify-center rounded-md bg-yellow-400">
-                                    <svg class="h-3 text-gray-700" aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-right fa-w-8 fa-3x"><path fill="currentColor" d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"></path></svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div class=" mt-6 lg:mt-0 lg:ml-6 lg:w-1/3 rounded-xl bg-primary-lite bg-cover p-16">
-                        <div  style={{ maxWidth: '900px', width: '90%', height: '100%', position: 'relative' }}>
+            </div> 
+            <div className="bg-black text-[#fffbe9] p-8 ">
+            <div className="flex rounded-[4rem] flex-wrap-reverse md:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.98]  max-w-screen-xl bg-[#fffbe9] text-black  ">
+                <div className="container  p-10 py-[8rem]  ">
+                    <p class="max-w-md text-4xl md:text-6xl font-semibold">Checkstep</p>
+                        <p class="max-w-md  text-secondary text-2xl md:text-3xl font-semibold mt-4">The Checkstep metaverse - a thriving, hate-free digital world</p>
+                        <Link href="/" passHref>
+                            <button href="/" class="border mt-14 px-8 py-2 rounded hover:border-black text-xl bg-black hover:bg-white  text-white hover:text-black transition duration-500 font-bold">Case Study</button>
+                        </Link>
+                </div>
+                <div class=" container py-8 px-6 py-[4rem]  md:pr-16">
+                        <div  style={{ minHeight:'15rem', height: '100%' ,position: 'relative' }}>
                             <Image
                                 src="/images/top.svg" // Route of the image file
-                                 layout="fill"
+                                layout="fill"
                                 alt="Your Name"
                                 objectFit='fill'
-
-
                             />
-                        </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+{/*             
+
+            <div class="h-screen bg-black">
+                    <div class=" flex flex-col flex-wrap-reverse md:flex-row bg-[#FFFBE9] transition ease-in-out duration-700  hover:scale-[0.98] mx-10">
+                        <div class="md:basis-1/2 container p-8 md:p-16">
+                            <p class="max-w-md text-3xl md:text-6xl font-semibold">Checkstep</p>
+                            <p class="max-w-md  text-secondary md:text-3xl font-semibold mt-8">The Checkstep metaverse - a thriving, hate-free digital world</p>
+                            <Link href="/" passHref>
+                                <button href="/" class="border mt-20 px-8 py-2 rounded hover:border-black bg-black hover:bg-white  text-white hover:text-black transition duration-500 font-bold">Case Study</button>
+                            </Link>
+                            
+                        </div>
+                        <div class=" md:basis-1/2 py-8 px-6 md:px-16">
+                        <div  style={{ height: '100%' ,position: 'relative' }}>
+                            <Image
+                                src="/images/top.svg" // Route of the image file
+                                layout="fill"
+                                alt="Your Name"
+                                objectFit='fill'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
 
 
 
