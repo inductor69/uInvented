@@ -93,7 +93,7 @@ export default function Landing() {
 
             </div>
 
-            {/*Our Portfolio*/}
+            {/Our Portfolio/}
 
 
 
@@ -169,7 +169,7 @@ export default function Landing() {
             </div>
             </div>
 
-            {/*Our Testimonials*/}
+            {/Our Testimonials/}
 
             <div className="w-full h-full bg-[#000] pb-10 ">
                 <div className="sm:text-5xl text-[#bbc0c9] bg-black  text-md text-center md:leading-[7rem]  " >
