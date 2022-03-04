@@ -245,14 +245,15 @@ export default function Landing() {
 
                 <div className="container  mx-auto   ">
                     <div className="mx-auto pb-[4rem] pt-[4rem]">
-                        <div className="relative pt-16 px-6 lg:px-24 pb-20 bg-gray-900 rounded-3xl overflow-hidden">
+                        <div className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"
+                          style={{backgroundImage:'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(./images/git.png)'}}>
 
                             <div className="relative">
                                 <div className="text-3xl md:text-4xl md:leading-[3.5rem]   text-white font-bold  mb-8">Join 20k+ Designers, Founders & Makers</div>
 
                                 <span className="text-base lg:text-lg text-white font-bold">More news</span>
                                 <h3 className="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">Subscribe now!</h3>
-                                <div className="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white sm:rounded-full">
+                                <div className="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white border-2 sm:rounded-full">
                                     <span className="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10 ">
                                         <svg width="37" height="37" viewbox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18.5" cy="18.5" r="9.5" fill="#1F40FF" fill-opacity="0.15"></circle><circle cx="18.5" cy="18.5" r="18.5" fill="#1F40FF" fill-opacity="0.06"></circle><circle cx="18.5" cy="18.5" r="2.5" fill="#282C36"></circle></svg>
                                     </span>
