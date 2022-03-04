@@ -7,6 +7,7 @@ import "./landing.module.css"
 export default function Landing() {
 
 
+
     return (
 
         <>
@@ -27,7 +28,7 @@ export default function Landing() {
                     <div className="py-8 flex justify-center text-xl space-x-8">
                         <Link href="#" passHref>
 
-                            <a href="#" className="border hover:border-black bg-black hover:bg-[#bbc0c9] rounded py-3 px-8 text-[#bbc0c9] hover:text-black transition duration-500 font-bold">Contact Us</a>
+                            <a href="#" className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold">Contact Us</a>
                         </Link>
                     </div>
                     {/*center the image container */}
@@ -46,7 +47,7 @@ export default function Landing() {
                 </div>
             </main>
             {/*SERVICES*/}
-            <div className="flex flex-col  bg-black text-[#bbc0c9] ">
+            <div className="flex flex-col  bg-black text-white ">
                 <div className="flex mt-5 mb-5">
 
                     <div className="flex-none w-14 h-14 ml-2 mt-3" style={{ width: '90px', height: '40px', position: 'relative' }}>
@@ -70,7 +71,7 @@ export default function Landing() {
                     </div>
                 </div>
                 {/*Our Workflow*/}
-                <div className="flex flex-col  mt-8  bg-black text-[#bbc0c9] ">
+                <div className="flex flex-col  mt-8  bg-black text-white ">
 
                     <div className="text-5xl md:text-8xl mx-6  md:mx-14 mb-8">
                         Experiences
@@ -84,7 +85,7 @@ export default function Landing() {
                             <li>Wireframes (full UX design)</li>
 
                             <li>UI Mockups (full product design)</li>
-                            <li>FInal Development</li>
+                            <li>Final Development</li>
 
                         </ul>
                     </div>
@@ -95,24 +96,64 @@ export default function Landing() {
 
             {/*Our Portfolio*/}
 
-
-
-            <div className="text-4xl sm:text-5xl bg-[black] text-[#bbc0c9] text-center py-4 " >
+            <div className="text-4xl sm:text-6xl bg-black text-[#fffbe9] text-center py-4 " >
                 Our Portfolio
             </div>
-            <div className="bg-[black] text-[#FF8E60] p-8 ">
-                <div className="flex rounded-[1rem] bg-gradient-to-r from-[#757F9A] via-[#bbc0c9] to-[#757F9A] flex-wrap-reverse md:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.98]  max-w-screen-xl xl:max-w-screen-2xl bg-[#FF8E60] text-black  ">
-                    <div className="container  md:p-10 pb-6 px-10 md:py-[5rem]  ">
-                        <p className="max-w-md text-4xl md:text-6xl font-semibold">Checkstep</p>
-                        <p className="max-w-md  text-secondary text-xl md:text-3xl font-semibold mt-4">The Checkstep metaverse - a thriving, hate-free digital world</p>
+
+            <div className="bg-black md:px-[10rem] p-8 ">
+                <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-20">
+                    <div className="  p-10  sm:mt-[15rem]">
+                        <p className="max-w-md text-3xl md:text-5xl font-semibold ">Checkstep</p>
+                        <p className=" text-secondary text-xl md:text-2xl  mt-3">The Checkstep metaverse - a thriving, hate-free digital world</p>
                         <Link href="/" passHref>
-                            <button href="/" className="border md:mt-14 mt-4 px-8 py-2 rounded hover:border-black md:text-xl text-md bg-black hover:bg-[#bbc0c9]  text-[#bbc0c9] hover:text-black transition duration-500 font-bold">Case Study</button>
+                            <button href="/" className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold">Case Study</button>
                         </Link>
                     </div>
-                    <div className=" container md:py-8 px-6 md:py-[4rem]  md:pr-16">
-                        <div style={{ minHeight: '13rem', height: '100%', position: 'relative' }}>
+                    <div className=" container  rounded-[2rem]  ">
+                        <div style={{ minHeight: '15rem', height: '100%', position: 'relative' }}>
                             <Image
-                                src="/images/top.svg" // Route of the image file
+                                className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
+                                src="/images/top.jpg" // Route of the image file
+                                layout="fill"
+                                alt="Your Name"
+                                objectFit='fill'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-20">
+                    <div className="  p-10  sm:mt-[15rem]">
+                        <p className="max-w-md text-3xl md:text-5xl font-semibold ">Checkstep</p>
+                        <p className=" text-secondary text-xl md:text-2xl  mt-3">The Checkstep metaverse - a thriving, hate-free digital world</p>
+                        <Link href="/" passHref>
+                            <button href="/" className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold">Case Study</button>
+                        </Link>
+                    </div>
+                    <div className=" container  rounded-[2rem]  ">
+                        <div style={{ minHeight: '15rem', height: '100%', position: 'relative' }}>
+                            <Image
+                                className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
+                                src="/images/top.jpg" // Route of the image file
+                                layout="fill"
+                                alt="Your Name"
+                                objectFit='fill'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-10">
+                    <div className="  p-10  sm:mt-[15rem]">
+                        <p className="max-w-md text-3xl md:text-5xl font-semibold ">Checkstep</p>
+                        <p className=" text-secondary text-xl md:text-2xl  mt-3">The Checkstep metaverse - a thriving, hate-free digital world</p>
+                        <Link href="/" passHref>
+                            <button href="/" className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold">Case Study</button>
+                        </Link>
+                    </div>
+                    <div className=" container  rounded-[2rem]  ">
+                        <div style={{ minHeight: '15rem', height: '100%', position: 'relative' }}>
+                            <Image
+                                className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
+                                src="/images/top.jpg" // Route of the image file
                                 layout="fill"
                                 alt="Your Name"
                                 objectFit='fill'
@@ -121,124 +162,79 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-            <div class="md:grid  grid-cols-2 gap-5 bg-[#000] px-8">
-             <div className="bg-black text-[#FF8E60] mb-4   ">
-                <div className="flex rounded-[1rem] bg-gradient-to-r from-[#757F9A] to-[#bbc0c9]  flex-wrap-reverse md:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.98]  max-w-screen-xl xl:max-w-screen-2xl bg-[#FF8E60] text-black  ">
-                <div className=" container md:py-8 px-6 md:py-[4rem]  md:pr-16">
-                        <div style={{ minHeight: '13rem', height: '100%', position: 'relative' }}>
-                            <Image
-                                src="/images/top.svg" // Route of the image file
-                                layout="fill"
-                                alt="Your Name"
-                                objectFit='fill'
-                            />
-                        </div>
-                    </div>
-                    <div className="container  md:p-10 pb-6 px-10   ">
-                        <p className="max-w-md text-4xl md:text-6xl font-semibold">Checkstep</p>
-                        <p className="max-w-md  text-secondary text-xl md:text-2xl font-semibold mt-4">The Checkstep metaverse - a thriving, hate-free digital world</p>
-                        <Link href="/" passHref>
-                            <button href="/" className="border md:mt-14 mt-4 px-8 py-2 rounded hover:border-black md:text-xl text-md bg-black hover:bg-[#bbc0c9]  text-[#bbc0c9] hover:text-black transition duration-500 font-bold">Case Study</button>
-                        </Link>
-                    </div>
 
-                </div>
-            </div>
 
-            <div className="bg-black text-[#FF8E60]  ">
-                <div className="flex rounded-[1rem] bg-gradient-to-r  to-[#757F9A] from-[#bbc0c9] flex-wrap-reverse md:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.98]  max-w-screen-xl xl:max-w-screen-2xl bg-[#FF8E60] text-black  ">
-                <div className=" container md:py-8 px-6 md:py-[4rem]  md:pr-16">
-                        <div style={{ minHeight: '13rem', height: '100%', position: 'relative' }}>
-                            <Image
-                                src="/images/top.svg" // Route of the image file
-                                layout="fill"
-                                alt="Your Name"
-                                objectFit='fill'
-                            />
-                        </div>
-                    </div>
-                    <div className="container  md:p-10 pb-6 px-10">
-                        <p className="max-w-md text-4xl md:text-6xl font-semibold">Checkstep</p>
-                        <p className="max-w-md  text-secondary text-xl md:text-2xl font-semibold mt-4">The Checkstep metaverse - a thriving, hate-free digital world</p>
-                        <Link href="/" passHref>
-                            <button href="/" className="border md:mt-14 mt-4 px-8 py-2 rounded hover:border-black md:text-xl text-md bg-black hover:bg-[#bbc0c9]  text-[#bbc0c9] hover:text-black transition duration-500 font-bold">Case Study</button>
-                        </Link>
-                    </div>
-
-                </div>
-            </div>
-            </div>
 
             {/*Our Testimonials*/}
 
             <div className="w-full h-full bg-[#000] pb-10 ">
-                <div className="sm:text-5xl text-[#bbc0c9] bg-black  text-md text-center md:leading-[7rem]  " >
+                <div className="sm:text-5xl text-white bg-black  text-md text-center md:leading-[7rem]  " >
                     Our Testimonials
 
                 </div>
                 <div className="flex flex-col lg:grid lg:grid-cols-4 2xl:row-span-2 2xl:pb-8  ml-2 pt-4 px-6">
-                    <div className="bg-[#FF8AAE] lg:order-1 m-2 lg:row-span-1 2xl:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5 lg:mb-0">
+                    <div className="border border-slate-700 lg:order-1 m-2 lg:row-span-1 2xl:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5 lg:mb-0">
                         <div className="mx-6 my-8 2xl:mx-10">
                             <img className="w-8 md:w-9 lg:w-10 2xl:w-20 h-8 md:h-9 lg:h-10 2xl:h-20 rounded-full border-2 ml-1 lg:ml-3 2xl:ml-0 md:-mt-1 2xl:-mt-4" src="https://images.pexels.com/photos/3775534/pexels-photo-3775534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                            <h1 className="text-[#000] text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-20 2xl:mx-8">Daniel Clifford</h1>
-                            <h2 className="text-[#000] text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 2xl:my-2 2xl:mx-8">Verified Graduate</h2>
+                            <h1 className=" text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-20 2xl:mx-8 text-white">Daniel Clifford</h1>
+                            <h2 className=" text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 2xl:my-2 2xl:mx-8 text-white">Verified Graduate</h2>
                         </div>
                         <div className="-mt-6 relative">
-                            <p className="text-[#000] text-xl 2xl:text-4xl font-bold px-7 lg:px-9 2xl:pt-6 2xl:mx-2">I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</p>
+                            <p className=" text-xl text-white 2xl:text-4xl font-bold px-7 lg:px-9 2xl:pt-6 2xl:mx-2">I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</p>
                             <br />
-                            <p className="text-[#000] text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-7 lg:px-9 mb-3 2xl:pb-8 2xl:mx-2">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+                            <p className="text-white text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-7 lg:px-9 mb-3 2xl:pb-8 2xl:mx-2">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
                         </div>
                     </div>
 
-                    <div className="bg-[#DEF6E7] lg:order-2 m-2  lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0">
+                    <div className="border border-slate-700 lg:order-2 m-2  lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0">
                         <div className="mx-8 2xl:mx-10 my-10">
                             <img className="w-8 md:w-9 2xl:w-20 h-8 md:h-9 2xl:h-20 rounded-full border-2 -ml-1 -mt-2 lg:-mt-4" src="https://images.pexels.com/photos/634021/pexels-photo-634021.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                            <h1 className="text-black text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 2xl:-mt-16">Jonathan Walters</h1>
-                            <h2 className="text-black text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-11 md:pl-12 2xl:pl-24">Verified Graduate</h2>
+                            <h1 className="text-black text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 2xl:-mt-16 text-gray-400">Jonathan Walters</h1>
+                            <h2 className="text-opacity-50 text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-11 md:pl-12 2xl:pl-24 text-white">Verified Graduate</h2>
                         </div>
                         <div className="-mt-8 mx-1 lg:mx-2">
-                            <p className="text-black text-lg lg:text-xl 2xl:text-4xl font-semibold pt-1 px-6 2xl:px-8 lg:pl-5 lg:pr-8">The team was very supportive and kept me motivated</p>
+                            <p className="text-white text-lg lg:text-xl 2xl:text-4xl font-semibold pt-1 px-6 2xl:px-8 lg:pl-5 lg:pr-8 ">The team was very supportive and kept me motivated</p>
                             <br />
-                            <p className="text-black text-opacity-50 font-medium md:text-sm 2xl:text-3xl pl-6 lg:pl-5 pr-4 -mt-1  2xl:mt-2 2xl:px-8">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
+                            <p className="text-black text-opacity-50 font-medium md:text-sm 2xl:text-3xl pl-6 lg:pl-5 pr-4 -mt-1  2xl:mt-2 2xl:px-8 text-white">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
                         </div>
                     </div>
 
-                    <div className="bg-[#FF8E60] lg:order-3 m-2 lg:row-span-2 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl mb-5 lg:mb-0 2xl:mb-8">
+                    <div className="border border-slate-700 lg:order-3 m-2 lg:row-span-2 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl mb-5 lg:mb-0 2xl:mb-8">
                         <div className="mx-8 my-10 lg:my-8">
                             <img className="w-8 md:w-9 lg:w-11 2xl:w-20 h-8 md:h-9 lg:h-11 2xl:h-20 rounded-full border-2 -mt-3 -ml-1 lg:-ml-0" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16">Jeanette Harmon</h1>
-                            <h2 className="primary-color-blackish-blue-opacity text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24">Verified Graduate</h2>
+                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 text-gray-400">Jeanette Harmon</h1>
+                            <h2 className=" text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 text-white text-opacity-50 ">Verified Graduate</h2>
                         </div>
                         <div className="-mt-4 ml-5 mr-11">
-                            <p className="primary-color-blackish-blue text-xl 2xl:text-4xl font-bold px-2 lg:px-3 -mt-6 lg:-mt-5 2xl:mt-12 2xl:pb-6">An overall wonderful and rewarding experience</p>
+                            <p className="primary-color-blackish-blue text-xl 2xl:text-4xl font-bold px-2 lg:px-3 -mt-6 lg:-mt-5 2xl:mt-12 2xl:pb-6 text-white">An overall wonderful and rewarding experience</p>
                             <br />
-                            <p className="primary-color-blackish-blue-opacity font-medium md:text-sm 2xl:text-3xl pl-2 lg:pl-3 lg:pr-4 mb-6 2xl:pt-2 -mt-3">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+                            <p className="primary-color-blackish-blue-opacity text-opacity-50 font-medium md:text-sm 2xl:text-3xl pl-2 lg:pl-3 lg:pr-4 mb-6 2xl:pt-2 -mt-3 text-white">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
                         </div>
                     </div>
 
-                    <div className="bg-[#F9EB7F] m-2  lg:order-4 lg:row-span-2 2xl:row-span-1 col-span-2 rounded-lg shadow-xl  lg:mb-0 2xl:mb-8 lg:pb-8 2xl:pb-15 ">
+                    <div className=" border border-slate-700 m-2  lg:order-4 lg:row-span-2 2xl:row-span-1 col-span-2 rounded-lg shadow-xl  lg:mb-0 2xl:mb-8 lg:pb-8 2xl:pb-15 ">
                         <div className="mx-8 my-8">
                             <img className="w-8 md:w-9 lg:w-10 2xl:w-20 h-8 md:h-9 lg:h-10 2xl:h-20 rounded-full border-2 lg:-mt-3" src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-12 md:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16">Patrick Abrams</h1>
-                            <h2 className="primary-color-blackish-blue-opacity text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-12 md:pl-14 2xl:pl-24">Verified Graduate</h2>
+                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-12 md:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 text-gray-400">Patrick Abrams</h1>
+                            <h2 className="primary-color-blackish-blue-opacity text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-12 md:pl-14 2xl:pl-24 text-white">Verified Graduate</h2>
                         </div>
                         <div className="px-3 -mt-3 mb-5 lg:mb-0">
-                            <p className="primary-color-blackish-blue text-lg 2xl:text-4xl font-semibold px-4 -mt-3 lg:-mt-6 2xl:mt-8">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</p>
+                            <p className=" text-lg 2xl:text-4xl  font-semibold px-4 -mt-3 lg:-mt-6 2xl:mt-8 text-white">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</p>
                             <br />
-                            <p className="primary-color-blackish-blue-opacity text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 mt-1 lg:-mt-3 2xl:mt-6">“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of lgart and amazing people. ”</p>
+                            <p className="  text-white text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 mt-1 lg:-mt-3 2xl:mt-6 ">“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of lgart and amazing people. ”</p>
                         </div>
                     </div>
 
-                    <div className="bg-[#5D8BF4] m-2  lg:row-span-3 lg:col-span-1 rounded-lg shadow-xl mb-5 lg:mb-0 2xl:mb-8 lg:pb-14 2xl:pb-20 ">
+                    <div className=" m-2 border border-slate-700  lg:row-span-3 lg:col-span-1 rounded-lg shadow-xl mb-5 lg:mb-0 2xl:mb-8 lg:pb-14 2xl:pb-20 ">
                         <div className="mx-8 my-8 lg:pl-1">
                             <img className="w-8 md:w-9 lg:w-12 2xl:w-20 h-8 md:h-9 lg:h-12 2xl:h-20 rounded-full border-2 lg:-mt-4 -ml-1 lg:-ml-4" src="https://images.pexels.com/photos/3762804/pexels-photo-3762804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-12 2xl:-mt-16">Kira Whittle</h1>
-                            <h2 className="primary-color-blackish-blue-opacity text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24">Verified Graduate</h2>
+                            <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-12 2xl:-mt-16  text-gray-400">Kira Whittle</h1>
+                            <h2 className="text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24  text-white">Verified Graduate</h2>
                         </div>
                         <div className="px-3 lg:px-5 lg:-mt-4 mb-5 lg:mb-0">
-                            <p className="primary-color-blackish-blue text-xl 2xl:text-4xl font-semibold px-4 lg:px-0 -mt-2 lg:-mt-0">Such a life-changing experience. Highly recommended!</p>
+                            <p className="primary-color-blackish-blue text-xl 2xl:text-4xl  text-white font-semibold px-4 lg:px-0 -mt-2 lg:-mt-0">Such a life-changing experience. Highly recommended!</p>
                             <br />
-                            <p className="primary-color-blackish-blue-opacity text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 lg:px-0 2xl:px-4 lg:pr-3 mt-2 lg:-mt-1 2xl:mt-2 ">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”</p>
+                            <p className=" text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 lg:px-0 2xl:px-4 lg:pr-3 mt-2 lg:-mt-1 2xl:mt-2  text-white ">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”</p>
                         </div>
                     </div>
                 </div>
@@ -252,18 +248,18 @@ export default function Landing() {
                         <div className="relative pt-16 px-6 lg:px-24 pb-20 bg-gray-900 rounded-3xl overflow-hidden">
 
                             <div className="relative">
-                                <div className="text-3xl md:text-4xl md:leading-[3.5rem]   text-[#bbc0c9] font-bold  mb-8">Join 20k+ Designers, Founders & Makers</div>
+                                <div className="text-3xl md:text-4xl md:leading-[3.5rem]   text-white font-bold  mb-8">Join 20k+ Designers, Founders & Makers</div>
 
-                                <span className="text-base lg:text-lg text-[#bbc0c9] font-bold">More news</span>
-                                <h3 className="mt-6 mb-12 text-5xl lg:text-6xl text-[#bbc0c9] font-bold font-heading">Subscribe now!</h3>
+                                <span className="text-base lg:text-lg text-white font-bold">More news</span>
+                                <h3 className="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">Subscribe now!</h3>
                                 <div className="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white sm:rounded-full">
                                     <span className="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10 ">
                                         <svg width="37" height="37" viewbox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18.5" cy="18.5" r="9.5" fill="#1F40FF" fill-opacity="0.15"></circle><circle cx="18.5" cy="18.5" r="18.5" fill="#1F40FF" fill-opacity="0.06"></circle><circle cx="18.5" cy="18.5" r="2.5" fill="#282C36"></circle></svg>
                                     </span>
                                     <input className="w-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none" type="email" placeholder="Drop your Email" />
-                                    <button className="w-full sm:w-auto ml-auto px-10 py-5 text-[#bbc0c9] font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200">Subscribe</button>
+                                    <button className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200">Subscribe</button>
                                 </div>
-                                <p className="text-[#bbc0c9]">
+                                <p className="text-white">
                                     <span>The brown fox jumps over</span>
                                 </p>
                             </div>
@@ -284,7 +280,7 @@ export default function Landing() {
                     <div class="grid mx-[4rem] grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                            <ul class="text-gray-600 dark:text-gray-400">
+                            <ul class="text-gray-400">
                                 <li class="mb-4">
                                     <a href="https://uinvented.com" class="hover:underline">uInvented</a>
                                 </li>
@@ -295,7 +291,7 @@ export default function Landing() {
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                            <ul class="text-gray-600 dark:text-gray-400">
+                            <ul class="text-gray-400">
                                 <li class="mb-4">
                                     <a href="https://github.com/" class="hover:underline ">Github</a>
                                 </li>
@@ -306,7 +302,7 @@ export default function Landing() {
                         </div>
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                            <ul class="text-gray-600 dark:text-gray-400">
+                            <ul class="text-gray-400">
                                 <li class="mb-4">
                                     <a href="#" class="hover:underline">Privacy Policy</a>
                                 </li>
@@ -317,7 +313,7 @@ export default function Landing() {
                         </div>
                     </div>
                 </div>
-                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 "  />
+                <hr class="my-6 border-gray-200 sm:mx-auto s lg:my-8 " />
                 <div class="sm:flex sm:items-center sm:justify-between pb-[4rem]  mx-[4rem]">
                     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="" class="hover:underline">uInvented™</a>. All Rights Reserved.
                     </span>

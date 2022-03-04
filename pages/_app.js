@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-gradient-to-r  to-[#757F9A] from-[#bbc0c9]">
+    <div className="">
       <Component {...pageProps} />
     </div>
   );
