@@ -253,7 +253,7 @@ export default function Landing() {
 
                                 <span className="text-base lg:text-lg text-white font-bold">More news</span>
                                 <h3 className="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">Subscribe now!</h3>
-                                <div className="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white border-2 sm:rounded-full">
+                                <div className="sm:max-w-md mb-8 sm:flex sm:items-center sm:bg-white sm:border-2 sm:rounded-full">
                                     <span className="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10 ">
                                         <svg width="37" height="37" viewbox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18.5" cy="18.5" r="9.5" fill="#1F40FF" fill-opacity="0.15"></circle><circle cx="18.5" cy="18.5" r="18.5" fill="#1F40FF" fill-opacity="0.06"></circle><circle cx="18.5" cy="18.5" r="2.5" fill="#282C36"></circle></svg>
                                     </span>
