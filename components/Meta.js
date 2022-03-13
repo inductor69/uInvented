@@ -2,11 +2,9 @@ import Head from "next/head";
 
 export default function Meta({ title }) {
   const siteTitle = "uInvented";
-  const description = "Wahoo, some boilerplate.";
-  const keywords = "wahoo";
-  const author = "Ella";
-  const twitter = "@ella";
-  const themeColor = "#ffffff";
+  const description = "Developing the Digital World";
+  const keywords = "Development";
+  const twitter = "@uInvented";
   const image =
     "https://og-image.vercel.app/**Next.js**%20Starter%20%3Cbr%2F%3E%20%40exu3.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg";
   return (
@@ -25,13 +23,7 @@ export default function Meta({ title }) {
       </title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content={author} />
-      <meta
-        name="theme-color"
-        content={themeColor}
-        media="(prefers-color-scheme: light)"
-      />
-      <meta property="og:url" content="yourdomain.com" />
+      <meta property="og:url" content="https://www.uinvented.com/" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

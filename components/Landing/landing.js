@@ -16,7 +16,7 @@ export default function Landing() {
                     {/*center the text */}
                     <div className="flex flex-col items-center justify-center ">
                         <div className="md:text-8xl text-6xl text-center md:leading-[7rem] leading-[4rem] ">
-                            <div className="py-1">Designing the</div>
+                            <div className="py-1">Developing the</div>
                             <div className="py-1 pb-6">Digital World</div>
                         </div>
                         <div className="sm:text-2xl text-md text-center md:leading-[7rem] " >
