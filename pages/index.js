@@ -1,6 +1,7 @@
 import Meta from "../components/Meta";
 import {Nav} from "../components/Nav";
-import Landing from "../components/Landing/landing";
+import Landing from "./landing";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <Meta title="Home" />
       <Nav />
       <Landing />
+      <Footer />
+
 
     </div>
   );

@@ -32,5 +32,6 @@ export default function Meta({ title }) {
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
     </Head>
+    
   );
 }
