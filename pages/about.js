@@ -25,7 +25,7 @@ export default function AboutUs() {
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
-            <div className="py-1">about unInvented.</div>
+            <div className="py-1">about uInvented.</div>
           </div>
           <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
             Our mission is to create better user experiences by making quality
