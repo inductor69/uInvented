@@ -61,16 +61,23 @@ export const Nav = () => {
                 Services
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/pricing'>
               <a className='lg:inline-flex font-medium	 lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:underline hover:text-black'>
-                About us
+              Pricing
+               
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/about'>
+              <a className='lg:inline-flex font-medium	 lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:underline hover:text-black'>
+              About us
+              </a>
+            </Link>
+            <Link href='/contact'>
               <a className='lg:inline-flex font-medium	 lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:underline hover:text-black'>
                 Contact us
               </a>
             </Link>
+            
           </div>
         </div>
       </nav>

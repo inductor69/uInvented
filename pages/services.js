@@ -7,7 +7,13 @@ export default function Services() {
   return (
     <>
       <Nav />
-      <div style={{ height: "30px", position: "relative", transform: "rotate(180deg)" }}>
+      <div
+        style={{
+          height: "30px",
+          position: "relative",
+          transform: "rotate(180deg)",
+        }}
+      >
         <Image
           src="/images/bottom.svg" // Route of the image file
           layout="fill"
@@ -45,8 +51,6 @@ export default function Services() {
             results in just a few weeks. Sounds like what you’re looking for?
           </div>
         </div>
-
-
       </div>
       <div style={{ height: "30px", position: "relative" }}>
         <Image
@@ -66,7 +70,6 @@ export default function Services() {
         </div>
       </div>
 
-      
       <div class="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           quality development
@@ -104,9 +107,8 @@ export default function Services() {
         </div>
       </div>
 
-
       <div class="md:grid grid-cols-2 gap-4 px-[2rem] py-[2rem]">
-      <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }}>
           <Image
             src="/images/experiment.svg" // Route of the image file
             layout="fill"
@@ -115,9 +117,10 @@ export default function Services() {
           />
         </div>
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
-        experiments
+          experiments
           <div className="text-xl md:text-2xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-          Get your CRO strategy done right. We setup custom tracking, goals, events, and tests so you can stay informed.
+            Get your CRO strategy done right. We setup custom tracking, goals,
+            events, and tests so you can stay informed.
           </div>
           <ul class="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
@@ -127,19 +130,21 @@ export default function Services() {
               <b>Goals:</b> Track the all the conversions that matter most.
             </li>
             <li className="mb-[1rem]">
-              <b>Conditions:</b> Split-test pages or create event-based user experiences.
+              <b>Conditions:</b> Split-test pages or create event-based user
+              experiences.
             </li>
           </ul>
         </div>
-        
       </div>
-
 
       <div class="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
-        friendly management
+          friendly management
           <div className="text-xl md:text-2xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-          Your project manager will ensure you have a smooth and pleasant experience. Use our app to send requests and our team will work on your projects every business day. Communicate with us via project dashboard and live chat.
+            Your project manager will ensure you have a smooth and pleasant
+            experience. Use our app to send requests and our team will work on
+            your projects every business day. Communicate with us via project
+            dashboard and live chat.
           </div>
         </div>
         <div style={{ position: "relative" }}>
@@ -151,7 +156,13 @@ export default function Services() {
           />
         </div>
       </div>
-      <div style={{ height: "30px", position: "relative", transform: "rotate(180deg)" }}>
+      <div
+        style={{
+          height: "30px",
+          position: "relative",
+          transform: "rotate(180deg)",
+        }}
+      >
         <Image
           src="/images/bottom.svg" // Route of the image file
           layout="fill"
@@ -160,32 +171,30 @@ export default function Services() {
         />
       </div>
       <div className="flex flex-col  bg-black text-white ">
-
-      <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
-        <div className="md:text-6xl text-4xl md:mt-[4rem]">
-          <div className="py-1">Who is it for?</div>
+        <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem]">
+            <div className="py-1">Who is it for?</div>
+          </div>
+          <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
+            We work with companies at launch, product-market fit and growth
+            stages. Our cross-functional team of Product and Branding experts
+            acts as the extension of your team, bringing in-depth design and
+            product expertise to help you discover and fix complex product
+            challenges and build the most engaging version of your product.
+          </div>
         </div>
-        <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
-          We work with companies at launch, product-market fit and growth
-          stages. Our cross-functional team of Product and Branding experts acts
-          as the extension of your team, bringing in-depth design and product
-          expertise to help you discover and fix complex product challenges and
-          build the most engaging version of your product.
+        <div className="py-8 flex justify-center text-xl space-x-8 md:mb-[5rem] ">
+          <Link href="#" passHref>
+            <a
+              href="#"
+              className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
+            >
+              Contact Us
+            </a>
+          </Link>
         </div>
       </div>
-      <div className="py-8 flex justify-center text-xl space-x-8 md:mb-[5rem] ">
-        <Link href="#" passHref>
-          <a
-            href="#"
-            className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
-          >
-            Contact Us
-          </a>
-        </Link>
-      </div>
-      </div>
-      <Footer/>
-
+      <Footer />
     </>
   );
 }

@@ -1,12 +1,14 @@
-import Link from "next/link";
-
+import Image from "next/image";
 export const Footer = () => {
   return (
     <>
       {/* Footer */}
+      
 
       <footer class=" w-full    sm:p-6 bg-[#000]">
+     
         <div class="md:flex md:justify-between  ">
+          
           <div class="mb-6  mx-[4rem] md:mb-0">
             <a href="https://uInvented.com" class="flex items-center">
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -161,6 +163,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
+        
       </footer>
     </>
   );

@@ -9,9 +9,9 @@ export default function Landing() {
         <div className="container mx-auto my-16 ">
           {/*center the text */}
           <div className="flex flex-col items-center justify-center ">
-            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] leading-[4rem] ">
+            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem] ">
               <div className="py-1">Developing the</div>
-              <div className="py-1 pb-6">Digital World</div>
+              <div className="py-1 pb-4">Digital World</div>
             </div>
             <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
               Quality standards. Unlimited requests & revisions. Painless
@@ -131,6 +131,20 @@ export default function Landing() {
         </div>
       </main>
       {/*SERVICES*/}
+      <div
+        style={{
+          height: "30px",
+          position: "relative",
+          transform: "rotate(180deg)",
+        }}
+      >
+        <Image
+          src="/images/bottom.svg" // Route of the image file
+          layout="fill"
+          className="object-cover"
+          alt="Landing"
+        />
+      </div>
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex mt-5 mb-5">
           <div
@@ -307,18 +321,18 @@ export default function Landing() {
               <h1 className=" text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-20 2xl:mx-8 text-white">
                 Daniel Clifford
               </h1>
-              <h2 className=" text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 2xl:my-2 2xl:mx-8 text-white">
+              <h2 className=" text-opacity-80 text-xs md:text-base 2xl:text-2xl pl-12 lg:pl-16 2xl:pl-20 2xl:my-2 2xl:mx-8 text-white">
                 Verified Graduate
               </h2>
             </div>
             <div className="-mt-6 relative">
-              <p className=" text-xl text-white 2xl:text-4xl font-bold px-7 lg:px-9 2xl:pt-6 2xl:mx-2">
+              <p className=" text-xl text-white 2xl:text-4xl font-medium px-7 lg:px-9 2xl:pt-6 2xl:mx-2">
                 I received a job offer mid-course, and the subjects I learned
                 were current, if not more so, in the company I joined. I
                 honestly feel I got every penny’s worth.
               </p>
               <br />
-              <p className="text-white text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-7 lg:px-9 mb-3 2xl:pb-8 2xl:mx-2">
+              <p className="text-white text-opacity-80 font-medium md:text-sm 2xl:text-3xl px-7 lg:px-9 mb-3 2xl:pb-8 2xl:mx-2">
                 “ I was an EMT for many years before I joined the bootcamp. I’ve
                 been looking to make a transition and have heard some people who
                 had an amazing experience here. I signed up for the free intro
@@ -331,25 +345,25 @@ export default function Landing() {
             </div>
           </div>
 
-          <div className="border border-slate-700 lg:order-2 m-2  lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0">
+          <div className="border border-slate-700 lg:order-2 m-2   lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0">
             <div className="mx-8 2xl:mx-10 my-10">
               <img
                 className="w-8 md:w-9 2xl:w-20 h-8 md:h-9 2xl:h-20 rounded-full border-2 -ml-1 -mt-2 lg:-mt-4"
                 src="https://images.pexels.com/photos/634021/pexels-photo-634021.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               />
-              <h1 className="text-black text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 2xl:-mt-16 text-gray-400">
+              <h1 className="text-white  text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 2xl:-mt-16 ">
                 Jonathan Walters
               </h1>
-              <h2 className="text-opacity-50 text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-11 md:pl-12 2xl:pl-24 text-white">
+              <h2 className="text-opacity-80 text-xs md:text-base 2xl:text-2xl text-opacity-80 pl-11 md:pl-12 2xl:pl-24 text-white">
                 Verified Graduate
               </h2>
             </div>
             <div className="-mt-8 mx-1 lg:mx-2">
-              <p className="text-white text-lg lg:text-xl 2xl:text-4xl font-semibold pt-1 px-6 2xl:px-8 lg:pl-5 lg:pr-8 ">
+              <p className="text-white text-lg  lg:text-xl 2xl:text-4xl font-medium  pt-1 px-6 2xl:px-8 lg:pl-5 lg:pr-8 ">
                 The team was very supportive and kept me motivated
               </p>
               <br />
-              <p className="text-black text-opacity-50 font-medium md:text-sm 2xl:text-3xl pl-6 lg:pl-5 pr-4 -mt-1  2xl:mt-2 2xl:px-8 text-white">
+              <p className="text-white text-opacity-80 font-medium md:text-sm 2xl:text-3xl pl-6 lg:pl-5 pr-4 -mt-1  2xl:mt-2 2xl:px-8 text-white">
                 “ I started as a total newbie with virtually no coding skills. I
                 now work as a mobile engineer for a big company. This was one of
                 the best investments I’ve made in myself. ”
@@ -363,19 +377,19 @@ export default function Landing() {
                 className="w-8 md:w-9 lg:w-11 2xl:w-20 h-8 md:h-9 lg:h-11 2xl:h-20 rounded-full border-2 -mt-3 -ml-1 lg:-ml-0"
                 src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               />
-              <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 text-gray-400">
+              <h1 className="primary-color-blackish-blue text-white  text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 ">
                 Jeanette Harmon
               </h1>
-              <h2 className=" text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 text-white text-opacity-50 ">
+              <h2 className=" text-xs md:text-base 2xl:text-2xl pl-11 md:pl-12 lg:pl-14 2xl:pl-24 text-white text-opacity-80 ">
                 Verified Graduate
               </h2>
             </div>
             <div className="-mt-4 ml-5 mr-11">
-              <p className="primary-color-blackish-blue text-xl 2xl:text-4xl font-bold px-2 lg:px-3 -mt-6 lg:-mt-5 2xl:mt-12 2xl:pb-6 text-white">
+              <p className="primary-color-blackish-blue text-xl font-medium 2xl:text-4xl font-bold px-2 lg:px-3 -mt-6 lg:-mt-5 2xl:mt-12 2xl:pb-6 text-white">
                 An overall wonderful and rewarding experience
               </p>
               <br />
-              <p className="primary-color-blackish-blue-opacity text-opacity-50 font-medium md:text-sm 2xl:text-3xl pl-2 lg:pl-3 lg:pr-4 mb-6 2xl:pt-2 -mt-3 text-white">
+              <p className="primary-color-blackish-blue-opacity text-opacity-80 font-medium md:text-sm 2xl:text-3xl pl-2 lg:pl-3 lg:pr-4 mb-6 2xl:pt-2 -mt-3 text-white">
                 “ Thank you for the wonderful experience! I now have a job I
                 really enjoy, and make a good living while doing something I
                 love. ”
@@ -389,21 +403,21 @@ export default function Landing() {
                 className="w-8 md:w-9 lg:w-10 2xl:w-20 h-8 md:h-9 lg:h-10 2xl:h-20 rounded-full border-2 lg:-mt-3"
                 src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               />
-              <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-12 md:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 text-gray-400">
+              <h1 className="primary-color-blackish-blue text-white  text-xs md:text-base 2xl:text-2xl pl-12 md:pl-14 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-11 2xl:-mt-16 ">
                 Patrick Abrams
               </h1>
-              <h2 className="primary-color-blackish-blue-opacity text-xs md:text-base 2xl:text-2xl text-opacity-50 pl-12 md:pl-14 2xl:pl-24 text-white">
+              <h2 className="primary-color-blackish-blue-opacity text-xs md:text-base 2xl:text-2xl text-opacity-80 pl-12 md:pl-14 2xl:pl-24 text-white">
                 Verified Graduate
               </h2>
             </div>
             <div className="px-3 -mt-3 mb-5 lg:mb-0">
-              <p className=" text-lg 2xl:text-4xl  font-semibold px-4 -mt-3 lg:-mt-6 2xl:mt-8 text-white">
+              <p className=" text-lg 2xl:text-4xl  font-medium px-4 -mt-3 lg:-mt-6 2xl:mt-8 text-white">
                 Awesome teaching support from TAs who did the bootcamp
                 themselves. Getting guidance from them and learning from their
                 experiences was easy.
               </p>
               <br />
-              <p className="  text-white text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 mt-1 lg:-mt-3 2xl:mt-6 ">
+              <p className="  text-white text-opacity-80 font-medium md:text-sm 2xl:text-3xl px-4 mt-1 lg:-mt-3 2xl:mt-6 ">
                 “ The staff seem genuinely concerned about my progress which I
                 find really refreshing. The program gave me the confidence
                 necessary to be able to go out in the world and present myself
@@ -420,19 +434,19 @@ export default function Landing() {
                 className="w-8 md:w-9 lg:w-12 2xl:w-20 h-8 md:h-9 lg:h-12 2xl:h-20 rounded-full border-2 lg:-mt-4 -ml-1 lg:-ml-4"
                 src="https://images.pexels.com/photos/3762804/pexels-photo-3762804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               />
-              <h1 className="primary-color-blackish-blue text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-12 2xl:-mt-16  text-gray-400">
+              <h1 className="primary-color-blackish-blue text-white  text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24 -mt-8 md:-mt-10 lg:-mt-12 2xl:-mt-16  ">
                 Kira Whittle
               </h1>
-              <h2 className="text-opacity-50 text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24  text-white">
+              <h2 className="text-opacity-80 text-xs md:text-base 2xl:text-2xl pl-10 md:pl-12 2xl:pl-24  text-white">
                 Verified Graduate
               </h2>
             </div>
             <div className="px-3 lg:px-5 lg:-mt-4 mb-5 lg:mb-0">
-              <p className="primary-color-blackish-blue text-xl 2xl:text-4xl  text-white font-semibold px-4 lg:px-0 -mt-2 lg:-mt-0">
+              <p className="primary-color-blackish-blue text-xl 2xl:text-4xl font-medium text-white font-semibold px-4 lg:px-0 -mt-2 lg:-mt-0">
                 Such a life-changing experience. Highly recommended!
               </p>
               <br />
-              <p className=" text-opacity-50 font-medium md:text-sm 2xl:text-3xl px-4 lg:px-0 2xl:px-4 lg:pr-3 mt-2 lg:-mt-1 2xl:mt-2  text-white ">
+              <p className=" text-opacity-80 font-medium md:text-sm 2xl:text-3xl px-4 lg:px-0 2xl:px-4 lg:pr-3 mt-2 lg:-mt-1 2xl:mt-2  text-white ">
                 “ Before joining the bootcamp, I’ve never written a line of
                 code. I needed some structure from professionals who can help me
                 learn programming step by step. I was encouraged to enroll by a
@@ -452,9 +466,9 @@ export default function Landing() {
       </div>
 
       {/* Newsletter */}
-      <div className="w-full h-full bg-[#000]  ">
-        <div className="container  mx-auto   ">
-          <div className="mx-auto pb-[4rem] pt-[4rem]">
+      <div className="w-full  h-full bg-[#000]  ">
+        <div className="container  md:mx-auto ">
+          <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
               className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"
               style={{
