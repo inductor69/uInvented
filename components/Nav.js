@@ -72,9 +72,9 @@ export const Nav = () => {
               About us
               </a>
             </Link>
-            <Link href='/contact'>
+            <Link href='/howitworks'>
               <a className='lg:inline-flex font-medium	 lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:underline hover:text-black'>
-                Contact us
+               How it works
               </a>
             </Link>
             
