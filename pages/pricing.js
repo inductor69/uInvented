@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
+import Accordion from "../components/Accordian";
 
 
 export default function Pricing() {
@@ -1179,6 +1180,7 @@ export default function Pricing() {
         </div>
 
       </div>
+      <Accordion/>
       <div
         style={{
           height: "30px",

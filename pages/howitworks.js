@@ -47,8 +47,8 @@ export default function HowItWorks() {
         />
       </div>
 
-      <div className="relative">
-        <div className="relative md:fixed w-full md:w-7/12 md:min-h-screen ">
+      <div className="sticky top-0 ">
+        <div className="  md:fixed w-full md:w-7/12 md:min-h-screen ">
           <div className="flex flex-col  items-center justify-center ">
             <div className="flex flex-col md:mx-[3rem] mx-8 w-1/2 mb-[3rem]  ">
               <div className="md:text-6xl text-4xl md:mt-[4rem]">
@@ -150,6 +150,8 @@ export default function HowItWorks() {
           </div>
         </div>
       </div>
+
+     
     </>
   );
 }

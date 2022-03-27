@@ -156,24 +156,24 @@ export default function AboutUs() {
         {/* MDI Icons */}
         {/* Page Container */}
         <div className="flex items-center justify-center bg-white">
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
             <div className="flex flex-col ">
               {/* Meet the Team */}
               <div className="container max-w-7xl px-4">
                 {/* Team Members */}
                 <div className="flex flex-wrap">
                   {/* Member #1 */}
-                  <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                  <div className="w-full md:w-1/2  mb-6 px-6 sm:px-6 lg:px-4">
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
-                        <img className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80" />
+                        <img width={400} height={400} className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 " src="./images/Aditya.jpg"/>
                       </a>
                       {/* Details */}
                       <div className="text-center mt-6">
                         {/* Name */}
                         <h1 className="text-gray-900 text-xl font-bold mb-1">
-                          Tranter Jaskulski
+                          Aditya Kumar
                         </h1>
                         {/* Title */}
                         <div className="text-gray-700 font-light mb-2">
@@ -184,7 +184,7 @@ export default function AboutUs() {
                     </div>
                   </div>
                   {/* Member #2 */}
-                  <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                  <div className="w-full md:w-1/2  mb-6 px-6 sm:px-6 lg:px-4">
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
@@ -199,47 +199,6 @@ export default function AboutUs() {
                         {/* Title */}
                         <div className="text-gray-700 font-light mb-2">
                           Tired &amp; M. Specialist
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  {/* Member #3 */}
-                  <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                    <div className="flex flex-col">
-                      {/* Avatar */}
-                      <a href="#" className="mx-auto">
-                        <img className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80" />
-                      </a>
-                      {/* Details */}
-                      <div className="text-center mt-6">
-                        {/* Name */}
-                        <h1 className="text-gray-900 text-xl font-bold mb-1">
-                          Kenji Milton
-                        </h1>
-                        {/* Title */}
-                        <div className="text-gray-700 font-light mb-2">
-                          Team Memeber
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Member #4 */}
-                  <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                    <div className="flex flex-col">
-                      {/* Avatar */}
-                      <a href="#" className="mx-auto">
-                        <img className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80" />
-                      </a>
-                      {/* Details */}
-                      <div className="text-center mt-6">
-                        {/* Name */}
-                        <h1 className="text-gray-900 text-xl font-bold mb-1">
-                          Doesn't matter
-                        </h1>
-                        {/* Title */}
-                        <div className="text-gray-700 font-light mb-2">
-                          Will be fired
                         </div>
 
                       </div>

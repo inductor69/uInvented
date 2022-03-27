@@ -1,5 +1,5 @@
 export const Testimonial = () => {
-  if (process.browser) {
+  if (typeof window !== 'undefined') {
     const photos = document.querySelectorAll(".testimonial__photo");
     const contents = document.querySelectorAll(".testimonial__content");
     const slider = document.querySelector(".slider__buttons");
