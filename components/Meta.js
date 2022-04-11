@@ -9,12 +9,6 @@ export default function Meta({ title }) {
     "https://og-image.vercel.app/**Next.js**%20Starter%20%3Cbr%2F%3E%20%40exu3.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg";
   return (
     <Head>
-      <link
-            rel="preload"
-            href="public/fonts/itc.ttf"
-            as="font"
-            crossOrigin=""
-          />
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />

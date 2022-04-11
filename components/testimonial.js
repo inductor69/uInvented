@@ -35,7 +35,7 @@ export const Testimonial = () => {
                   <path
                     fill="none"
                     stroke="#8585AC"
-                    stroke-width="3"
+                    strokeWidth="3"
                     d="M11 1L3 9l8 8"
                   />
                 </svg>
@@ -46,7 +46,7 @@ export const Testimonial = () => {
                   <path
                     fill="none"
                     stroke="#8585AC"
-                    stroke-width="3"
+                    strokeWidth="3"
                     d="M2 1l8 8-8 8"
                   />
                 </svg>

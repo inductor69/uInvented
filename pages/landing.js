@@ -1,11 +1,45 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Footer } from "../components/Footer";
 import { Testimonial } from "../components/testimonial";
-
+import React from "react";
 export default function Landing() {
 
- 
+  const registerUser = async event => {
+    event.preventDefault() // prevents page from redirecting on form submissiomn
+
+    // call default function in pages/api/register
+    // send the email and password from form submission event to that endpoint
+    const res = await fetch("/api/register", {
+      body: JSON.stringify({
+        email: event.target.email.value,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    })
+
+    const result = await res.json()
+  }
+  const [show, toggleShow] = React.useState(true);
+  const [isValid, setIsValid] = React.useState(false);
+  const [message, setMessage] = React.useState('');
+
+  // The regular exprssion to validate the email pattern
+  // It may not be 100% perfect but can catch most email pattern errors and assures that the form is mostly right
+  const emailRegex = /\S+@\S+\.\S+/;
+
+  const validateEmail = (event) => {
+    const email = event.target.value;
+    if (emailRegex.test(email)) {
+      setIsValid(true);
+      setMessage('');
+
+    } else {
+      setIsValid(false);
+      setMessage('Please enter a valid email!');
+    }
+  };
 
   return (
     <>
@@ -33,7 +67,7 @@ export default function Landing() {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center mb-[3rem]">
-            <div class="grid grid-cols-2 grid-rows-2 mx-2  ">
+            <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
               <div className="flex mt-5 mb-5">
                 <div
                   className="flex-none w-14 h-14 mt-3"
@@ -348,7 +382,7 @@ export default function Landing() {
                     <svg
                       width="37"
                       height="37"
-                      viewbox="0 0 37 37"
+                      viewBox="0 0 37 37"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -357,14 +391,14 @@ export default function Landing() {
                         cy="18.5"
                         r="9.5"
                         fill="#1F40FF"
-                        fill-opacity="0.15"
+                        fillOpacity="0.15"
                       ></circle>
                       <circle
                         cx="18.5"
                         cy="18.5"
                         r="18.5"
                         fill="#1F40FF"
-                        fill-opacity="0.06"
+                        fillOpacity="0.06"
                       ></circle>
                       <circle
                         cx="18.5"
@@ -374,18 +408,34 @@ export default function Landing() {
                       ></circle>
                     </svg>
                   </span>
+                  <form onSubmit={registerUser}>
                   <input
                     className="w-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
                     type="email"
+                    id="email"
+                    name="email"
+                    autoComplete="email"
+                    required
+                    onSubmit={registerUser}
+                    onChange={validateEmail}
                     placeholder="Drop your Email"
                   />
-                  <button className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200">
+                  
+                  <button  type="submit"   onClick={() => toggleShow(!show)}
+ className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200">
                     Subscribe
                   </button>
+                  </form>
                 </div>
-                <p className="text-white">
-                  <span>The brown fox jumps over</span>
-                </p>
+                {!show &&  <p className="text-white">
+                  <span>Thank you for signing up. Please check your email inbox to verify
+          your e-mail address!</span>
+                </p>}
+                
+                <div style={{color:"white"}} className={`message ${isValid ? 'success' : 'error'}`}>
+        {message}
+      </div>
+      
               </div>
             </div>
           </div>

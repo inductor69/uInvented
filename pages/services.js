@@ -70,14 +70,14 @@ export default function Services() {
         </div>
       </div>
 
-      <div class="md:grid grid-cols-2 gap-4 px-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           quality development
           <div className="text-xl md:text-2xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Share your UI/UX designs and creative assets. We develop and
             implement them on Webflow with high accuracy.
           </div>
-          <ul class="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
+          <ul className="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
               <b>New sites:</b> Build pages or sites from your designs on figma,
               XD, Sketch, and more.
@@ -107,7 +107,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div class="md:grid grid-cols-2 gap-4 px-[2rem] py-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[2rem] py-[2rem]">
         <div style={{ position: "relative" }}>
           <Image
             src="/images/experiment.svg" // Route of the image file
@@ -122,7 +122,7 @@ export default function Services() {
             Get your CRO strategy done right. We setup custom tracking, goals,
             events, and tests so you can stay informed.
           </div>
-          <ul class="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
+          <ul className="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
               <b>Personalization:</b> Specific content based on segment.
             </li>
@@ -137,7 +137,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div class="md:grid grid-cols-2 gap-4 px-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           friendly management
           <div className="text-xl md:text-2xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">

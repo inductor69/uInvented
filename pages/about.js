@@ -47,7 +47,7 @@ export default function AboutUs() {
         />
       </div>
 
-      <div class="md:grid grid-cols-2 gap-4 px-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           the start of something new.
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
@@ -62,7 +62,7 @@ export default function AboutUs() {
             We're driven by a relentless focus on great work and culture. Our
             six core values are.
           </div>
-          <div class="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col gap-3 mt-4 text-xl">
+          <div className="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col gap-3 mt-4 text-xl">
             <div>Continuous improvement</div>
             <div>Trust with transparency</div>
             <div>Diversity and inclusion</div>
@@ -89,56 +89,56 @@ export default function AboutUs() {
       </div>
 
       <div className="md:grid grid-cols-3 grid-flow-col md:mx-[3rem] mx-8 gap-2 justify-items-center text-center  mb-[4rem] mt-[4rem] items-center ">
-        <div class="max-w-sm bg-white   rounded-lg border border-gray-200 shadow-md ">
+        <div className="max-w-sm bg-white   rounded-lg border border-gray-200 shadow-md ">
           <a href="#" className="flex flex-col items-center justify-center">
-            <img class="rounded-t-lg w-1/2" src="/images/global.svg" alt="" />
+            <img className="rounded-t-lg w-1/2" src="/images/global.svg" alt="" />
           </a>
-          <div class="p-5">
+          <div className="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               global remote team
 
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 ">
+            <p className="mb-3 font-normal text-gray-700 ">
             Our battle-tested team of top developers and technical specialists from around the world allows us to offer exceptional work with a faster turnaround.
             </p>
             
           </div>
         </div>
 
-        <div class="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
+        <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
             <a href="#" className="flex flex-col items-center justify-center">
-              <img class="rounded-t-lg w-1/2" src="/images/technology.svg" alt="" />
+              <img className="rounded-t-lg w-1/2" src="/images/technology.svg" alt="" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                 tech enabled
 
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 ">
+              <p className="mb-3 font-normal text-gray-700 ">
               We use purpose-built technology combined with a specialized toolset to offer our unchained development and technical scope on an enterprise level.
               </p>
              
             </div>
           </div>
         </div>
-        <div class="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
+        <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
             <a href="#" className="flex flex-col items-center justify-center">
-              <img class="rounded-t-lg w-1/2" src="/images/semi-auto.svg" alt="" />
+              <img className="rounded-t-lg w-1/2" src="/images/semi-auto.svg" alt="" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                 semi-automated
 
                 </h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 ">
+              <p className="mb-3 font-normal text-gray-700 ">
               Our orchestration is our secret sauce. We've developed a proprietary rigor of web ops complemented by an app to deliver a game-changing experience for you.
               </p>
              

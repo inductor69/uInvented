@@ -1117,56 +1117,56 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div class="px-6 pb-6">
+      <div className="px-6 pb-6">
         <dh-component>
-          <div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 ">
+          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 ">
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
                 premium custom development
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
                 We guarantee super hi-fidelity development across all screen
                 sizes with clean code structures, modular components, and
                 conventional-naming standards.
               </div>
             </div>
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               world-class support
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
                 Your point project manager will guide you and ensure you have a smooth and pleasant experience. Available via project dashboard and enhanced live chat.
               </div>
             </div>
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               conversion-rate-optimization (CRO) enabled
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               More than just web development. Make requests to track, test, and understand everything about your website's performance. Eliminate the guesswork and make smarter site decisions with ease.
               </div>
             </div>
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               technical best practices
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               Never have a problem handling traffic. Your builds are speed and SEO optimized. Get set up with lightweight development, purposeful schemas, semantic html, 301 redirects, and more.
               </div>
             </div>
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               secure a reliable team
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               Forget dodgy freelancers, borrowing from engineering, or disconnected agencies. You get a managed experience of expert developers and technical marketers working whenever you need it.
               </div>
             </div>
             <div>
-              <div class="flex flex-col font-bold  sm:text-2xl text-md  ">
+              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               app access
               </div>
-              <div class="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               Find everything in one place for a laser-focused flow. Collaborate, make requests, and manage projects/sites with our intuitive dashboard.
               </div>
             </div>
