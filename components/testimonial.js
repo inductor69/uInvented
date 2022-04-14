@@ -1,5 +1,9 @@
+import React from 'react'
+
 export const Testimonial = () => {
-  if (typeof window !== 'undefined') {
+
+  React.useEffect(() => {
+    // window is accessible here.
     const photos = document.querySelectorAll(".testimonial__photo");
     const contents = document.querySelectorAll(".testimonial__content");
     const slider = document.querySelector(".slider__buttons");
@@ -12,8 +16,8 @@ export const Testimonial = () => {
       for (const content of contents) {
         content.classList.toggle("testimonial__content--active");
       }
-    });
-  }
+    });  }, []);
+
   return (
     <>
       <div className="bg-black">
