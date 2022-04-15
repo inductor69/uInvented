@@ -27,7 +27,7 @@ export default function AboutUs() {
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
             <div className="py-1">about uInvented.</div>
           </div>
-          <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
+          <div className="sm:text-2xl text-md text-center md:w-1/2 pb-[1rem] mt-[2rem] ">
             Our mission is to create better user experiences by making quality
             web delivery accessible and cost-effective to all companies.
           </div>
@@ -51,8 +51,8 @@ export default function AboutUs() {
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           the start of something new.
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-            Headed from Los Angeles, Adaptable is a web services company
-            providing growth-oriented organizations with unlimited Webflow
+            Headed from India, uInvented is a web services company
+            providing growth-oriented organizations with unlimited access to
             development and technical work at a flat-rate. From routinely
             updated websites to marketing pages, our platform gives teams the
             ability to create remarkable sites that scale and drive business
@@ -90,16 +90,14 @@ export default function AboutUs() {
 
       <div className="md:grid grid-cols-3 grid-flow-col md:mx-[3rem] mx-8 gap-2 justify-items-center text-center  mb-[4rem] mt-[4rem] items-center ">
         <div className="max-w-sm bg-white   rounded-lg border border-gray-200 shadow-md ">
-          <a href="#" className="flex flex-col items-center justify-center">
+          <div   className="flex flex-col items-center justify-center">
             <img className="rounded-t-lg w-1/2" src="/images/global.svg" alt="" />
-          </a>
+          </div>
           <div className="p-5">
-            <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               global remote team
 
               </h5>
-            </a>
             <p className="mb-3 font-normal text-gray-700 ">
             Our battle-tested team of top developers and technical specialists from around the world allows us to offer exceptional work with a faster turnaround.
             </p>
@@ -109,16 +107,16 @@ export default function AboutUs() {
 
         <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
-            <a href="#" className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center">
               <img className="rounded-t-lg w-1/2" src="/images/technology.svg" alt="" />
-            </a>
+            </div>
             <div className="p-5">
-              <a href="#">
+              <div>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                 tech enabled
 
                 </h5>
-              </a>
+              </div>
               <p className="mb-3 font-normal text-gray-700 ">
               We use purpose-built technology combined with a specialized toolset to offer our unchained development and technical scope on an enterprise level.
               </p>
@@ -128,16 +126,16 @@ export default function AboutUs() {
         </div>
         <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
-            <a href="#" className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center">
               <img className="rounded-t-lg w-1/2" src="/images/semi-auto.svg" alt="" />
-            </a>
+            </div>
             <div className="p-5">
-              <a href="#">
+              <div>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                 semi-automated
 
                 </h5>
-              </a>
+              </div>
               <p className="mb-3 font-normal text-gray-700 ">
               Our orchestration is our secret sauce. We've developed a proprietary rigor of web ops complemented by an app to deliver a game-changing experience for you.
               </p>

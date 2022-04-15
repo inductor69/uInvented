@@ -236,18 +236,18 @@ export default function Landing() {
       </div>
 
       <div className="bg-black md:px-[10rem] p-8 ">
-        <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-20">
+        <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#9df5fd] text-black row align-baseline my-20">
           <div className="  p-10  sm:mt-[30rem]">
             <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-              Checkstep
+              Elekrity
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-              The Checkstep metaverse - a thriving, hate-free digital world
+            Beat procrastination and get your personal goals completed as planned!
             </p>
             <Link href="/" passHref>
               <button
                 href="/"
-                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold"
+                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#9df5fd] text-white hover:text-black transition duration-500 font-bold"
               >
                 Case Study
               </button>
@@ -263,7 +263,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/top.jpg" // Route of the image file
+                src="/images/elekrity.svg" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"
@@ -271,18 +271,18 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-20">
+        <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#ffefdf] text-black row align-baseline my-20">
           <div className="  p-10  sm:mt-[30rem]">
             <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-              Checkstep
+              Personal Portfolio
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-              The Checkstep metaverse - a thriving, hate-free digital world
+              Personal Portfolio showcasing the work of Founders and Designers built with NextJS.
             </p>
             <Link href="/" passHref>
               <button
                 href="/"
-                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold"
+                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#ffefdf] text-white hover:text-black transition duration-500 font-bold"
               >
                 Case Study
               </button>
@@ -298,7 +298,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/top.jpg" // Route of the image file
+                src="/images/meaditya.png" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"

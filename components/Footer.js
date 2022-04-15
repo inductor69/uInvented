@@ -40,12 +40,12 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://github.com/" className="hover:underline ">
+                  <a href="https://github.com/uInvented" className="hover:underline ">
                     Github
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/" className="hover:underline">
+                  <a href="https://discord.gg/g6yDW8Cspy" className="hover:underline">
                     Discord
                   </a>
                 </li>
@@ -128,7 +128,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://github.com/uInvented"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
