@@ -51,12 +51,11 @@ export default function AboutUs() {
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           the start of something new.
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-            Headed from India, uInvented is a web services company
-            providing growth-oriented organizations with unlimited access to
-            development and technical work at a flat-rate. From routinely
-            updated websites to marketing pages, our platform gives teams the
-            ability to create remarkable sites that scale and drive business
-            forward.
+            Headed from India, uInvented is a web services company providing
+            growth-oriented organizations with unlimited access to development
+            and technical work at a flat-rate. From routinely updated websites
+            to marketing pages, our platform gives teams the ability to create
+            remarkable sites that scale and drive business forward.
           </div>
           <div className="text-xl  font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             We're driven by a relentless focus on great work and culture. Our
@@ -90,56 +89,68 @@ export default function AboutUs() {
 
       <div className="md:grid grid-cols-3 grid-flow-col md:mx-[3rem] mx-8 gap-2 justify-items-center text-center  mb-[4rem] mt-[4rem] items-center ">
         <div className="max-w-sm bg-white   rounded-lg border border-gray-200 shadow-md ">
-          <div   className="flex flex-col items-center justify-center">
-            <img className="rounded-t-lg w-1/2" src="/images/global.svg" alt="" />
+          <div className="flex flex-col items-center justify-center">
+            <img
+              className="rounded-t-lg w-1/2"
+              src="/images/global.svg"
+              alt=""
+            />
           </div>
           <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
               global remote team
-
-              </h5>
+            </h5>
             <p className="mb-3 font-normal text-gray-700 ">
-            Our battle-tested team of top developers and technical specialists from around the world allows us to offer exceptional work with a faster turnaround.
+              Our battle-tested team of top developers and technical specialists
+              from around the world allows us to offer exceptional work with a
+              faster turnaround.
             </p>
-            
           </div>
         </div>
 
         <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
             <div className="flex flex-col items-center justify-center">
-              <img className="rounded-t-lg w-1/2" src="/images/technology.svg" alt="" />
+              <img
+                className="rounded-t-lg w-1/2"
+                src="/images/technology.svg"
+                alt=""
+              />
             </div>
             <div className="p-5">
               <div>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                tech enabled
-
+                  tech enabled
                 </h5>
               </div>
               <p className="mb-3 font-normal text-gray-700 ">
-              We use purpose-built technology combined with a specialized toolset to offer our unchained development and technical scope on an enterprise level.
+                We use purpose-built technology combined with a specialized
+                toolset to offer our unchained development and technical scope
+                on an enterprise level.
               </p>
-             
             </div>
           </div>
         </div>
         <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
           <div>
             <div className="flex flex-col items-center justify-center">
-              <img className="rounded-t-lg w-1/2" src="/images/semi-auto.svg" alt="" />
+              <img
+                className="rounded-t-lg w-1/2"
+                src="/images/semi-auto.svg"
+                alt=""
+              />
             </div>
             <div className="p-5">
               <div>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                semi-automated
-
+                  semi-automated
                 </h5>
               </div>
               <p className="mb-3 font-normal text-gray-700 ">
-              Our orchestration is our secret sauce. We've developed a proprietary rigor of web ops complemented by an app to deliver a game-changing experience for you.
+                Our orchestration is our secret sauce. We've developed a
+                proprietary rigor of web ops complemented by an app to deliver a
+                game-changing experience for you.
               </p>
-             
             </div>
           </div>
         </div>
@@ -149,8 +160,8 @@ export default function AboutUs() {
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem] mb-[4rem]">
           <div className="py-1">faces behind uInvented.</div>
         </div>
-        </div>
-        <div>
+      </div>
+      <div>
         {/* MDI Icons */}
         {/* Page Container */}
         <div className="flex items-center justify-center bg-white">
@@ -165,7 +176,12 @@ export default function AboutUs() {
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
-                        <img width={400} height={400} className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 " src="./images/Aditya.jpg"/>
+                        <img
+                          width={400}
+                          height={400}
+                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          src="./images/Aditya.jpg"
+                        />
                       </a>
                       {/* Details */}
                       <div className="text-center mt-6">
@@ -177,7 +193,6 @@ export default function AboutUs() {
                         <div className="text-gray-700 font-light mb-2">
                           Founder &amp; Specialist
                         </div>
-
                       </div>
                     </div>
                   </div>
@@ -186,7 +201,10 @@ export default function AboutUs() {
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
-                        <img className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100" src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80" />
+                        <img
+                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                          src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80"
+                        />
                       </a>
                       {/* Details */}
                       <div className="text-center mt-6">
@@ -198,7 +216,6 @@ export default function AboutUs() {
                         <div className="text-gray-700 font-light mb-2">
                           Tired &amp; M. Specialist
                         </div>
-
                       </div>
                     </div>
                   </div>
