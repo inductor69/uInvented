@@ -199,8 +199,8 @@ export default function Landing() {
             How we deliver
           </div>
         </div>
-        <div className="w-full md:w-5/6">
-          <div className="  text-3xl md:text-5xl mx-8 md:mx-14 mb-14">
+        <div className="w-full md:w-5/6 ">
+          <div style={{lineHeight:"125%"}} className="  text-3xl md:text-5xl mx-8 md:mx-14 mb-14">
             We design compelling Brand Identities and impactful Digital
             Experiences for innovative companies around the world. Using the
             industry-proven methods Jobs to be Done and Design Sprint, we've

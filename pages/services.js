@@ -43,7 +43,7 @@ export default function Services() {
           apps
         </div>
         <div className="w-full md:w-5/6">
-          <div className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
+          <div style={{lineHeight:"125%"}} className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
             We design compelling Brand Identities and impactful Digital
             Experiences for innovative companies around the world. Using the
             industry-proven methods Jobs to be Done and Design Sprint, we've

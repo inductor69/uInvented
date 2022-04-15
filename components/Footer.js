@@ -77,7 +77,7 @@ export const Footer = () => {
             <a href="" className="hover:underline">
               uInvented™
             </a>
-            . All Rights Reserved.
+              All Rights Reserved
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
