@@ -3,9 +3,8 @@ import Image from "next/image";
 import { Testimonial } from "../components/testimonial";
 import React from "react";
 export default function Landing() {
-
-  const registerUser = async event => {
-    event.preventDefault() // prevents page from redirecting on form submissiomn
+  const registerUser = async (event) => {
+    event.preventDefault(); // prevents page from redirecting on form submissiomn
 
     // call default function in pages/api/register
     // send the email and password from form submission event to that endpoint
@@ -17,13 +16,13 @@ export default function Landing() {
         "Content-Type": "application/json",
       },
       method: "POST",
-    })
+    });
 
-    const result = await res.json()
-  }
+    const result = await res.json();
+  };
   const [show, toggleShow] = React.useState(true);
   const [isValid, setIsValid] = React.useState(false);
-  const [message, setMessage] = React.useState('');
+  const [message, setMessage] = React.useState("");
 
   // The regular exprssion to validate the email pattern
   // It may not be 100% perfect but can catch most email pattern errors and assures that the form is mostly right
@@ -33,11 +32,10 @@ export default function Landing() {
     const email = event.target.value;
     if (emailRegex.test(email)) {
       setIsValid(true);
-      setMessage('');
-
+      setMessage("");
     } else {
       setIsValid(false);
-      setMessage('Please enter a valid email!');
+      setMessage("Please enter a valid email!");
     }
   };
 
@@ -200,7 +198,10 @@ export default function Landing() {
           </div>
         </div>
         <div className="w-full md:w-5/6 ">
-          <div style={{lineHeight:"125%"}} className="  text-3xl md:text-5xl mx-8 md:mx-14 mb-14">
+          <div
+            style={{ lineHeight: "125%" }}
+            className="  text-3xl md:text-5xl mx-8 md:mx-14 mb-14"
+          >
             We design compelling Brand Identities and impactful Digital
             Experiences for innovative companies around the world. Using the
             industry-proven methods Jobs to be Done and Design Sprint, we've
@@ -242,7 +243,8 @@ export default function Landing() {
               Elekrity
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-            Beat procrastination and get your personal goals completed as planned!
+              Beat procrastination and get your personal goals completed as
+              planned!
             </p>
             <Link href="/" passHref>
               <button
@@ -277,7 +279,8 @@ export default function Landing() {
               Personal Portfolio
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-              Personal Portfolio showcasing the work of Founders and Designers built with NextJS.
+              Personal Portfolio showcasing the work of Founders and Designers
+              built with NextJS.
             </p>
             <Link href="/" passHref>
               <button
@@ -344,15 +347,12 @@ export default function Landing() {
       </div>
 
       {/*Our Testimonials*/}
-     
-
 
       <div className="w-full h-full bg-[#000] pb-10 ">
         <div className="sm:text-5xl text-white bg-black  text-md text-center md:leading-[7rem]  ">
           Our Testimonials
         </div>
-        <Testimonial/>
-
+        <Testimonial />
       </div>
 
       {/* Newsletter */}
@@ -409,39 +409,47 @@ export default function Landing() {
                     </svg>
                   </span>
                   <form onSubmit={registerUser}>
-                  <input
-                    className="w-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
-                    type="email"
-                    id="email"
-                    name="email"
-                    autoComplete="email"
-                    required
-                    onSubmit={registerUser}
-                    onChange={validateEmail}
-                    placeholder="Drop your Email"
-                  />
-                  
-                  <button  type="submit"   onClick={() => toggleShow(!show)}
- className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200">
-                    Subscribe
-                  </button>
+                    <input
+                      className="w-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
+                      type="email"
+                      id="email"
+                      name="email"
+                      autoComplete="email"
+                      required
+                      onSubmit={registerUser}
+                      onChange={validateEmail}
+                      placeholder="Drop your Email"
+                    />
+
+                    <button
+                      type="submit"
+                      onClick={() => toggleShow(!show)}
+                      className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200"
+                    >
+                      Subscribe
+                    </button>
                   </form>
                 </div>
-                {!show && isValid &&  <p className="text-white">
-                  <span>Thank you for signing up. Please check your email inbox to verify
-          your e-mail address!</span>
-                </p>}
-                
-                <div style={{color:"white"}} className={`message ${isValid ? 'success' : 'error'}`}>
-        {message}
-      </div>
-      
+                {!show && isValid && (
+                  <p className="text-white">
+                    <span>
+                      Thank you for signing up. Please check your email inbox to
+                      verify your e-mail address!
+                    </span>
+                  </p>
+                )}
+
+                <div
+                  style={{ color: "white" }}
+                  className={`message ${isValid ? "success" : "error"}`}
+                >
+                  {message}
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </>
   );
 }
