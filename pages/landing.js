@@ -265,7 +265,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/elekrity.svg" // Route of the image file
+                src="/images/relax.png" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"
@@ -301,7 +301,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/meaditya.png" // Route of the image file
+                src="/images/portfoliopng.png" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"
@@ -312,11 +312,11 @@ export default function Landing() {
         <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-10">
           <div className="  p-10  sm:mt-[30rem]">
             <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-              Checkstep
+            Personal Portfolio
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-              The Checkstep metaverse - a thriving, hate-free digital world
-            </p>
+            Personal Portfolio showcasing the work of Founders and Designers
+              built with NextJS.            </p>
             <Link href="/" passHref>
               <button
                 href="/"
@@ -336,7 +336,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/top.jpg" // Route of the image file
+                src="/images/meet.png" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"
