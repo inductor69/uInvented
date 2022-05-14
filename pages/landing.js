@@ -357,7 +357,7 @@ export default function Landing() {
 
       {/* Newsletter */}
       <div className="w-full  h-full bg-[#000]  ">
-        <div className="container  md:mx-auto ">
+        <div className="container  mx-auto ">
           <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
               className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"
