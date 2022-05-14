@@ -408,9 +408,9 @@ export default function Landing() {
                       ></circle>
                     </svg>
                   </span>
-                  <form onSubmit={registerUser}>
+                  <form onSubmit={registerUser} className='w-full'>
                     <input
-                      className="w-full sm:w-auto mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
+                      className="w-full sm:w-[50%] mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
                       type="email"
                       id="email"
                       name="email"
@@ -424,7 +424,7 @@ export default function Landing() {
                     <button
                       type="submit"
                       onClick={() => toggleShow(!show)}
-                      className="w-full sm:w-auto ml-auto px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200"
+                      className="w-full sm:w-[50%] px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200"
                     >
                       Subscribe
                     </button>
