@@ -75,7 +75,7 @@ export default function Services() {
           quality development
           <div className="text-xl md:text-2xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Share your UI/UX designs and creative assets. We develop and
-            implement them on Webflow with high accuracy.
+            implement them with high accuracy.
           </div>
           <ul className="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
@@ -83,12 +83,12 @@ export default function Services() {
               XD, Sketch, and more.
             </li>
             <li className="mb-[1rem]">
-              <b>Convert:</b> Get your existing site on Webflow. Go from
+              <b>Convert:</b> Get your existing site deployed. Go from
               Wordpress, static, or any other custom app.
             </li>
             <li className="mb-[1rem]">
               <b>Expand:</b> Build new pages or features on your existing
-              Webflow site. We'll follow your current design system to keep
+               site. We'll follow your current design system to keep
               things super clean.
             </li>
             <li className="mb-[1rem]">

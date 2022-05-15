@@ -59,7 +59,7 @@ export default function AboutUs() {
           </div>
           <div className="text-xl  font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             We're driven by a relentless focus on great work and culture. Our
-            six core values are.
+            core values are.
           </div>
           <div className="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col gap-3 mt-4 text-xl">
             <div>Continuous improvement</div>

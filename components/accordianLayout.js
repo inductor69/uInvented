@@ -4,7 +4,14 @@ import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/
 import { useState } from 'react/cjs/react.production.min';
 
 const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
-  const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
+  const handleSetIndex = (index) => {
+  if(activeIndex!==index){
+    setActiveIndex(index)
+  }
+  else{
+    setActiveIndex(null)
+  }}
+  ;
 
   return (
     <>
@@ -22,7 +29,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
         </div>
 
         {(activeIndex === index) && (
-            <div  className="shadow-3xl rounded-2xl shadow-cyan-500/50 p-4 mb-6">
+            <div  className="shadow-3xl rounded-2xl shadow-cyan-500/50 flex w-1/2 justify-between p-2 mt-2">
               {children}
             </div>
         )}

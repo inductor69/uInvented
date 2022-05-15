@@ -81,16 +81,17 @@ export default function Pricing() {
                 Our Pricing Plan
               </h2>
               <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              No contracts or surprises. Cancel anytime. Upgrade or downgrade at any time.
+
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center mx-[2rem] ">
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+        <div className="flex  justify-center mx-[2rem] ">
+          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
             <div
               className="
+              flex-1
                bg-white
                rounded-xl
                relative
@@ -110,9 +111,9 @@ export default function Pricing() {
                 starter
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $59
+                $2799
                 <span className="text-base text-body-color font-medium">
-                  / year
+                  / month
                 </span>
               </h2>
               <p
@@ -123,32 +124,33 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                You have a small site or a few pages and features. Perfect for
-                standard sites and basic recurring adjustments.
+                Best if you have your own, in house designer and regularly need help with development.
               </p>
-              <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  1 User
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on 1 (one) project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  3 Months support
-                </p>
+              <div className="mb-7 ">
+              <ul class="list-disc">
+
+                <li className=" text-base text-body-color leading-loose mb-1">
+                Unlimited requests and revisions
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Real-time communication
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Cancel, upgrade or downgrade at any time
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Task dashboard on Notion
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Native source file included
+                </li>
+                </ul>
               </div>
               <a
                 href="javascript:void(0)"
                 className="
+                flex-1
                   w-full
                   block
                   text-base
@@ -427,9 +429,10 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
             <div
               className="
+              flex-1
                bg-white
                rounded-xl
                relative
@@ -449,9 +452,9 @@ export default function Pricing() {
                 growth
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $199
+                $3499
                 <span className="text-base text-body-color font-medium">
-                  / year
+                  / month
                 </span>
               </h2>
               <p
@@ -462,32 +465,32 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                You have more complex features on a larger site. Great for
-                interactive sites and increased ongoing output.
+                Ideal for those looking for design & front-end development who need regular help.
               </p>
               <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  5 Users
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on 3 (Three) project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  4 Months support
-                </p>
+              <ul class="list-disc">
+
+                <li className="text-base text-body-color leading-loose mb-1">
+                All the Design plan features
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Front-end development with Webflow
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Ongoing support and maintenance
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Cancel, upgrade or downgrade at any time
+                </li>
+                </ul>
               </div>
               <a
                 href="javascript:void(0)"
                 className="
+                flex-1
                   w-full
                   block
                   text-base
@@ -766,9 +769,10 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
             <div
               className="
+              flex-1
                bg-white
                rounded-xl
                relative
@@ -788,9 +792,9 @@ export default function Pricing() {
                 unlimited
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $256
+                $75
                 <span className="text-base text-body-color font-medium">
-                  / year
+                  / hour
                 </span>
               </h2>
               <p
@@ -801,32 +805,37 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                For mission-critical sites and agencies. Perfect for
-                conversion-focused needs and scaling production on demand.
+                Best if you are looking for occasional updates, tweaks or feature to your website.
               </p>
               <div className="mb-7">
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Unlimited Users
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  All UI components
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Lifetime access
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Free updates
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  Use on Unlimited project
-                </p>
-                <p className="text-base text-body-color leading-loose mb-1">
-                  12 Months support
-                </p>
+              <ul class="list-disc">
+                <li className="text-base text-body-color leading-loose mb-1">
+                Includes design and development
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Priced competitively
+
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Real time communication via Slack
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Cancel, upgrade or downgrade at any time
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Task dashboard von Notion
+                </li>
+                <li className="text-base text-body-color leading-loose mb-1">
+                Unlimited team members
+
+                </li>
+                </ul>
               </div>
               <a
                 href="javascript:void(0)"
                 className="
+                flex-1
                   w-full
                   block
                   text-base
@@ -1135,7 +1144,7 @@ export default function Pricing() {
               world-class support
               </div>
               <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-                Your point project manager will guide you and ensure you have a smooth and pleasant experience. Available via project dashboard and enhanced live chat.
+                Your point project manager will guide you and ensure you have a smooth and pleasant experience. Available via notion dashboard and enhanced chat.
               </div>
             </div>
             <div>
@@ -1164,10 +1173,10 @@ export default function Pricing() {
             </div>
             <div>
               <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              app access
+              notion access
               </div>
               <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-              Find everything in one place for a laser-focused flow. Collaborate, make requests, and manage projects/sites with our intuitive dashboard.
+              Find everything in one place for a laser-focused flow. Collaborate, make requests, and manage projects/sites with our intuitive notion managed platform.
               </div>
             </div>
           </div>
