@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/bs'
@@ -11,7 +10,7 @@ const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }
     <>
         <div onClick={() => handleSetIndex(index)} className='flex w-1/2 justify-between p-2 mt-2 rounded bg-black'>
             <div className='flex'>
-                <div className='text-white font-bold ml-[2rem]'>{title}</div>
+                <div className='text-white font-bold ml-[2rem] m-auto'>{title}</div>
             </div>
             <div className="flex items-center justify-center">
                 {
