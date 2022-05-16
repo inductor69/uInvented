@@ -265,10 +265,10 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/relax.png" // Route of the image file
+                src="/images/portfolio.png" // Route of the image file
                 layout="fill"
-                alt="Your Name"
-                objectFit="fill"
+                alt="Photo of Project"
+                objectFit="contain"
               />
             </div>
           </div>
@@ -301,10 +301,11 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/portfoliopng.png" // Route of the image file
+                src="/images/relax.png" // Route of the image file
                 layout="fill"
-                alt="Your Name"
-                objectFit="fill"
+                alt="Photo of Project"
+                
+                objectFit="contain"
               />
             </div>
           </div>
@@ -338,7 +339,7 @@ export default function Landing() {
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
                 src="/images/meet.png" // Route of the image file
                 layout="fill"
-                alt="Your Name"
+                alt="Photo of Project"
                 objectFit="fill"
               />
             </div>
