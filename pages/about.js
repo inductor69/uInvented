@@ -1,27 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Nav } from "../components/Nav";
+import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 
 export default function AboutUs() {
   return (
     <>
       <Nav />
+    <Wave index={0}/>
 
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
@@ -33,19 +21,8 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={1}/>
+
 
       <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
@@ -225,20 +202,8 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={0}/>
+
       <Footer />
     </>
   );

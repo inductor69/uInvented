@@ -2,25 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
-
+import Wave from "../components/Wave";
 export default function Services() {
   return (
     <>
       <Nav />
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={0}/>
+
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex mt-5 mb-5">
           <div
@@ -52,14 +40,8 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div style={{ height: "30px", position: "relative" }}>
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={1}/>
+
       <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] md:mt-[4rem] ">
         if you can think it, we can build it.
       </div>

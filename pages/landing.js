@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Testimonial } from "../components/testimonial";
 import React from "react";
+import Wave from "../components/Wave";
 export default function Landing() {
   const registerUser = async (event) => {
     event.preventDefault(); // prevents page from redirecting on form submissiomn
@@ -167,20 +168,8 @@ export default function Landing() {
         </div>
       </main>
       {/*SERVICES*/}
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={0}/>
+
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex mt-5 mb-5">
           <div
@@ -301,7 +290,7 @@ export default function Landing() {
             >
               <Image
                 className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                src="/images/portfoliopng.png" // Route of the image file
+                src="/images/portfolio.png" // Route of the image file
                 layout="fill"
                 alt="Your Name"
                 objectFit="fill"

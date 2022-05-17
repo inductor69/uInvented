@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import Accordion from "../components/Accordian";
+import Wave from "../components/Wave";
 
 
 export default function Pricing() {
   return (
     <>
       <Nav />
-
-      <div
+      {/* <div
         style={{
           height: "30px",
           position: "relative",
@@ -23,7 +23,9 @@ export default function Pricing() {
           className="object-cover"
           alt="Landing"
         />
-      </div>
+      </div> */}
+            <Wave index={0}/>
+
       <div className="flex flex-col  bg-black text-white  ">
         <div className="flex flex-col md:mx-[3rem] mx-8 w-1/2 mb-[3rem] ">
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
@@ -37,19 +39,8 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={1}/>
+
 
       <section
         className="
@@ -1190,20 +1181,8 @@ export default function Pricing() {
 
       </div>
       <Accordion/>
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={0}/>
+
       
 
       <Footer />

@@ -1,25 +1,14 @@
 import Image from "next/image";
 import { Nav } from "../components/Nav";
+import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 export default function HowItWorks() {
   return (
     <>
       <Nav />
 
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={0}/>
+
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] text-center">
@@ -33,19 +22,8 @@ export default function HowItWorks() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          height: "30px",
-          position: "relative",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div>
+      <Wave index={1}/>
+
 
       <div class="flex ">
         <div class="w-1/2 ">
