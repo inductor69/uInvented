@@ -179,19 +179,21 @@ export default function AboutUs() {
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
                         <img
-                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                          src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80"
+                          width={400}
+                          height={400}
+                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          src="./images/Harshit.jpg"
                         />
                       </a>
                       {/* Details */}
                       <div className="text-center mt-6">
                         {/* Name */}
                         <h1 className="text-gray-900 text-xl font-bold mb-1">
-                          Denice Jagna
+                          Harshit Bhalla
                         </h1>
                         {/* Title */}
                         <div className="text-gray-700 font-light mb-2">
-                          Tired &amp; M. Specialist
+                          Founder &amp; Specialist
                         </div>
                       </div>
                     </div>
