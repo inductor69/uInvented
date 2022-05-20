@@ -5,7 +5,7 @@ export const Footer = () => {
       {/* Footer */}
       
 
-      <footer className=" w-full    sm:p-6 bg-[#000]">
+      <footer className=" w-full pt-3   sm:p-6 bg-[#000]">
      
         <div className="md:flex md:justify-between  ">
           

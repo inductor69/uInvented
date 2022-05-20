@@ -10,7 +10,7 @@ export const Nav = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap p-3 pt-5 border-b-2 border-black  '>
+      <nav className='flex items-center flex-wrap p-3 pt-5 border-b-2 border-black mb-3 '>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             <svg
