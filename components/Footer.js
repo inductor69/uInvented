@@ -16,21 +16,18 @@ export const Footer = () => {
               </span>
             </a>
           </div>
-          <div className="grid mx-[4rem] grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid mx-[4rem] grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Resources
+                Contact Us
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://uinvented.com" className="hover:underline">
-                    uInvented
-                  </a>
+                    New Delhi, India
                 </li>
+
                 <li>
-                  <a href="https://uinvented.com/" className="hover:underline">
-                    Tailwind CSS
-                  </a>
+                    aditya.kumar466.ak@gmail.com
                 </li>
               </ul>
             </div>
@@ -57,13 +54,18 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="./privacy" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="./terms" className="hover:underline">
                     Terms &amp; Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="./refund" className="hover:underline">
+                  Cancellation/Refund Policy
                   </a>
                 </li>
               </ul>

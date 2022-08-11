@@ -20,7 +20,7 @@ export const Testimonial = () => {
 
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black text-white ">
         <div className="testimonial">
           <div className="slide__img-container">
             <img
@@ -57,7 +57,7 @@ export const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="testimonial__content-container">
+          <div className="testimonial__content-container text-white ">
             <div className="testimonial__content">
               <blockquote className="testimonial__text text-white">
                 I've been interested in coding for a while but never taken the

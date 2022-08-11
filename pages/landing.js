@@ -29,6 +29,14 @@ export default function Landing() {
   // It may not be 100% perfect but can catch most email pattern errors and assures that the form is mostly right
   const emailRegex = /\S+@\S+\.\S+/;
 
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
+
   const validateEmail = (event) => {
     const email = event.target.value;
     if (emailRegex.test(email)) {
@@ -46,7 +54,7 @@ export default function Landing() {
         <div className="container mx-auto my-16 ">
           {/*center the text */}
           <div className="flex flex-col items-center justify-center ">
-            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem] ">
+            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1">Developing the</div>
               <div className="py-1 pb-4">Digital World</div>
             </div>
@@ -56,14 +64,10 @@ export default function Landing() {
             </div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
-            <Link href="#" passHref>
-              <a
-                href="#"
-                className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
-              >
-                Contact Us
-              </a>
-            </Link>
+            
+              <button                 className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
+              type="button" onClick={handleScroll}>Contact Us</button>
+       
           </div>
           <div className="flex flex-col items-center justify-center mb-[3rem]">
             <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
@@ -238,9 +242,9 @@ export default function Landing() {
             <Link href="/" passHref>
               <button
                 href="/"
-                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#9df5fd] text-white hover:text-black transition duration-500 font-bold"
+                className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#9df5fd] text-[#9df5fd] hover:text-black transition duration-500 font-bold"
               >
-                Case Study
+                View Project
               </button>
             </Link>
           </div>
@@ -274,9 +278,9 @@ export default function Landing() {
             <Link href="/" passHref>
               <button
                 href="/"
-                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#ffefdf] text-white hover:text-black transition duration-500 font-bold"
+                className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#ffefdf] text-[#ffefdf] hover:text-black transition duration-500 font-bold"
               >
-                Case Study
+                View Project
               </button>
             </Link>
           </div>
@@ -310,9 +314,9 @@ export default function Landing() {
             <Link href="/" passHref>
               <button
                 href="/"
-                className="border mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-white text-white hover:text-black transition duration-500 font-bold"
+                className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#F0E4FC] text-[#F0E4FC] hover:text-black transition duration-500 font-bold"
               >
-                Case Study
+                View Project
               </button>
             </Link>
           </div>
