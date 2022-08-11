@@ -163,7 +163,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <div className="flex  justify-center mx-[2rem] ">
+        <div className="flex flex-col md:flex-row justify-center mx-[2rem] ">
           <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
             <div
               className="

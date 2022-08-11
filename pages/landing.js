@@ -371,7 +371,7 @@ export default function Landing() {
                 <h3 className="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">
                   Subscribe now!
                 </h3>
-                <div className="w-3/5 mb-8 sm:flex sm:items-center sm:bg-white sm:border-2 sm:rounded-full">
+                <div className="sm:w-3/5 mb-8 sm:flex sm:items-center sm:bg-white sm:border-2 sm:rounded-full">
                   <span className="hidden sm:inline-block pl-2 sm:pl-6 lg:pl-10 ">
                     <svg
                       width="37"

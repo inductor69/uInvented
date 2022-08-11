@@ -25,9 +25,9 @@ export default function HowItWorks() {
       <Wave index={1}/>
 
 
-      <div class="flex ">
-        <div class="w-1/2 ">
-          <div class="py-20 sticky top-0 left-0">
+      <div class="md:flex ">
+        <div class="md:w-1/2 ">
+          <div class="py-10 md:py-20 md:sticky md:top-0 md:left-0">
             <div class="w-3/4 mx-auto">
               <div className=" ">
                 <div className="md:text-6xl text-4xl md:mt-[4rem]">
@@ -130,6 +130,8 @@ export default function HowItWorks() {
             </div>
           </div>
         </div>
+        <Wave index={0}/>
+
       <Footer></Footer>
     </>
   );
