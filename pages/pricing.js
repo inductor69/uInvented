@@ -18,7 +18,7 @@ export default function Pricing() {
     }
 
     // Make API call to the serverless API
-    const data = await fetch("/api/plan_2", { method: "POST" }).then((t) =>
+    const data = await fetch("https://www.uinvented.com/api/plan_2", { method: "POST" }).then((t) =>
       t.json()
     );
     console.log(data);
@@ -52,7 +52,7 @@ export default function Pricing() {
     }
 
     // Make API call to the serverless API
-    const data = await fetch("/api/plan_1", { method: "POST" }).then((t) =>
+    const data = await fetch("https://www.uinvented.com/api/plan_1", { method: "POST" }).then((t) =>
       t.json()
     );
     console.log(data);
