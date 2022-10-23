@@ -27,7 +27,7 @@ export const Footer = () => {
                 </li>
 
                 <li>
-                    aditya.kumar466.ak@gmail.com
+                  <a href="mailto:yourfriends@uinvented.com">yourfriends@uinvented.com</a>  
                 </li>
               </ul>
             </div>
@@ -37,13 +37,13 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://github.com/uInvented" className="hover:underline ">
-                    Github
+                  <a href="https://www.facebook.com/profile.php?id=100086942718787" className="hover:underline ">
+                    Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/g6yDW8Cspy" className="hover:underline">
-                    Discord
+                  <a href="https://www.instagram.com/u_invented/" className="hover:underline">
+                    Instagram
                   </a>
                 </li>
               </ul>
@@ -84,7 +84,8 @@ export const Footer = () => {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100086942718787"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -101,7 +102,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/u_invented/"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -118,7 +120,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://twitter.com/u_invented"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
