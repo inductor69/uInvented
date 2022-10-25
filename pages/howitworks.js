@@ -30,7 +30,7 @@ export default function HowItWorks() {
           <div class="py-10 md:py-20 md:sticky md:top-0 md:left-0">
             <div class="w-3/4 mx-auto">
               <div className=" ">
-                <div className="md:text-6xl text-4xl md:mt-[4rem]">
+                <div className="md:text-6xl text-4xl font-bold md:mt-[4rem]">
                   <div className="py-1">start risk-free.</div>
                 </div>
                 <div className="sm:text-2xl text-md text-gray-700    md:mt-[2rem] ">
@@ -107,7 +107,7 @@ export default function HowItWorks() {
                       upgrade
                     </h5>
                   </a>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     Make a payment to unlock the full scope of your plan.
                   </p>
                 </div>
@@ -122,7 +122,7 @@ export default function HowItWorks() {
                       keep going
                     </h5>
                   </a>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     Publish your site, build more, or start your next project!
                   </p>
                 </div>
