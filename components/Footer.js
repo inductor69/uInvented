@@ -3,12 +3,12 @@ export const Footer = () => {
   return (
     <>
       {/* Footer */}
-      
+
 
       <footer className=" w-full pt-3   sm:p-6 bg-[#000]">
-     
+
         <div className="md:flex md:justify-between  ">
-          
+
           <div className="mb-6  mx-[4rem] md:mb-0">
             <a href="https://uInvented.com" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -27,7 +27,7 @@ export const Footer = () => {
                 </li>
 
                 <li>
-                  <a href="mailto:yourfriends@uinvented.com">yourfriends@uinvented.com</a>  
+                  <a href="mailto:yourfriends@uinvented.com">yourfriends@uinvented.com</a>
                 </li>
               </ul>
             </div>
@@ -152,7 +152,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        
+
       </footer>
     </>
   );

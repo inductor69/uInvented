@@ -2,9 +2,11 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
+import Meta from "../components/Meta";
 export default function HowItWorks() {
   return (
     <>
+      <Meta title="How it works" />
       <Nav />
 
       <Wave index={0}/>
@@ -132,7 +134,7 @@ export default function HowItWorks() {
         </div>
         <Wave index={0}/>
 
-      <Footer></Footer>
+      <Footer/>
     </>
   );
 }

@@ -3,10 +3,12 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
+import Meta from "../components/Meta";
 
 export default function AboutUs() {
   return (
     <>
+      <Meta title="Privacy" />
       <Nav />
     <Wave index={0}/>
 
@@ -20,7 +22,7 @@ export default function AboutUs() {
       <Wave index={1}/>
 
 
- 
+
 
       <div className="flex flex-col md:mx-[3rem] mx-8   ">
 

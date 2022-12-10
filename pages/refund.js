@@ -3,10 +3,12 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
+import Meta from "../components/Meta";
 
 export default function AboutUs() {
   return (
     <>
+      <Meta title="Refund Policy" />
       <Nav />
     <Wave index={0}/>
 
@@ -21,10 +23,10 @@ export default function AboutUs() {
       <Wave index={1}/>
 
 
-     
+
 
       <div className="flex flex-col md:mx-[3rem] mx-8  ">
- 
+
         <div className="sm:text-2xl text-md   text-[#575757] mt-[2rem] ">
         <h1>Return and Refund Policy</h1>
 <p>Last updated: August 11, 2022</p>
@@ -94,7 +96,7 @@ export default function AboutUs() {
         </div>
       </div> <br/>
 
-     
+
       <Wave index={0}/>
 
       <Footer />

@@ -3,9 +3,11 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import Wave from "../components/Wave";
+import Meta from "../components/Meta";
 export default function Services() {
   return (
     <>
+      <Meta title="Services" />
       <Nav />
       <Wave index={0}/>
 

@@ -3,10 +3,12 @@ import Image from "next/image";
 import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
+import Meta from "../components/Meta";
 
 export default function AboutUs() {
   return (
     <>
+      <Meta title="Terms & Conditions" />
       <Nav />
     <Wave index={0}/>
 

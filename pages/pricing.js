@@ -6,6 +6,7 @@ import Accordion from "../components/Accordian";
 import Wave from "../components/Wave";
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
+import Meta from "../components/Meta";
 
 
 export default function Pricing() {
@@ -37,7 +38,7 @@ export default function Pricing() {
       },
 
     };
-   
+
 
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
@@ -71,7 +72,7 @@ export default function Pricing() {
       },
 
     };
-   
+
 
     const paymentObject = new window.Razorpay(options_1);
     paymentObject.open();
@@ -94,6 +95,7 @@ export default function Pricing() {
   };
   return (
     <>
+      <Meta title="Pricing" />
       <Nav />
       {/* <div
         style={{
@@ -925,7 +927,7 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 
+                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
                   transition
                   "
               >
@@ -1271,7 +1273,7 @@ export default function Pricing() {
       <Accordion/>
       <Wave index={0}/>
 
-      
+
 
       <Footer />
     </>
