@@ -32,7 +32,7 @@ export default function Landing() {
   function handleScroll() {
     window.scroll({
       top: document.body.offsetHeight,
-      left: 0, 
+      left: 0,
       behavior: 'smooth',
     });
   }
@@ -64,10 +64,10 @@ export default function Landing() {
             </div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
-            
+
               <button                 className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
               type="button" onClick={handleScroll}>Contact Us</button>
-       
+
           </div>
           <div className="flex flex-col items-center justify-center mb-[3rem]">
             <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
@@ -297,7 +297,7 @@ export default function Landing() {
                 src="/images/relax.png" // Route of the image file
                 layout="fill"
                 alt="Photo of Project"
-                
+
                 objectFit="contain"
               />
             </div>

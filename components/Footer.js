@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { BsMailbox2, BsVoicemail } from "react-icons/bs";
 export const Footer = () => {
   return (
     <>
       {/* Footer */}
 
 
-      <footer className=" w-full pt-3   sm:p-6 bg-[#000]">
+      <footer className=" w-full pt-3   sm:p-6 bg-[#000] box-border">
 
         <div className="md:flex md:justify-between  ">
 
@@ -23,11 +24,12 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                    +91 9650093751
+                <a href="tel: +919650093751" className="hover:underline">Call Us</a>
                 </li>
 
                 <li>
-                  <a href="mailto:yourfriends@uinvented.com">yourfriends@uinvented.com</a>
+
+                  <a href="mailto:yourfriends@uinvented.com" className="hover:underline">Drop An Email</a>
                 </li>
               </ul>
             </div>
@@ -65,7 +67,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a href="./refund" className="hover:underline">
-                  Cancellation/Refund Policy
+                  Cancellation/ Refund Policy
                   </a>
                 </li>
               </ul>
