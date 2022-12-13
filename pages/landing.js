@@ -54,13 +54,14 @@ export default function Landing() {
         <div className="container mx-auto my-16 ">
           {/*center the text */}
           <div className="flex flex-col items-center justify-center ">
-            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
-              <div className="py-1">Developing the</div>
+            <div className="md:text-4xl text-6xl text-center  font-extrabold ">
+              <div className="py-1">Fulfilling The Needs Of</div>
+              </div>
+              <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1 pb-4">Digital World</div>
             </div>
             <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
-              Quality standards. Unlimited requests & revisions. Painless
-              management.
+              Reliable Services | Data & Legal Security | Innovative Solutions
             </div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
@@ -106,7 +107,7 @@ export default function Landing() {
                   />
                 </div>
                 <div className="flex-initial w-64 text-xl  mt-4">
-                  Month-to-month
+                  Payment in Installments
                 </div>
               </div>
               <div className="flex mt-5 mb-5">
