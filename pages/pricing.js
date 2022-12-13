@@ -6,96 +6,13 @@ import Accordion from "../components/Accordian";
 import Wave from "../components/Wave";
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-import Meta from "../components/Meta";
 
 
 export default function Pricing() {
-  async function displayRazorpay() {
-    const res = await loadRazorpay();
 
-    if (!res) {
-      alert("Razorpay SDK Failed to load");
-      return;
-    }
-
-    // Make API call to the serverless API
-    const data = await fetch("https://www.uinvented.com/api/plan_2", { method: "POST" }).then((t) =>
-      t.json()
-    );
-    console.log(data);
-    var options = {
-      key: process.env.RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
-      name: "growth",
-      currency: data.currency,
-      amount: data.amount,
-      order_id: data.id,
-      description: "Thankyou for your subscription",
-      image: "https://manuarora.in/logo.png",
-      handler: function (response) {
-        alert(response.razorpay_payment_id);
-        alert(response.razorpay_order_id);
-        alert(response.razorpay_signature);
-      },
-
-    };
-
-
-    const paymentObject = new window.Razorpay(options);
-    paymentObject.open();
-  }
-
-  async function displayRazorpay1() {
-    const res = await loadRazorpay();
-
-    if (!res) {
-      alert("Razorpay SDK Failed to load");
-      return;
-    }
-
-    // Make API call to the serverless API
-    const data = await fetch("https://www.uinvented.com/api/plan_1", { method: "POST" }).then((t) =>
-      t.json()
-    );
-    console.log(data);
-    var options_1 = {
-      key: process.env.RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
-      name: "starter",
-      currency: data.currency,
-      amount: data.amount,
-      order_id: data.id,
-      description: "Thankyou for your subscription",
-      image: "https://manuarora.in/logo.png",
-      handler: function (response) {
-        alert(response.razorpay_payment_id);
-        alert(response.razorpay_order_id);
-        alert(response.razorpay_signature);
-      },
-
-    };
-
-
-    const paymentObject = new window.Razorpay(options_1);
-    paymentObject.open();
-  }
-  const loadRazorpay = () => {
-    return new Promise((resolve) => {
-      const script = document.createElement("script");
-      script.src = "https://checkout.razorpay.com/v1/checkout.js";
-      // document.body.appendChild(script);
-
-      script.onload = () => {
-        resolve(true);
-      };
-      script.onerror = () => {
-        resolve(false);
-      };
-
-      document.body.appendChild(script);
-    });
-  };
+ 
   return (
     <>
-      <Meta title="Pricing" />
       <Nav />
       {/* <div
         style={{
@@ -226,9 +143,7 @@ export default function Pricing() {
                 </ul>
               </div>
               <a
-                            onClick={displayRazorpay1}
-
-                href="javascript:void(0)"
+                href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
                 className="
                 flex-1
                   w-full
@@ -568,7 +483,6 @@ export default function Pricing() {
                 </ul>
               </div>
               <a
-              onClick={displayRazorpay}
                 href="javascript:void(0)"
                 className="
                 flex-1
@@ -927,7 +841,7 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
+                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 
                   transition
                   "
               >
@@ -1273,7 +1187,7 @@ export default function Pricing() {
       <Accordion/>
       <Wave index={0}/>
 
-
+      
 
       <Footer />
     </>

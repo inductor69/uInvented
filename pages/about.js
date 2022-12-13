@@ -10,7 +10,7 @@ export default function AboutUs() {
     <>
       <Meta title="AboutUs" />
       <Nav />
-    <Wave index={0}/>
+      <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
@@ -23,8 +23,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <Wave index={1}/>
-
+      <Wave index={1} />
 
       <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
@@ -206,7 +205,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <Wave index={0}/>
+      <Wave index={0} />
 
       <Footer />
     </>

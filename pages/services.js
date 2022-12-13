@@ -44,24 +44,24 @@ export default function Services() {
       </div>
       <Wave index={1}/>
 
-      <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] md:mt-[4rem] ">
+      <div className="text-4xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] md:mt-[4rem] ">
         if you can think it, we can build it.
       </div>
       <div className="w-full md:w-5/6">
-        <div className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14 md:w-3/4">
+        <div className="  text-xl md:text-3xl mx-8 md:mx-14 mb-14 md:w-3/4">
           We offer no limits on build scope or features. You get unlimited
           requests and revisions every month.
         </div>
       </div>
 
       <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
-        <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
+        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           quality development
-          <div className="text-xl md:text-2xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
+          <div className="text-xl md:text-xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Share your UI/UX designs and creative assets. We develop and
             implement them with high accuracy.
           </div>
-          <ul className="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
+          <ul className="list-disc text-xl md:text-xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
               <b>New sites:</b> Build pages or sites from your designs on figma,
               XD, Sketch, and more.
@@ -100,13 +100,13 @@ export default function Services() {
             alt="Landing"
           />
         </div>
-        <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
+        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           experiments
-          <div className="text-xl md:text-2xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
+          <div className="text-xl md:text-xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Get your CRO strategy done right. We setup custom tracking, goals,
             events, and tests so you can stay informed.
           </div>
-          <ul className="list-disc text-xl md:text-2xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
+          <ul className="list-disc text-xl md:text-xl font-medium text-md text-[#575757] mt-[2rem] ml-[1rem]">
             <li className="mb-[1rem]">
               <b>Personalization:</b> Specific content based on segment.
             </li>
@@ -122,9 +122,9 @@ export default function Services() {
       </div>
 
       <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
-        <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
+        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           friendly management
-          <div className="text-xl md:text-2xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
+          <div className="text-xl md:text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Your project manager will ensure you have a smooth and pleasant
             experience. Use our app to send requests and our team will work on
             your projects every business day. Communicate with us via project
