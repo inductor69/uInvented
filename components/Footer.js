@@ -44,7 +44,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/u_invented/" className="hover:underline">
+                  <a href="https://www.instagram.com/uinvented/" className="hover:underline">
                     Instagram
                   </a>
                 </li>
@@ -104,7 +104,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/u_invented/"
+              href="https://www.instagram.com/uinvented/"
               target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
