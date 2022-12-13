@@ -150,7 +150,7 @@ export default function AboutUs() {
                 {/* Team Members */}
                 <div className="flex flex-wrap">
                   {/* Member #1 */}
-                  <div className="w-full md:w-1/2  mb-6 px-6 sm:px-6 lg:px-4">
+                  <div className="w-full md:w-1/3  mb-6 px-6 sm:px-6 lg:px-4">
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
@@ -158,7 +158,7 @@ export default function AboutUs() {
                           width={400}
                           height={400}
                           className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
-                          src="./images/Aditya.jpg"
+                          src="./images/aditya.jpeg"
                         />
                       </a>
                       {/* Details */}
@@ -175,7 +175,32 @@ export default function AboutUs() {
                     </div>
                   </div>
                   {/* Member #2 */}
-                  <div className="w-full md:w-1/2  mb-6 px-6 sm:px-6 lg:px-4">
+                  <div className="w-full md:w-1/3  mb-6 px-6 sm:px-6 lg:px-4">
+                    <div className="flex flex-col">
+                      {/* Avatar */}
+                      <a href="#" className="mx-auto">
+                        <img
+                          width={400}
+                          height={400}
+                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          src="./images/aniket.jpg"
+                        />
+                      </a>
+                      {/* Details */}
+                      <div className="text-center mt-6">
+                        {/* Name */}
+                        <h1 className="text-gray-900 text-xl font-bold mb-1">
+                          Aniket Bhandare
+                        </h1>
+                        {/* Title */}
+                        <div className="text-gray-700 font-light mb-2">
+                          Founder &amp; Specialist
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Member #3 */}
+                  <div className="w-full md:w-1/3  mb-6 px-6 sm:px-6 lg:px-4">
                     <div className="flex flex-col">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
@@ -199,6 +224,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
