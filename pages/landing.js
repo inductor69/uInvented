@@ -33,7 +33,7 @@ export default function Landing() {
     window.scroll({
       top: document.body.offsetHeight,
       left: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   }
 
@@ -55,36 +55,39 @@ export default function Landing() {
           {/*center the text */}
           <div className="flex flex-col items-center justify-center ">
             <div className="md:text-4xl text-6xl text-center  font-extrabold ">
-              <div className="py-1">Fulfilling The Needs Of</div>
-              </div>
-              <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
+              <div className="py-1">Providing solutions for</div>
+            </div>
+            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1 pb-4">Digital World</div>
             </div>
             <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
               Reliable Services | Data & Legal Security | Innovative Solutions
             </div>
-            
-<div class="container">
-  <div class="title-wrap">
-    <div class="left-text">We will help you in your product</div>
-    <div class="right-text">
-      <div class="flip-wrap">
-        <div class="flip">Design.</div>
-        <div class="flip">Development.</div>
-        <div class="flip">Support.</div>
-        <div class="flip">Analysis.</div>
-        <div class="flip">Marketing.</div>
-      </div>
-    </div>
 
-  </div>
-</div>
+            <div class="container">
+              <div class="title-wrap">
+                <div class="left-text">We will help you in your product</div>
+                <div class="right-text">
+                  <div class="flip-wrap">
+                    <div class="flip">design.</div>
+                    <div class="flip">development.</div>
+                    <div class="flip">support.</div>
+                    <div class="flip">analysis.</div>
+                    <div class="flip">marketing.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
-
-              <button                 className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
-              type="button" onClick={handleScroll}>Contact Us</button>
-
+          <Link href="/contactus" passHref>
+            <button
+              className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
+              type="button"
+            >
+              Contact Us
+            </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center justify-center mb-[3rem]">
             <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
@@ -189,7 +192,7 @@ export default function Landing() {
         </div>
       </main>
       {/*SERVICES*/}
-      <Wave index={0}/>
+      <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex mt-5 mb-5">
@@ -221,20 +224,17 @@ export default function Landing() {
         </div>
         {/*Our Workflow*/}
         <div className="flex flex-col  mt-8  bg-black text-white ">
-          <div className="text-5xl md:text-8xl mx-6  md:mx-14 mb-8">
-            Experiences
+          <div className="text-4xl md:text-6xl mx-6 font-bold md:mx-14 mb-8">
+            Our Promises
           </div>
           <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14">
             Digital products, websites and experiences for startups and iconic
             companies.
             <ul className="list-disc text-2xl mt-4 mx-6 leading-10">
-              <li>3-4 weeks lead time</li>
-              <li>UX & Market Research</li>
+              <li>Reliable Services</li>
+              <li>Data and Legal Security</li>
 
-              <li>Wireframes (full UX design)</li>
-
-              <li>UI Mockups (full product design)</li>
-              <li>Final Development</li>
+              <li>Innovative Solutions</li>
             </ul>
           </div>
         </div>
@@ -314,7 +314,6 @@ export default function Landing() {
                 src="/images/relax.png" // Route of the image file
                 layout="fill"
                 alt="Photo of Project"
-
                 objectFit="contain"
               />
             </div>
@@ -323,11 +322,12 @@ export default function Landing() {
         <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-10">
           <div className="  p-10  sm:mt-[30rem]">
             <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-            Personal Portfolio
+              Personal Portfolio
             </p>
             <p className=" text-secondary text-xl md:text-2xl  mt-3">
-            Personal Portfolio showcasing the work of Founders and Designers
-              built with NextJS.            </p>
+              Personal Portfolio showcasing the work of Founders and Designers
+              built with NextJS.{" "}
+            </p>
             <Link href="/" passHref>
               <button
                 href="/"
@@ -419,7 +419,7 @@ export default function Landing() {
                       ></circle>
                     </svg>
                   </span>
-                  <form onSubmit={registerUser} className='w-full'>
+                  <form onSubmit={registerUser} className="w-full">
                     <input
                       className="w-full sm:w-[50%] mb-4 sm:mb-0 pl-8 sm:pl-4 py-5  rounded-full placeholder-gray-900 font-bold focus:outline-none"
                       type="email"

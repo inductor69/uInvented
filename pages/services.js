@@ -156,9 +156,10 @@ export default function Services() {
           </div>
         </div>
         <div className="py-8 flex justify-center text-xl space-x-8 md:mb-[5rem] ">
-          <Link href="#" passHref>
+        <Link href="/contactus" passHref>
+
             <a
-              href="#"
+              href="/contactus"
               className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
             >
               Contact Us
