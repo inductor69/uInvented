@@ -5,60 +5,28 @@ import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 import Meta from "../components/Meta";
 
-export default function AboutUs() {
+export default function ContactUs() {
   return (
     <>
-      <Meta title="AboutUs" />
+      <Meta title="Contact Us" />
       <Nav />
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8  ">
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
-            <div className="py-1">about uInvented.</div>
+            <div className="py-1">contact us.</div>
           </div>
-          <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] ">
-            Our mission is to create better user experiences by making quality
-            web delivery accessible and cost-effective to all companies.
+          <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] leading-normal">
+            Contact us for a quote, help or to join the team.
           </div>
         </div>
       </div>
       <Wave index={1} />
 
-      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
-        <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
-          the start of something new.
-          <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-            Headed from India, uInvented is a web services company providing
-            growth-oriented organizations with unlimited access to development
-            and technical work at a flat-rate. From routinely updated websites
-            to marketing pages, our platform gives teams the ability to create
-            remarkable sites that scale and drive business forward.
-          </div>
-          <div className="text-xl  font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-            We're driven by a relentless focus on great work and culture. Our
-            core values are.
-          </div>
-          <div className="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col gap-3 mt-4 text-xl">
-            <div>Continuous improvement</div>
-            <div>Trust with transparency</div>
-            <div>Diversity and inclusion</div>
-            <div>Move fast</div>
-          </div>
-        </div>
-        <div style={{ position: "relative" }}>
-          <Image
-            src="/images/dev.svg" // Route of the image file
-            layout="fill"
-            className="object-fill"
-            alt="Landing"
-          />
-        </div>
-      </div>
-
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
-          <div className="py-1">how we're getting it done.</div>
+          <div className="py-1">get in touch.</div>
         </div>
         <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem] ">
           We've engineered something special.

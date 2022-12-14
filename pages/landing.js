@@ -63,6 +63,22 @@ export default function Landing() {
             <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
               Reliable Services | Data & Legal Security | Innovative Solutions
             </div>
+            
+<div class="container">
+  <div class="title-wrap">
+    <div class="left-text">We will help you in your product</div>
+    <div class="right-text">
+      <div class="flip-wrap">
+        <div class="flip">Design.</div>
+        <div class="flip">Development.</div>
+        <div class="flip">Support.</div>
+        <div class="flip">Analysis.</div>
+        <div class="flip">Marketing.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
 
