@@ -60,11 +60,9 @@ export default function Landing() {
             <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1 pb-4">Digital World</div>
             </div>
-            <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
-              Reliable Services | Data & Legal Security | Innovative Solutions
-            </div>
 
-            <div className="container ">
+
+            <div className="text-xs">
               <div className="title-wrap ">
                 <div className="left-text">We will help you in your product</div>
                 <div className="right-text">
@@ -85,7 +83,7 @@ export default function Landing() {
               className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
               type="button"
             >
-              Contact Us
+              Let's Work Together
             </button>
             </Link>
           </div>
