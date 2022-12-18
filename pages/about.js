@@ -8,7 +8,7 @@ import Meta from "../components/Meta";
 export default function AboutUs() {
   return (
     <>
-      <Meta title="AboutUs" />
+      <Meta title="About" />
       <Nav />
       <Wave index={0} />
 

@@ -6,6 +6,7 @@ import Accordion from "../components/Accordian";
 import Wave from "../components/Wave";
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
+import Meta from "../components/Meta";
 
 
 export default function Pricing() {
@@ -13,6 +14,7 @@ export default function Pricing() {
 
   return (
     <>
+      <Meta title="Pricing" />
       <Nav />
       {/* <div
         style={{
@@ -1143,9 +1145,8 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div className="px-6 pb-6">
-        <dh-component>
-          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 ">
+      <div className="px-6 pb-6 ">
+          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 max-w-[1000px]">
             <div>
               <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
                 premium custom development
@@ -1197,7 +1198,6 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-        </dh-component>
       </div>
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">

@@ -64,16 +64,16 @@ export default function Landing() {
               Reliable Services | Data & Legal Security | Innovative Solutions
             </div>
 
-            <div class="container">
-              <div class="title-wrap">
-                <div class="left-text">We will help you in your product</div>
-                <div class="right-text">
-                  <div class="flip-wrap">
-                    <div class="flip">design.</div>
-                    <div class="flip">development.</div>
-                    <div class="flip">support.</div>
-                    <div class="flip">analysis.</div>
-                    <div class="flip">marketing.</div>
+            <div className="container ">
+              <div className="title-wrap ">
+                <div className="left-text">We will help you in your product</div>
+                <div className="right-text">
+                  <div className="flip-wrap">
+                    <div className="flip">design.</div>
+                    <div className="flip">development.</div>
+                    <div className="flip">support.</div>
+                    <div className="flip">analysis.</div>
+                    <div className="flip">marketing.</div>
                   </div>
                 </div>
               </div>
@@ -368,7 +368,7 @@ export default function Landing() {
 
       {/* Newsletter */}
       <div className="w-full  h-full bg-[#000]  ">
-        <div className="container  mx-auto ">
+        <div className=" mx-auto ">
           <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
               className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"

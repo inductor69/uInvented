@@ -234,10 +234,10 @@
     opacity: 0;
     transform: translateY(40%);
   }
-  to { 
+  to {
     opacity: 1;
     transform: translateY(0%);
-   
+
   }
 }
 .animated {
@@ -250,7 +250,7 @@
 }
 
 @keyframes fade {
-  from {opacity: 0} 
+  from {opacity: 0}
   to {opacity: 1}
 }
 
@@ -300,18 +300,18 @@
     margin-top: 0px;
   }
   3% {margin-top: -34px;}
-  
+
   25% {margin-top: -34px;}
   28% {margin-top: -68px;}
-  
+
   50% {margin-top: -68px;}
   53% {margin-top: -102px;}
-  
+
   75% {margin-top: -102px;}
   78% {margin-top: -136px;}
-  
+
   to {
     margin-top: -136px;
   }
-  
+
 }
