@@ -55,10 +55,10 @@ export default function Landing() {
         <div className="container mx-auto my-16 ">
           {/*center the text */}
           <div className="flex flex-col items-center justify-center ">
-            <div className="md:text-4xl text-6xl text-center  font-extrabold ">
-              <div className="py-1">Providing solutions for</div>
+            <div className="md:text-6xl text-4xl text-center  font-extrabold ">
+              <div className="py-1 md:mb-8">Providing solutions for</div>
             </div>
-            <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
+            <div className="md:text-9xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1 mb-12">Digital World</div>
             </div>
 
@@ -106,7 +106,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial text-xl   mt-4">
+                <div className="flex-initial text-xl font-bold   mt-4">
                   Predictable pricing
                 </div>
               </div>
@@ -125,7 +125,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   Payment in Installments
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   Cancel anytime
                 </div>
               </div>
@@ -163,7 +163,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   15 day trial period
                 </div>
               </div>
