@@ -1,91 +1,88 @@
-import React from 'react'
+import { useEffect } from 'react';
 
 export const Testimonial = () => {
 
-  React.useEffect(() => {
-    // window is accessible here.
-    const photos = document.querySelectorAll(".testimonial__photo");
-    const contents = document.querySelectorAll(".testimonial__content");
-    const slider = document.querySelector(".slider__buttons");
 
-    slider.addEventListener("click", function () {
-      for (const photo of photos) {
-        photo.classList.toggle("testimonial__photo--active");
-      }
-
-      for (const content of contents) {
-        content.classList.toggle("testimonial__content--active");
-      }
-    });  }, []);
 
   return (
     <>
-      <div className="bg-black text-white ">
-        <div className="testimonial">
-          <div className="slide__img-container">
-            <img
-              className="testimonial__photo"
-              src="images/image-tanya.jpg"
-              alt="Tanya Sinclair"
-            />
-            <img
-              className="testimonial__photo testimonial__photo--active"
-              src="images/image-john.jpg"
-              alt="John Tarkpor"
-            />
-            <div className="slider__buttons">
-              <div className="btn1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
-                  <path
-                    fill="none"
-                    stroke="#8585AC"
-                    strokeWidth="3"
-                    d="M11 1L3 9l8 8"
-                  />
-                </svg>
-              </div>
+   <section class="py-6 text-blue-900 sm:py-16 lg:py-20">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-screen-lg lg:px-8">
+    <div class="flex flex-col lg:flex-row">
+      <div class="relative mx-auto mb-10 flex h-96 overflow-hidden rounded-xl bg-blue-600 shadow sm:mt-20 lg:h-auto lg:max-w-md lg:pt-20">
+        <img class="absolute top-0 h-full w-full object-cover opacity-10" src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="" />
+        <div class="relative mt-auto w-full">
+          <div class="flex flex-col p-6 lg:px-7 lg:py-8">
+            <div class="">
+              <blockquote class="">
+                <p class="text-3xl font-bold text-white sm:text-5xl">"I cannot overstate how much this has helped our startup"</p>
+              </blockquote>
+            </div>
 
-              <div className="btn1 ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
-                  <path
-                    fill="none"
-                    stroke="#8585AC"
-                    strokeWidth="3"
-                    d="M2 1l8 8-8 8"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div className="testimonial__content-container text-white ">
-            <div className="testimonial__content">
-              <blockquote className="testimonial__text text-white">
-                I've been interested in coding for a while but never taken the
-                jump, until now. I couldn't recommend this course enough. I'm
-                now in the job of my dreams and so excited about the future.
-              </blockquote>
-              <div className="testimonial__author">
-                <h2 className="testimonial__name text-white">Tanya Sinclair</h2>
-                <p className="testimonial__job text-white">UX Engineer</p>
-              </div>
-            </div>
-            <div className="testimonial__content testimonial__content--active">
-              <blockquote className="testimonial__text text-white">
-                If you want to lay the best foundation possible I'd recommend
-                taking this course. The depth the instructors go into is
-                incredible. I now feel so confident about starting up as a
-                professional developer.
-              </blockquote>
-              <div className="testimonial__author">
-                <h2 className="testimonial__name text-white">John Tarkpor</h2>
-                <p className="testimonial__job text-white">
-                  Junior Front-end Developer
-                </p>
+            <div class="mt-10 flex items-center">
+              <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+              <div class="ml-4 text-white">
+                <p class="text-base font-bold">Jacob Jones</p>
+                <p class="text-blue-90 mt-0.5 text-sm">Youtube Personality</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="relative mx-auto grid max-w-lg grid-cols-1 gap-y-14 lg:pl-20">
+        <div class="flex flex-col text-white">
+          <div class="">
+            <blockquote class="">
+              <p class="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+            </blockquote>
+          </div>
+
+          <div class="mt-4 flex items-center">
+            <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <div class="ml-4">
+              <p class="text-base font-bold">James Khawalski</p>
+              <p class="mt-0.5 text-sm">CEO, Mavoline</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col text-white">
+          <div class="">
+            <blockquote class="">
+              <p class="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+            </blockquote>
+          </div>
+
+          <div class="mt-4 flex items-center ">
+            <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <div class="ml-4">
+              <p class="text-base  font-bold">Jacob Jones</p>
+              <p class="mt-0.5 text-sm">Youtube Personality</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col text-white ">
+          <div class="">
+            <blockquote class="">
+              <p class="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+            </blockquote>
+          </div>
+
+          <div class="mt-4 flex items-center">
+            <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <div class="ml-4">
+              <p class="text-base font-bold">Jenny Wilson</p>
+              <p class="text-blue-90 mt-0.5 text-sm">Esports Commentator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </>
   );
 };
