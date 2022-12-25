@@ -46,10 +46,10 @@ export const Portfolio = () => {
 
             {/* content #index+1 */}
             <div
-              className={`2xl:container min-w-[80%]  md:mx-auto absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/3  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0 `}
+              className={"2xl:container min-w-[80%]  md:mx-auto absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/3  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0 "}
             >
               <div
-                className={`flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-${project.bgColor}  text-black row align-baseline `}
+                className={"flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-" +project.bgColor +  " text-black row align-baseline "}
               >
                 <div className="  p-10  md:mt-[15rem] xl:mt-[27rem]">
                   <p className="max-w-md text-3xl md:text-5xl font-semibold ">
@@ -61,7 +61,7 @@ export const Portfolio = () => {
                   <Link href={project.link} passHref>
                     <button
                       href={project.link}
-                      className={`mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-${project.bgColor} text-${project.bgColor} hover:text-black transition duration-500 font-bold`}
+                      className={"mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-"+project.bgColor +" text-"+project.bgColor+ " hover:text-black transition duration-500 font-bold"}
                     >
                       View Project
                     </button>
