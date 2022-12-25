@@ -9,16 +9,16 @@ export const Portfolio = () => {
         description:"Beat procrastination and get your personal goals completed as planned!",
         link:"/",
         image:"/images/portfolio.png",
-        bgColor:"[#9df5fd]",
-        controlColor:"[#9969c9]"
+        bgColor:"#9df5fd",
+        controlColor:"#9969c9"
     },
     {
         title:"Personal Portfolio",
         description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
         link:"/",
         image:"/images/meet.png",
-        bgColor:"[#F0E4FC]",
-        controlColor:'yellow-600'
+        bgColor:"#F0E4FC",
+        controlColor:'rgb(202,138,4)'
 
     },
     {
@@ -26,8 +26,8 @@ export const Portfolio = () => {
         description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
         link:"/",
         image:"/images/relax.png",
-        bgColor:"[#ffefdf]",
-        controlColor:'blue-600'
+        bgColor:"#ffefdf",
+        controlColor:'rgb(37,99,235)'
     }]
 ;
   console.log(Projects);
@@ -49,7 +49,9 @@ export const Portfolio = () => {
               className={"2xl:container min-w-[80%]  md:mx-auto absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/3  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0 "}
             >
               <div
-                className={"flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-" +project.bgColor +  " text-black row align-baseline "}
+                className={"flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl  text-black row align-baseline "}
+                style={{backgroundColor: `${project.bgColor}`}}
+
               >
                 <div className="  p-10  md:mt-[15rem] xl:mt-[27rem]">
                   <p className="max-w-md text-3xl md:text-5xl font-semibold ">
@@ -61,7 +63,10 @@ export const Portfolio = () => {
                   <Link href={project.link} passHref>
                     <button
                       href={project.link}
-                      className={"mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-"+project.bgColor +" text-"+project.bgColor+ " hover:text-black transition duration-500 font-bold"}
+                      className={"mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black  hover:text-black transition duration-500 font-bold projectButton "}
+
+                      style={{color: `${project.bgColor}`}}
+
                     >
                       View Project
                     </button>
@@ -88,7 +93,8 @@ export const Portfolio = () => {
               <div className="absolute top-1/2 w-full flex justify-between z-20">
                 <label
                   htmlFor={`carousel-${(index % Projects.length) + 1}`}
-                  className={`inline-block text-${project.controlColor}  cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5`}
+                  className={`inline-block cursor-pointer -translate-x-5   bg-white rounded-full shadow-md active:translate-y-0.5`}
+                  style={{color: `${project.controlColor}`}}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +111,8 @@ export const Portfolio = () => {
                 </label>
                 <label
                   htmlFor={`carousel-${((index + 2) % Projects.length) + 1}`}
-                  className={`inline-block text-${project.controlColor} cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5`}
+                  className={`inline-block cursor-pointer   translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5`}
+                  style={{color: `${project.controlColor}`}}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

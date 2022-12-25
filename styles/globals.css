@@ -516,3 +516,7 @@
 .owl-dots button.active {
 	width: 30px;
 }
+.projectButton:hover{
+  background-color:inherit;
+  color: black!important;;
+}
