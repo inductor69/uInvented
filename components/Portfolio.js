@@ -1,15 +1,40 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Projects } from "../components/Projects";
 
 export const Portfolio = () => {
-  const projects = Projects;
-  console.log(projects);
+  const Projects = [
+    {
+        title:"Elekrity",
+        description:"Beat procrastination and get your personal goals completed as planned!",
+        link:"/",
+        image:"/images/portfolio.png",
+        bgColor:"[#9df5fd]",
+        controlColor:"[#9969c9]"
+    },
+    {
+        title:"Personal Portfolio",
+        description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
+        link:"/",
+        image:"/images/meet.png",
+        bgColor:"[#F0E4FC]",
+        controlColor:'yellow-600'
+
+    },
+    {
+        title:"Personal Portfolio",
+        description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
+        link:"/",
+        image:"/images/relax.png",
+        bgColor:"[#ffefdf]",
+        controlColor:'blue-600'
+    }]
+;
+  console.log(Projects);
   return (
     <div className="min-h-screen   bg-black relative ">
       <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>
-        {projects.map((project, index) => (
+        {Projects.map((project, index) => (
           <div key={index} className="">
             <input
               className="sr-only peer"
