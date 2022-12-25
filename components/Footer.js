@@ -1,12 +1,15 @@
 import Image from "next/image";
+import { BsMailbox2, BsVoicemail } from "react-icons/bs";
 export const Footer = () => {
   return (
     <>
       {/* Footer */}
-      <footer className=" w-full    sm:p-6 bg-[#000]">
-     
+
+
+      <footer className=" w-full pt-3   sm:p-6 bg-[#000] box-border">
+
         <div className="md:flex md:justify-between  ">
-          
+
           <div className="mb-6  mx-[4rem] md:mb-0">
             <a href="https://uInvented.com" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -14,21 +17,19 @@ export const Footer = () => {
               </span>
             </a>
           </div>
-          <div className="grid mx-[4rem] grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid mx-[4rem] grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Resources
+                Contact Us
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://uinvented.com" className="hover:underline">
-                    uInvented
-                  </a>
+                <a href="tel: +919650093751" className="hover:underline">Call Us</a>
                 </li>
+
                 <li>
-                  <a href="https://uinvented.com/" className="hover:underline">
-                    Tailwind CSS
-                  </a>
+
+                  <a href="mailto:yourfriends@uinvented.com" className="hover:underline">Drop An Email</a>
                 </li>
               </ul>
             </div>
@@ -38,13 +39,13 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://github.com/uInvented" className="hover:underline ">
-                    Github
+                  <a href="https://www.facebook.com/profile.php?id=100086942718787" className="hover:underline ">
+                    Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/g6yDW8Cspy" className="hover:underline">
-                    Discord
+                  <a href="https://www.instagram.com/uinvented/" className="hover:underline">
+                    Instagram
                   </a>
                 </li>
               </ul>
@@ -55,13 +56,18 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="./privacy" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="./terms" className="hover:underline">
                     Terms &amp; Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="./refund" className="hover:underline">
+                  Cancellation/ Refund Policy
                   </a>
                 </li>
               </ul>
@@ -72,14 +78,16 @@ export const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between pb-[4rem]  mx-[4rem]">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
-            <a href="" className="hover:underline">
+            <a href="https://uinvented.com/" className="hover:underline">
               uInvented™
             </a>
+            <br/>
               All Rights Reserved
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100086942718787"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -96,7 +104,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/uinvented/"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -113,7 +122,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://twitter.com/u_invented"
+              target="_blank"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -142,26 +152,9 @@ export const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </a>
           </div>
         </div>
-        
+
       </footer>
     </>
   );

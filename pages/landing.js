@@ -58,36 +58,36 @@ export default function Landing() {
               <div className="py-1">Providing solutions for</div>
             </div>
             <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
-              <div className="py-1 pb-4">Digital World</div>
+              <div className="py-1 mb-12">Digital World</div>
             </div>
 
 
-            <div class="container1 mb-12">
+            <div class="text-xs mb-8">
               <div class="title-wrap">
                 <div class="left-text">We will help you in your product</div>
                 <div class="right-text">
                   <div class="flip-wrap">
-                    <div class="flip">design.</div>
-                    <div class="flip">development.</div>
-                    <div class="flip">support.</div>
+                    <div class="flip">designing.</div>
+                    <div class="flip">developing.</div>
                     <div class="flip">analysis.</div>
                     <div class="flip">marketing.</div>
+                    <div class="flip">support.</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="py-8 flex justify-center text-xl space-x-8">
+          <div className="py-8 flex justify-center text-xl space-x-8 mb-6">
           <Link href="/contactus" passHref>
             <button
               className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
               type="button"
             >
-              Contact Us
+              Let's Work Together
             </button>
             </Link>
           </div>
-          <div className="flex flex-col items-center justify-center mb-[3rem]">
+          <div className="flex flex-col items-center justify-center mb-[4rem]">
             <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
               <div className="flex mt-5 mb-5">
                 <div
@@ -520,8 +520,8 @@ export default function Landing() {
       
 
       {/* Newsletter */}
-      <div className="w-full  h-full bg-[#000]  ">
-        <div className=" mx-auto ">
+      <div className=" h-full bg-[#000]  ">
+        <div className="container   mx-auto ">
           <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
               className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"
