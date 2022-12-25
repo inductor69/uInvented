@@ -104,7 +104,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial text-xl   mt-4">
+                <div className="flex-initial text-xl font-bold   mt-4">
                   Predictable pricing
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   Payment in Installments
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   Cancel anytime
                 </div>
               </div>
@@ -161,7 +161,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl  mt-4">
+                <div className="flex-initial w-64 text-xl font-bold  mt-4">
                   15 day trial period
                 </div>
               </div>
