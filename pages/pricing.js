@@ -6,13 +6,15 @@ import Accordion from "../components/Accordian";
 import Wave from "../components/Wave";
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
+import Meta from "../components/Meta";
 
 
 export default function Pricing() {
 
- 
+
   return (
     <>
+      <Meta title="Pricing" />
       <Nav />
       {/* <div
         style={{
@@ -82,8 +84,8 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center mx-[2rem] ">
-          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+        <div className="flex flex-col lg:flex-row justify-center mx-[2rem]">
+          <div className="flex flex-col w-full  lg:w-1/3 px-4 drop-shadow  items-center xl:max-w-[500px]">
             <div
               className="
               flex-1
@@ -100,6 +102,9 @@ export default function Pricing() {
                lg:py-10 lg:px-6
                xl:p-12
                mb-10
+               md:w-2/3
+               lg:w-full
+               relative
                "
             >
               <span className=" font-semibold text-2xl md:text-3xl block mb-4">
@@ -108,7 +113,7 @@ export default function Pricing() {
               <h2 className="font-bold text-dark mb-5 text-[42px]">
                 $2799
                 <span className="text-base text-body-color font-medium">
-                  / month
+                  /month
                 </span>
               </h2>
               <p
@@ -121,7 +126,7 @@ export default function Pricing() {
               >
                 Best if you have your own, in house designer and regularly need help with development.
               </p>
-              <div className="mb-7 ">
+              <div className="mb-[100px] ">
               <ul class="list-disc">
 
                 <li className=" text-base text-body-color leading-loose mb-1">
@@ -146,7 +151,7 @@ export default function Pricing() {
                 href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
                 className="
                 flex-1
-                  w-full
+
                   block
                   text-base
                   font-semibold
@@ -158,6 +163,13 @@ export default function Pricing() {
                   p-4
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
                   transition
+                  absolute
+                  bottom-0 left-0 right-0
+                  m-6
+
+                  md:m-10
+
+
                   "
               >
                 Book Demo
@@ -424,7 +436,7 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+          <div className="flex flex-col w-full  lg:w-1/3 px-4 drop-shadow  items-center xl:max-w-[500px]">
             <div
               className="
               flex-1
@@ -441,6 +453,9 @@ export default function Pricing() {
                lg:py-10 lg:px-6
                xl:p-12
                mb-10
+               md:w-2/3
+               lg:w-full
+               relative
                "
             >
               <span className=" font-semibold text-2xl md:text-3xl block mb-4">
@@ -449,7 +464,7 @@ export default function Pricing() {
               <h2 className="font-bold text-dark mb-5 text-[42px]">
                 $3499
                 <span className="text-base text-body-color font-medium">
-                  / month
+                  /month
                 </span>
               </h2>
               <p
@@ -462,8 +477,8 @@ export default function Pricing() {
               >
                 Ideal for those looking for design & front-end development who need regular help.
               </p>
-              <div className="mb-7">
-              <ul class="list-disc">
+              <div className="mb-[100px] ">
+              <ul class="list-disc ">
 
                 <li className="text-base text-body-color leading-loose mb-1">
                 All the Design plan features
@@ -486,7 +501,6 @@ export default function Pricing() {
                 href="javascript:void(0)"
                 className="
                 flex-1
-                  w-full
                   block
                   text-base
                   font-semibold
@@ -498,6 +512,10 @@ export default function Pricing() {
                   p-4
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
                   transition
+                  absolute
+                  bottom-0 left-0 right-0
+                  m-6
+                  md:m-10
                   "
               >
                 Book Demo
@@ -764,7 +782,7 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 px-4 drop-shadow">
+          <div className="flex flex-col w-full  lg:w-1/3 px-4 drop-shadow  items-center xl:max-w-[500px]">
             <div
               className="
               flex-1
@@ -781,6 +799,9 @@ export default function Pricing() {
                lg:py-10 lg:px-6
                xl:p-12
                mb-10
+               md:w-2/3
+               lg:w-full
+               relative
                "
             >
               <span className=" font-semibold text-2xl md:text-3xl block mb-4">
@@ -802,7 +823,7 @@ export default function Pricing() {
               >
                 Best if you are looking for occasional updates, tweaks or feature to your website.
               </p>
-              <div className="mb-7">
+              <div className="mb-[100px] ">
               <ul class="list-disc">
                 <li className="text-base text-body-color leading-loose mb-1">
                 Includes design and development
@@ -831,7 +852,6 @@ export default function Pricing() {
                 href="javascript:void(0)"
                 className="
                 flex-1
-                  w-full
                   block
                   text-base
                   font-semibold
@@ -841,8 +861,12 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 
+                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
                   transition
+                  absolute
+                  bottom-0 left-0 right-0
+                  m-6
+                  md:m-10
                   "
               >
                 Book Demo
@@ -1121,9 +1145,8 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div className="px-6 pb-6">
-        <dh-component>
-          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 ">
+      <div className="px-6 pb-6 ">
+          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 max-w-[1000px]">
             <div>
               <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
                 premium custom development
@@ -1175,7 +1198,6 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-        </dh-component>
       </div>
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">
@@ -1187,7 +1209,7 @@ export default function Pricing() {
       <Accordion/>
       <Wave index={0}/>
 
-      
+
 
       <Footer />
     </>

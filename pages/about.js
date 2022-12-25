@@ -8,7 +8,7 @@ import Meta from "../components/Meta";
 export default function AboutUs() {
   return (
     <>
-      <Meta title="AboutUs" />
+      <Meta title="About" />
       <Nav />
       <Wave index={0} />
 
@@ -65,8 +65,8 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="md:grid grid-cols-3 grid-flow-col md:mx-[3rem] mx-8 gap-2 justify-items-center text-center  mb-[4rem] mt-[4rem] items-center ">
-        <div className="max-w-sm bg-white   rounded-lg border border-gray-200 shadow-md ">
+      <div className="md:grid grid-cols-3  grid-flow-col md:mx-[3rem] mx-8 gap-2 justify-items-center text-center  mb-[4rem] mt-[4rem] items-center ">
+        <div className="max-w-sm bg-white mx-auto  rounded-lg border border-gray-200 shadow-md my-3 h-full">
           <div className="flex flex-col items-center justify-center">
             <img
               className="rounded-t-lg w-1/2"
@@ -86,7 +86,7 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
+        <div className="max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md my-3 h-full">
           <div>
             <div className="flex flex-col items-center justify-center">
               <img
@@ -109,7 +109,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md ">
+        <div className="max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md my-3 h-full">
           <div>
             <div className="flex flex-col items-center justify-center">
               <img
@@ -150,14 +150,14 @@ export default function AboutUs() {
                 {/* Team Members */}
                 <div className="flex flex-wrap">
                   {/* Member #1 */}
-                  <div className="w-full md:w-1/3  mb-6 px-6 sm:px-6 lg:px-4">
-                    <div className="flex flex-col">
+                  <div className="w-full md:w-1/3   mb-6 px-6 sm:px-6 lg:px-4">
+                    <div className="flex flex-col h-full">
                       {/* Avatar */}
                       <a href="#" className="mx-auto">
                         <img
                           width={400}
                           height={400}
-                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          className="rounded-2xl md:h-64 lg:h-96 drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
                           src="./images/aditya.jpeg"
                         />
                       </a>
@@ -182,7 +182,7 @@ export default function AboutUs() {
                         <img
                           width={400}
                           height={400}
-                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          className="rounded-2xl drop-shadow-md md:h-64 lg:h-96 hover:drop-shadow-xl transition-all duration-200 delay-100 "
                           src="./images/aniket.jpg"
                         />
                       </a>
@@ -207,7 +207,7 @@ export default function AboutUs() {
                         <img
                           width={400}
                           height={400}
-                          className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100 "
+                          className="rounded-2xl drop-shadow-md md:h-64 lg:h-96 hover:drop-shadow-xl transition-all duration-200 delay-100 "
                           src="./images/Harshit.jpg"
                         />
                       </a>
@@ -224,7 +224,7 @@ export default function AboutUs() {
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
             </div>

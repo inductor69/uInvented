@@ -60,9 +60,7 @@ export default function Landing() {
             <div className="md:text-8xl text-6xl text-center md:leading-[7rem] font-extrabold leading-[4rem]">
               <div className="py-1 pb-4">Digital World</div>
             </div>
-            <div className="sm:text-2xl font-medium	 text-md text-center md:leading-[7rem] ">
-              Reliable Services | Data & Legal Security | Innovative Solutions
-            </div>
+
 
             <div class="container1 mb-12">
               <div class="title-wrap">
@@ -80,13 +78,13 @@ export default function Landing() {
             </div>
           </div>
           <div className="py-8 flex justify-center text-xl space-x-8">
-            <Link href="/contactus" passHref>
-              <button
-                className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
-                type="button"
-              >
-                Contact Us
-              </button>
+          <Link href="/contactus" passHref>
+            <button
+              className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
+              type="button"
+            >
+              Contact Us
+            </button>
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center mb-[3rem]">
@@ -523,7 +521,7 @@ export default function Landing() {
 
       {/* Newsletter */}
       <div className="w-full  h-full bg-[#000]  ">
-        <div className="container  mx-auto ">
+        <div className=" mx-auto ">
           <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
               className="relative pt-16 px-6 lg:px-24 pb-20 bg  bg-opacity-5 bg-cover backdrop-brightness-50 rounded-3xl overflow-hidden"
