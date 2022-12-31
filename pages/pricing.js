@@ -13,20 +13,6 @@ export default function Pricing() {
     <>
       <Meta title="Pricing" />
       <Nav />
-      {/* <div
-        style={{
-          height: "30px",
-          position: "relative",
-          transform: "rotate(180deg)",
-        }}
-      >
-        <Image
-          src="/images/bottom.svg" // Route of the image file
-          layout="fill"
-          className="object-cover"
-          alt="Landing"
-        />
-      </div> */}
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white  ">
@@ -97,14 +83,13 @@ export default function Pricing() {
                mb-10
                md:w-2/3
                lg:w-full
-               relative
                "
             >
               <span className=" font-semibold text-2xl md:text-3xl block mb-4">
-                starter
+                basic
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $2799
+                $2999
                 <span className="text-base text-body-color font-medium">
                   /month
                 </span>
@@ -149,12 +134,12 @@ export default function Pricing() {
                   font-semibold
                   text-primary
                   bg-transparent
-                  border border-[#D4DEFF]
+                  border-[#D4DEFF]
                   rounded-md
                   text-center
                   p-4
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
-                  transition
+
                   absolute
                   bottom-0 left-0 right-0
                   m-6
@@ -434,7 +419,6 @@ export default function Pricing() {
               flex-1
                bg-white
                rounded-xl
-               relative
                z-10
                overflow-hidden
                border border-primary border-opacity-20
@@ -451,10 +435,10 @@ export default function Pricing() {
                "
             >
               <span className=" font-semibold text-2xl md:text-3xl block mb-4">
-                growth
+                advance
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $3499
+                $4599
                 <span className="text-base text-body-color font-medium">
                   /month
                 </span>
@@ -473,16 +457,19 @@ export default function Pricing() {
               <div className="mb-[100px] ">
                 <ul class="list-disc ">
                   <li className="text-base text-body-color leading-loose mb-1">
-                    All the Design plan features
+                    Market Research Report
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
-                    Front-end development with Webflow
+                    UI/UX Designs for building prototype
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
-                    Ongoing support and maintenance
+                    Dashboards to analyse the performance
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
-                    Cancel, upgrade or downgrade at any time
+                    2 months support and maintenance after delivery
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    + Basic
                   </li>
                 </ul>
               </div>
@@ -498,9 +485,7 @@ export default function Pricing() {
                   border border-[#D4DEFF]
                   rounded-md
                   text-center
-                  p-4
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
-                  transition
+                  p-4hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
                   absolute
                   bottom-0 left-0 right-0
                   m-6
@@ -777,7 +762,6 @@ export default function Pricing() {
               flex-1
                bg-white
                rounded-xl
-               relative
                z-10
                overflow-hidden
                border border-primary border-opacity-20
@@ -797,7 +781,7 @@ export default function Pricing() {
                 unlimited
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $75
+                $79
                 <span className="text-base text-body-color font-medium">
                   / hour
                 </span>
@@ -819,19 +803,13 @@ export default function Pricing() {
                     Includes design and development
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
-                    Priced competitively
+                    Ideal for Content creation
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
                     Real time communication via Slack
                   </li>
                   <li className="text-base text-body-color leading-loose mb-1">
-                    Cancel, upgrade or downgrade at any time
-                  </li>
-                  <li className="text-base text-body-color leading-loose mb-1">
-                    Task dashboard von Notion
-                  </li>
-                  <li className="text-base text-body-color leading-loose mb-1">
-                    Unlimited team members
+                    Task dashboard on Notion
                   </li>
                 </ul>
               </div>
@@ -1133,12 +1111,12 @@ export default function Pricing() {
       </div>
 
       <div className="px-6 pb-6 ">
-        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 max-w-[1000px]">
+        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-12 max-w-[1368px]  text-justify">
           <div>
             <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
               premium custom development
             </div>
-            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+            <div className="flex flex-col font-medium justify-between items-center text-[#575757] sm:text-md text-md mt-2 ">
               We guarantee super hi-fidelity development across all screen sizes
               with clean code structures, modular components, and
               conventional-naming standards.

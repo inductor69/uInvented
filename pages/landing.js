@@ -237,12 +237,10 @@ export default function Landing() {
             Our Promises
           </div>
           <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14">
-            Digital products, websites and experiences for startups and iconic
-            companies.
+          Our expertise is in digital products like websites, mobile apps, e-commerce platforms, content and much more for startups and iconic companies.
             <ul className="list-disc text-2xl mt-4 mx-6 leading-10">
               <li>Reliable Services</li>
               <li>Data and Legal Security</li>
-
               <li>Innovative Solutions</li>
             </ul>
           </div>
