@@ -4,11 +4,43 @@ import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 import Meta from "../components/Meta";
+import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 
 export default function ContactUs() {
+    // Input states
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const submitForm = async (e) => {
+      e.preventDefault();
+      const res = await fetch('http://localhost:3000/api/submit-form', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, phone, message }),
+      });
+      // Success if status code is 201
+      if (res.status === 201) {
+        toast('Thank you for contacting us!', { type: 'success' });
+      } else {
+        toast('Please re-check your inputs.', { type: 'error' });
+      }
+    };
+    // Implement your input state
+const [phone, setPhone] = useState("");
+
+
+// validate value
+const numberHandler = val => {
+        const validatedValue = val.replace(/[^0-9]/g, "");
+        setPhone(validatedValue);
+ };
   return (
     <>
       <Meta title="Contact Us" />
+      <ToastContainer />
       <Nav />
       <Wave index={0} />
 
@@ -113,25 +145,38 @@ export default function ContactUs() {
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                <form>
+                <form onSubmit={submitForm}>
                   <div class="mb-6">
                     <input
                       type="text"
+                      required
                       placeholder="Your Name"
+                      id="name"
+                      name="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   <div class="mb-6">
                     <input
                       type="email"
+                      required
+                      name="email"
                       placeholder="Your Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   <div class="mb-6">
                     <input
-                      type="text"
+                      type="tel"
+                      
                       placeholder="Your Phone"
+                      name="phone" id="phone"
+                      value={phone}
+                      onChange={e => numberHandler(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
@@ -139,13 +184,17 @@ export default function ContactUs() {
                     <textarea
                       rows="6"
                       placeholder="Your Message"
+                      name="message"
+                      id="message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     ></textarea>
                   </div>
                   <div>
                   <button
               className="border  bg-black rounded py-3 px-8 text-white transition duration-500 font-bold"
-              type="button"
+              type="submit"
               //onClick={handleScroll}
             >
               Submit
