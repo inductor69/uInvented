@@ -28,14 +28,16 @@ export default function Services() {
           </div>
         </div>
         <div className="text-5xl md:text-9xl mx-6  md:mx-14">websites</div>
-        <div className="text-5xl md:text-9xl mx-6  md:mx-14 mb-8">products</div>
+        <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">apps</div>
+        <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">content</div>
+        {/* <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">Reports</div> */}
         <div className="text-5xl md:text-9xl mx-6 pb-[2rem]  md:mx-14 mb-8">
-          apps
+          reports
         </div>
         <div className="w-full md:w-5/6">
           <div style={{lineHeight:"125%"}} className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
             We design compelling Brand Identities and impactful Digital
-            Experiences for innovative companies around the world. Using the
+            Experiences for innovative companies around the world. <br/><br/>Using the
             industry-proven methods Jobs to be Done and Design Sprint, we've
             developed a highly optimised design delivery process that brings
             results in just a few weeks. Sounds like what you’re looking for?
@@ -147,7 +149,7 @@ export default function Services() {
           <div className="md:text-6xl text-4xl md:mt-[4rem]">
             <div className="py-1">Who is it for?</div>
           </div>
-          <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
+          <div className="sm:text-2xl text-md text-center md:w-3/5  mt-[2rem] ">
             We work with companies at launch, product-market fit and growth
             stages. Our cross-functional team of Product and Branding experts
             acts as the extension of your team, bringing in-depth design and
