@@ -30,7 +30,7 @@ export default function Pricing() {
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white  ">
-        <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[0.5rem] ">
+        <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[2rem] ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem]">
             <div className="py-1">
               plans for ambitious scaleups and agencies.
