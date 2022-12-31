@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Testimonial } from "../components/testimonial";
 import React from "react";
 import Wave from "../components/Wave";
+import { Portfolio } from "../components/Portfolio";
 export default function Landing() {
   const registerUser = async (event) => {
     event.preventDefault(); // prevents page from redirecting on form submissiomn
@@ -62,16 +63,17 @@ export default function Landing() {
             </div>
 
 
-            <div class="text-xs mb-8">
-              <div class="title-wrap">
-                <div class="left-text">We will help you in your product</div>
-                <div class="right-text">
-                  <div class="flip-wrap">
-                    <div class="flip">designing.</div>
-                    <div class="flip">developing.</div>
-                    <div class="flip">analysis.</div>
-                    <div class="flip">marketing.</div>
-                    <div class="flip">support.</div>
+            <div className="text-xs mb-8">
+              <div className="title-wrap">
+                <div className="left-text">We will help you in your product</div>
+                <div className="right-text">
+                  <div className="flip-wrap">
+                    <div className="flip"><br/></div>
+                    <div className="flip">designing.</div>
+                    <div className="flip">developing.</div>
+                    <div className="flip">analysis.</div>
+                    <div className="flip">marketing.</div>
+                    <div className="flip">support.</div>
                   </div>
                 </div>
               </div>
@@ -240,272 +242,10 @@ export default function Landing() {
 
       {/*Our Portfolio*/}
 
-      <div className="text-4xl sm:text-6xl bg-black text-[#fffbe9] text-center py-4 ">
+      <div className={`text-4xl sm:text-6xl bg-black text-[#fffbe9] text-center py-4` }>
         Our Portfolio
       </div>
-
-      <div className="min-h-screen   bg-black relative">
-        <div className="bg-black " style={{ scrollSnapType: "x mandatory" }}>
-          {/* first */}
-          <div className>
-            <input
-              className="sr-only peer"
-              type="radio"
-              name="carousel"
-              id="carousel-2"
-            />
-            {/* content #1 */}
-            <div className=" md:container md:mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
-              <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#9df5fd] text-black row align-baseline my-20">
-                <div className="  p-10  sm:mt-[30rem]">
-                  <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-                    Elekrity
-                  </p>
-                  <p className=" text-secondary text-xl md:text-2xl  mt-3">
-                    Beat procrastination and get your personal goals completed
-                    as planned!
-                  </p>
-                  <Link href="/" passHref>
-                    <button
-                      href="/"
-                      className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#9df5fd] text-[#9df5fd] hover:text-black transition duration-500 font-bold"
-                    >
-                      View Project
-                    </button>
-                  </Link>
-                </div>
-                <div className=" container  rounded-[2rem]  ">
-                  <div
-                    style={{
-                      minHeight: "15rem",
-                      height: "100%",
-                      position: "relative",
-                    }}
-                  >
-                    <Image
-                      className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                      src="/images/portfolio.png" // Route of the image file
-                      layout="fill"
-                      alt="Photo of Project"
-                      objectFit="contain"
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* controls */}
-              <div className="absolute top-1/2 w-full flex justify-between z-20">
-                <label
-                  htmlFor="carousel-1"
-                  className="inline-block text-blue-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-                <label
-                  htmlFor="carousel-3"
-                  className="inline-block text-blue-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-              </div>
-            </div>
-          </div>
-          {/* second */}
-          <div className="">
-            <input
-              className="sr-only peer"
-              type="radio"
-              name="carousel"
-              id="carousel-1"
-              defaultChecked
-            />
-            {/* content #2 */}
-            <div className=" md:container md:mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
-              <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#F0E4FC] text-black row align-baseline my-10">
-                <div className="  p-10  sm:mt-[30rem]">
-                  <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-                    Personal Portfolio
-                  </p>
-                  <p className=" text-secondary text-xl md:text-2xl  mt-3">
-                    Personal Portfolio showcasing the work of Founders and
-                    Designers built with NextJS.{" "}
-                  </p>
-                  <Link href="/" passHref>
-                    <button
-                      href="/"
-                      className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#F0E4FC] text-[#F0E4FC] hover:text-black transition duration-500 font-bold"
-                    >
-                      View Project
-                    </button>
-                  </Link>
-                </div>
-                <div className=" container  rounded-[2rem]  ">
-                  <div
-                    style={{
-                      minHeight: "15rem",
-                      height: "100%",
-                      position: "relative",
-                    }}
-                  >
-                    <Image
-                      className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                      src="/images/meet.png" // Route of the image file
-                      layout="fill"
-                      alt="Photo of Project"
-                      objectFit="fill"
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* controls */}
-              <div className="absolute top-1/2 w-full flex justify-between z-20">
-                <label
-                  htmlFor="carousel-3"
-                  className="inline-block text-[#9969c9] cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-                <label
-                  htmlFor="carousel-2"
-                  className="inline-block text-[#9969c9] cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-              </div>
-            </div>
-          </div>
-          
-          {/* three */}
-          <div className>
-            <input
-              className="sr-only peer"
-              type="radio"
-              name="carousel"
-              id="carousel-3"
-            />
-            {/* content #3 */}
-            <div className=" md:container md:mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
-              <div className="flex rounded-[2rem] flex-wrap-reverse sm:flex-nowrap md:flex-row mx-auto transition ease-in-out duration-700  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl bg-[#ffefdf] text-black row align-baseline my-20">
-                <div className="  p-10  sm:mt-[30rem]">
-                  <p className="max-w-md text-3xl md:text-5xl font-semibold ">
-                    Personal Portfolio
-                  </p>
-                  <p className=" text-secondary text-xl md:text-2xl  mt-3">
-                    Personal Portfolio showcasing the work of Founders and
-                    Designers built with NextJS.
-                  </p>
-                  <Link href="/" passHref>
-                    <button
-                      href="/"
-                      className=" mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black hover:bg-[#ffefdf] text-[#ffefdf] hover:text-black transition duration-500 font-bold"
-                    >
-                      View Project
-                    </button>
-                  </Link>
-                </div>
-                <div className=" container  rounded-[2rem]  ">
-                  <div
-                    style={{
-                      minHeight: "15rem",
-                      height: "100%",
-                      position: "relative",
-                    }}
-                  >
-                    <Image
-                      className=" container h-full rounded-tl-[2rem] sm:rounded-br-[2rem] sm:rounded-tl-[0rem] rounded-tr-[2rem]"
-                      src="/images/relax.png" // Route of the image file
-                      layout="fill"
-                      alt="Photo of Project"
-                      objectFit="contain"
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* controls */}
-              <div className="absolute top-1/2 w-full flex justify-between z-20">
-                <label
-                  htmlFor="carousel-2"
-                  className="inline-block text-yellow-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-                <label
-                  htmlFor="carousel-1"
-                  className="inline-block text-yellow-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Portfolio/>
       <div className="bg-black md:px-[10rem] p-8 "></div>
 
       {/*Our Testimonials*/}
@@ -516,8 +256,8 @@ export default function Landing() {
         </div>
         <Testimonial />
       </div>
-      
-      
+
+
 
       {/* Newsletter */}
       <div className=" h-full bg-[#000]  ">
@@ -538,9 +278,9 @@ export default function Landing() {
                 <span className="text-base lg:text-lg text-white font-bold">
                   More news
                 </span>
-                <blockquote class="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">
-                  <span class="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-black relative inline-block">
-                    <span class="relative text-white">Subscribe now!</span>
+                <blockquote className="mt-6 mb-12 text-5xl lg:text-6xl text-white font-bold font-heading">
+                  <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-black relative inline-block">
+                    <span className="relative text-white">Subscribe now!</span>
                   </span>
                 </blockquote>
 
