@@ -4,17 +4,49 @@ import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 import Meta from "../components/Meta";
+import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 
 export default function ContactUs() {
+    // Input states
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const submitForm = async (e) => {
+      e.preventDefault();
+      const res = await fetch('http://localhost:3000/api/submit-form', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, phone, message }),
+      });
+      // Success if status code is 201
+      if (res.status === 201) {
+        toast('Thank you for contacting us!', { type: 'success' });
+      } else {
+        toast('Please re-check your inputs.', { type: 'error' });
+      }
+    };
+    // Implement your input state
+const [phone, setPhone] = useState("");
+
+
+// validate value
+const numberHandler = val => {
+        const validatedValue = val.replace(/[^0-9]/g, "");
+        setPhone(validatedValue);
+ };
   return (
     <>
       <Meta title="Contact Us" />
+      <ToastContainer />
       <Nav />
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
-        <div className="flex flex-col md:mx-[3rem] mx-8  ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem]">
+      <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[0.5rem]   ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
             <div className="py-1">contact us.</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] leading-normal">
@@ -28,23 +60,20 @@ export default function ContactUs() {
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
           <div className="py-1">get in touch.</div>
         </div>
-        <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem] ">
+        <div className="sm:text-xl text-xl text-center md:w-1/2  text-[#575757] mt-[2rem] ">
           We've engineered something special.
         </div>
       </div>
 
-      <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+      <section class="relative z-10 overflow-hidden bg-white py-10 lg:py-[120px]">
         <div class="container1 mx-auto">
           <div class="-mx-4 flex flex-wrap lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div class="mb-12 max-w-[570px] lg:mb-0">
-                <span class="text-primary mb-4 block text-base font-semibold">
-                  Contact Us
-                </span>
-                <h2 class="text-dark mb-6 text-[32px] font-bold  sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  get in touch with us.
+              <div class="mb-12 max-w-[570px] lg:mb-0 ">
+                <h2 class="text-dark mb-6 text-[32px] font-bold text-center   sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                Contact Us.
                 </h2>
-                <p class="text-body-color mb-9 text-base leading-relaxed">
+                <p class="text-body-color mb-9 text-base leading-relaxed mx-[1rem]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eius tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim adiqua minim veniam quis nostrud exercitation ullamco
@@ -65,7 +94,7 @@ export default function ContactUs() {
                       Our Location
                     </h4>
                     <p class="text-body-color text-base">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      IIT Delhi, New Delhi, India
                     </p>
                   </div>
                 </div>
@@ -113,25 +142,38 @@ export default function ContactUs() {
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-                <form>
+                <form onSubmit={submitForm}>
                   <div class="mb-6">
                     <input
                       type="text"
+                      required
                       placeholder="Your Name"
+                      id="name"
+                      name="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   <div class="mb-6">
                     <input
                       type="email"
+                      required
+                      name="email"
                       placeholder="Your Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
                   <div class="mb-6">
                     <input
-                      type="text"
+                      type="tel"
+                      
                       placeholder="Your Phone"
+                      name="phone" id="phone"
+                      value={phone}
+                      onChange={e => numberHandler(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     />
                   </div>
@@ -139,13 +181,17 @@ export default function ContactUs() {
                     <textarea
                       rows="6"
                       placeholder="Your Message"
+                      name="message"
+                      id="message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                       class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
                     ></textarea>
                   </div>
                   <div>
                   <button
               className="border  bg-black rounded py-3 px-8 text-white transition duration-500 font-bold"
-              type="button"
+              type="submit"
               //onClick={handleScroll}
             >
               Submit

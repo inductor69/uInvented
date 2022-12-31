@@ -12,14 +12,14 @@ export default function HowItWorks() {
       <Wave index={0}/>
 
       <div className="flex flex-col  bg-black text-white ">
-        <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem] text-center">
+      <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[2rem]   ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
             <div className="py-1">
               simple process.
               <br /> incredible results.
             </div>
           </div>
-          <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[1rem] md:mb-[2rem] ">
+          <div className="sm:text-2xl text-md  md:w-3/4 pb-[1rem] mt-[2rem] leading-normal">
             Delegate web tasks like never before.
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function HowItWorks() {
             <div class="w-3/4 mx-auto">
               <div className=" ">
                 <div className="md:text-6xl text-4xl font-bold md:mt-[4rem]">
-                  <div className="py-1">start risk-free.</div>
+                  <div className="py-1 mb-3">start risk-free.</div>
                 </div>
                 <div className="sm:text-2xl text-md text-gray-700    md:mt-[2rem] ">
                   Start with the first 15 days to evaluate the service with full
@@ -51,9 +51,9 @@ export default function HowItWorks() {
                 <a href="#">
                   <img src="/images/bookcall.svg" alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-5 ">
                   <a href="#">
-                    <h5 className="mb-2 text-4xl font-bold tracking-tight t">
+                    <h5 className="mb-4 text-4xl font-bold tracking-tight  t">
                       book demo
                     </h5>
                   </a>
@@ -71,7 +71,7 @@ export default function HowItWorks() {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <h5 className="mb-2 text-4xl font-bold tracking-tight t">
+                    <h5 className="mb-4 text-4xl font-bold tracking-tight t ">
                       request a project
                     </h5>
                   </a>
@@ -89,7 +89,7 @@ export default function HowItWorks() {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <h5 className="mb-2 text-4xl font-bold tracking-tight t">
+                    <h5 className="mb-4 text-4xl font-bold tracking-tight t">
                       review
                     </h5>
                   </a>
@@ -105,7 +105,7 @@ export default function HowItWorks() {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <h5 className="mb-2 text-4xl font-bold tracking-tight t">
+                    <h5 className="mb-4 text-4xl font-bold tracking-tight t">
                       upgrade
                     </h5>
                   </a>
@@ -120,7 +120,7 @@ export default function HowItWorks() {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <h5 className="mb-2 text-4xl font-bold tracking-tight t">
+                    <h5 className="mb-4 text-4xl font-bold tracking-tight t">
                       keep going
                     </h5>
                   </a>

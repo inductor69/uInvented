@@ -4,14 +4,11 @@ import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import Accordion from "../components/Accordian";
 import Wave from "../components/Wave";
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 import Meta from "../components/Meta";
 
-
 export default function Pricing() {
-
-
   return (
     <>
       <Meta title="Pricing" />
@@ -30,11 +27,11 @@ export default function Pricing() {
           alt="Landing"
         />
       </div> */}
-            <Wave index={0}/>
+      <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white  ">
-        <div className="flex flex-col md:mx-[3rem] mx-8 w-1/2 mb-[3rem] ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem]">
+        <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[2rem] ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem]">
             <div className="py-1">
               plans for ambitious scaleups and agencies.
             </div>
@@ -45,8 +42,7 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <Wave index={1}/>
-
+      <Wave index={1} />
 
       <section
         className="
@@ -62,9 +58,6 @@ export default function Pricing() {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
             <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-              <span className="font-semibold text-lg text-primary mb-2 block">
-                Pricing Table
-              </span>
               <h2
                 className="
                   font-bold
@@ -77,9 +70,9 @@ export default function Pricing() {
               >
                 Our Pricing Plan
               </h2>
-              <p className="text-base text-body-color">
-              No contracts or surprises. Cancel anytime. Upgrade or downgrade at any time.
-
+              <p className="text-base text-body-color mx-[2rem]">
+                No contracts or surprises. Cancel anytime. Upgrade or downgrade
+                at any time.
               </p>
             </div>
           </div>
@@ -124,27 +117,26 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                Best if you have your own, in house designer and regularly need help with development.
+                Best if you have your own, in house designer and regularly need
+                help with development.
               </p>
               <div className="mb-[100px] ">
-              <ul class="list-disc">
-
-                <li className=" text-base text-body-color leading-loose mb-1">
-                Unlimited requests and revisions
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Real-time communication
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Cancel, upgrade or downgrade at any time
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Task dashboard on Notion
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Native source file included
-                </li>
+                <ul class="list-disc">
+                  <li className=" text-base text-body-color leading-loose mb-1">
+                    Unlimited requests and revisions
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Real-time communication
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Cancel, upgrade or downgrade at any time
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Task dashboard on Notion
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Native source file included
+                  </li>
                 </ul>
               </div>
               <a
@@ -475,26 +467,23 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                Ideal for those looking for design & front-end development who need regular help.
+                Ideal for those looking for design & front-end development who
+                need regular help.
               </p>
               <div className="mb-[100px] ">
-              <ul class="list-disc ">
-
-                <li className="text-base text-body-color leading-loose mb-1">
-                All the Design plan features
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Front-end development with Webflow
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Ongoing support and maintenance
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Cancel, upgrade or downgrade at any time
-                </li>
+                <ul class="list-disc ">
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    All the Design plan features
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Front-end development with Webflow
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Ongoing support and maintenance
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Cancel, upgrade or downgrade at any time
+                  </li>
                 </ul>
               </div>
               <a
@@ -821,31 +810,29 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                Best if you are looking for occasional updates, tweaks or feature to your website.
+                Best if you are looking for occasional updates, tweaks or
+                feature to your website.
               </p>
               <div className="mb-[100px] ">
-              <ul class="list-disc">
-                <li className="text-base text-body-color leading-loose mb-1">
-                Includes design and development
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Priced competitively
-
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Real time communication via Slack
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Cancel, upgrade or downgrade at any time
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Task dashboard von Notion
-                </li>
-                <li className="text-base text-body-color leading-loose mb-1">
-                Unlimited team members
-
-                </li>
+                <ul class="list-disc">
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Includes design and development
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Priced competitively
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Real time communication via Slack
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Cancel, upgrade or downgrade at any time
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Task dashboard von Notion
+                  </li>
+                  <li className="text-base text-body-color leading-loose mb-1">
+                    Unlimited team members
+                  </li>
                 </ul>
               </div>
               <a
@@ -1146,70 +1133,77 @@ export default function Pricing() {
       </div>
 
       <div className="px-6 pb-6 ">
-          <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 max-w-[1000px]">
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-                premium custom development
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-                We guarantee super hi-fidelity development across all screen
-                sizes with clean code structures, modular components, and
-                conventional-naming standards.
-              </div>
+        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 max-w-[1000px]">
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              premium custom development
             </div>
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              world-class support
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-                Your point project manager will guide you and ensure you have a smooth and pleasant experience. Available via notion dashboard and enhanced chat.
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              conversion-rate-optimization (CRO) enabled
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-              More than just web development. Make requests to track, test, and understand everything about your website's performance. Eliminate the guesswork and make smarter site decisions with ease.
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              technical best practices
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-              Never have a problem handling traffic. Your builds are speed and SEO optimized. Get set up with lightweight development, purposeful schemas, semantic html, 301 redirects, and more.
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              secure a reliable team
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-              Forget dodgy freelancers, borrowing from engineering, or disconnected agencies. You get a managed experience of expert developers and technical marketers working whenever you need it.
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              notion access
-              </div>
-              <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
-              Find everything in one place for a laser-focused flow. Collaborate, make requests, and manage projects/sites with our intuitive notion managed platform.
-              </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              We guarantee super hi-fidelity development across all screen sizes
+              with clean code structures, modular components, and
+              conventional-naming standards.
             </div>
           </div>
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              world-class support
+            </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              Your point project manager will guide you and ensure you have a
+              smooth and pleasant experience. Available via notion dashboard and
+              enhanced chat.
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              conversion-rate-optimization (CRO) enabled
+            </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              More than just web development. Make requests to track, test, and
+              understand everything about your website's performance. Eliminate
+              the guesswork and make smarter site decisions with ease.
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              technical best practices
+            </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              Never have a problem handling traffic. Your builds are speed and
+              SEO optimized. Get set up with lightweight development, purposeful
+              schemas, semantic html, 301 redirects, and more.
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              secure a reliable team
+            </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              Forget dodgy freelancers, borrowing from engineering, or
+              disconnected agencies. You get a managed experience of expert
+              developers and technical marketers working whenever you need it.
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
+              notion access
+            </div>
+            <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
+              Find everything in one place for a laser-focused flow.
+              Collaborate, make requests, and manage projects/sites with our
+              intuitive notion managed platform.
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[1rem]">
           <div className="py-1">faqs.</div>
         </div>
-
       </div>
-      <Accordion/>
-      <Wave index={0}/>
-
-
+      <Accordion />
+      <Wave index={0} />
 
       <Footer />
     </>
