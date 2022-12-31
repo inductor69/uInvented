@@ -70,11 +70,8 @@ const numberHandler = val => {
           <div class="-mx-4 flex flex-wrap lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div class="mb-12 max-w-[570px] lg:mb-0">
-                <span class="text-primary mb-4 block text-base font-semibold">
-                  Contact Us
-                </span>
                 <h2 class="text-dark mb-6 text-[32px] font-bold  sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  get in touch with us.
+                Contact Us.
                 </h2>
                 <p class="text-body-color mb-9 text-base leading-relaxed">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -97,7 +94,7 @@ const numberHandler = val => {
                       Our Location
                     </h4>
                     <p class="text-body-color text-base">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      IIT Delhi, New Delhi, India
                     </p>
                   </div>
                 </div>
