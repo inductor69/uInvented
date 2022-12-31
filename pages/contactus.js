@@ -45,8 +45,8 @@ const numberHandler = val => {
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
-        <div className="flex flex-col md:mx-[3rem] mx-8  ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem]">
+      <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[0.5rem]   ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
             <div className="py-1">contact us.</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] leading-normal">
@@ -60,20 +60,20 @@ const numberHandler = val => {
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
           <div className="py-1">get in touch.</div>
         </div>
-        <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem] ">
+        <div className="sm:text-xl text-xl text-center md:w-1/2  text-[#575757] mt-[2rem] ">
           We've engineered something special.
         </div>
       </div>
 
-      <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+      <section class="relative z-10 overflow-hidden bg-white py-10 lg:py-[120px]">
         <div class="container1 mx-auto">
           <div class="-mx-4 flex flex-wrap lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div class="mb-12 max-w-[570px] lg:mb-0">
-                <h2 class="text-dark mb-6 text-[32px] font-bold  sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+              <div class="mb-12 max-w-[570px] lg:mb-0 ">
+                <h2 class="text-dark mb-6 text-[32px] font-bold text-center   sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                 Contact Us.
                 </h2>
-                <p class="text-body-color mb-9 text-base leading-relaxed">
+                <p class="text-body-color mb-9 text-base leading-relaxed mx-[1rem]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eius tempor incididunt ut labore et dolore magna aliqua. Ut
                   enim adiqua minim veniam quis nostrud exercitation ullamco

@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 
 export const Testimonial = () => {
 
@@ -6,8 +5,8 @@ export const Testimonial = () => {
 
   return (
     <>
-   <section className="py-6 text-blue-900 sm:py-16 lg:py-20">
-  <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-screen-lg lg:px-8">
+   <section className="py-6 text-blue-900 sm:py-16 lg:py-20   ">
+  <div className="mx-auto max-w-2xl px-4  lg:max-w-screen-lg lg:px-8  ">
     <div className="flex flex-col lg:flex-row">
       <div className="relative mx-auto mb-10 flex h-96 overflow-hidden rounded-xl bg-blue-600 shadow sm:mt-20 lg:h-auto lg:max-w-md lg:pt-20">
         <img className="absolute top-0 h-full w-full object-cover opacity-10" src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="" />
@@ -34,7 +33,7 @@ export const Testimonial = () => {
         <div className="flex flex-col text-white">
           <div className="">
             <blockquote className="">
-              <p className="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+              <p className="text-lg leading-relaxed">"I recently hired a uInvented to build a new website for my business, and I couldn't be happier with the results. The team at the company was professional, efficient, and highly skilled at creating exactly what I was looking for."</p>
             </blockquote>
           </div>
 
@@ -50,7 +49,7 @@ export const Testimonial = () => {
         <div className="flex flex-col text-white">
           <div className="">
             <blockquote className="">
-              <p className="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+              <p className="text-lg leading-relaxed">"The final product exceeded my expectations, and I have already received numerous compliments on the sleek and modern design of my site."</p>
             </blockquote>
           </div>
 
@@ -66,7 +65,7 @@ export const Testimonial = () => {
         <div className="flex flex-col text-white ">
           <div className="">
             <blockquote className="">
-              <p className="text-lg leading-relaxed">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores facere repellendus, velit quis fugiat."</p>
+              <p className="text-lg leading-relaxed">"I highly recommend uInvented to anyone in need of top-quality website design and development services. They truly know their stuff, and they deliver results that speak for themselves."</p>
             </blockquote>
           </div>
 

@@ -28,9 +28,8 @@ export default function Services() {
           </div>
         </div>
         <div className="text-5xl md:text-9xl mx-6  md:mx-14">websites</div>
-        <div className="text-5xl md:text-9xl mx-6  md:mx-14 mb-8">products</div>
-        <div className="text-5xl md:text-9xl mx-6 pb-[2rem]  md:mx-14 mb-8">
-          apps
+        <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">products</div>
+        <div className="text-5xl md:text-9xl mx-6 pb-[2rem]  md:mx-14 mb-2">apps
         </div>
         <div className="w-full md:w-5/6">
           <div style={{lineHeight:"125%"}} className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
@@ -48,13 +47,13 @@ export default function Services() {
         if you can think it, we can build it.
       </div>
       <div className="w-full md:w-5/6">
-        <div className="  text-xl md:text-3xl mx-8 md:mx-14 mb-14 md:w-3/4">
+        <div className="  text-xl md:text-3xl mx-6 md:mx-14 mb-14 md:w-3/4">
           We offer no limits on build scope or features. You get unlimited
           requests and revisions every month.
         </div>
       </div>
 
-      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[1rem]">
         <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           quality development
           <div className="text-xl md:text-xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
@@ -91,7 +90,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="md:grid grid-cols-2 gap-4 px-[2rem] py-[2rem]">
+      <div className="md:grid grid-cols-2 gap-4 px-[1rem] py-[1rem]">
         <div style={{ position: "relative" }}>
           <Image
             src="/images/experiment.svg" // Route of the image file
@@ -100,7 +99,7 @@ export default function Services() {
             alt="Landing"
           />
         </div>
-        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
+        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14  ">
           experiments
           <div className="text-xl md:text-xl sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Get your CRO strategy done right. We setup custom tracking, goals,
@@ -121,8 +120,8 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
-        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
+      <div className="md:grid grid-cols-2 gap-4 px-[1rem]">
+        <div className="text-4xl md:text-6xl font-bold mx-6 pb-[2rem]  md:mx-14  ">
           friendly management
           <div className="text-xl md:text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             Your project manager will ensure you have a smooth and pleasant
@@ -144,10 +143,10 @@ export default function Services() {
 
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem]">
-            <div className="py-1">Who is it for?</div>
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-4">
+            <div className="py-1 ">Who is it for?</div>
           </div>
-          <div className="sm:text-2xl text-md text-center md:w-1/2  mt-[2rem] ">
+          <div className="text-xl md:text-xl  text-center md:w-3/5  mt-[1.5rem] ">
             We work with companies at launch, product-market fit and growth
             stages. Our cross-functional team of Product and Branding experts
             acts as the extension of your team, bringing in-depth design and

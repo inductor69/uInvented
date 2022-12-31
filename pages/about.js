@@ -13,11 +13,11 @@ export default function AboutUs() {
       <Wave index={0} />
 
       <div className="flex flex-col  bg-black text-white ">
-        <div className="flex flex-col md:mx-[3rem] mx-8  ">
-          <div className="md:text-6xl text-4xl md:mt-[4rem]">
+        <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[0.5rem]   ">
+          <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
             <div className="py-1">about uInvented.</div>
           </div>
-          <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] ">
+          <div className="sm:text-2xl text-md  md:w-1/2  mt-[2rem] ">
             Our mission is to create better user experiences by making quality
             web delivery accessible and cost-effective to all companies.
           </div>
@@ -39,8 +39,8 @@ export default function AboutUs() {
             We're driven by a relentless focus on great work and culture. Our
             core values are.
           </div>
-          <div className="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col gap-3 mt-4 text-xl">
-            <div>Continuous improvement</div>
+          <div className="grid grid-rows-2 grid-cols-2 font-medium grid-flow-col underline gap-3 mt-4 text-xl">
+            <div >Continuous improvement</div>
             <div>Trust with transparency</div>
             <div>Diversity and inclusion</div>
             <div>Move fast</div>
@@ -57,10 +57,10 @@ export default function AboutUs() {
       </div>
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
-        <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
+        <div className="md:text-6xl font-bold text-4xl md:mt-[4rem] mt-[2rem]">
           <div className="py-1">how we're getting it done.</div>
         </div>
-        <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem] ">
+        <div className="sm:text-2xl text-lg text-center md:w-1/2  text-[#575757] mt-[2rem] ">
           We've engineered something special.
         </div>
       </div>

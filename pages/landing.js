@@ -251,7 +251,7 @@ export default function Landing() {
       {/*Our Testimonials*/}
 
       <div className="w-full h-full bg-[#000] pb-10 ">
-        <div className="sm:text-5xl text-white bg-black  text-md text-center md:leading-[7rem]  ">
+        <div className=" text-white bg-black text-4xl   text-md text-center md:leading-[7rem]  ">
           Our Testimonials
         </div>
         <Testimonial />
