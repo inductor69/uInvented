@@ -18,8 +18,7 @@ export default function AboutUs() {
             <div className="py-1">about uInvented.</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-2/3  mt-[2rem] ">
-            Our mission is to create better user experiences by making quality
-            web delivery accessible and cost-effective to all companies.
+          Our goal is to improve user experiences through affordable, high-quality web services. Whether you're a small start-up or a large corporation, we're here to help you succeed online.​
           </div>
         </div>
       </div>
@@ -29,11 +28,7 @@ export default function AboutUs() {
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           the start of something new.
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
-            Headed from India, uInvented is a web services company providing
-            growth-oriented organizations with unlimited access to development
-            and technical work at a flat-rate. From routinely updated websites
-            to marketing pages, our platform gives teams the ability to create
-            remarkable sites that scale and drive business forward.
+            uInvented is a web services company based in India that offers growth-oriented organizations unlimited access to development and technical work at a flat rate. Our platform allows teams to easily create and update websites and marketing pages, helping businesses grow and succeed. With uInvented, organizations can create scalable, high-quality sites that drive their business forward.​
           </div>
           <div className="text-xl  font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             We're driven by a relentless focus on great work and culture. Our

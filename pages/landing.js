@@ -5,22 +5,31 @@ import React from "react";
 import Wave from "../components/Wave";
 import { Portfolio } from "../components/Portfolio";
 export default function Landing() {
+
+
   const registerUser = async (event) => {
     event.preventDefault(); // prevents page from redirecting on form submissiomn
 
     // call default function in pages/api/register
     // send the email and password from form submission event to that endpoint
-    const res = await fetch("/api/register", {
-      body: JSON.stringify({
-        email: event.target.email.value,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-    });
+    // console.log(event.target.email.value)
+    try {
+      const res = await fetch("/api/subscribe", {
+        body: event.target.email.value,
+        method: "POST",
 
-    const result = await res.json();
+      });
+
+      const result = await res.json();
+      if (result.error !== null) {
+        throw result.error;
+      }
+    }
+    catch (error) {
+      console.log(error);
+    }
+
+
   };
   const [show, toggleShow] = React.useState(true);
   const [isValid, setIsValid] = React.useState(false);
@@ -228,12 +237,10 @@ export default function Landing() {
             Our Promises
           </div>
           <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14">
-            Digital products, websites and experiences for startups and iconic
-            companies.
+          Our expertise is in digital products like websites, mobile apps, e-commerce platforms, content and much more for startups and iconic companies.
             <ul className="list-disc text-2xl mt-4 mx-6 leading-10">
               <li>Reliable Services</li>
               <li>Data and Legal Security</li>
-
               <li>Innovative Solutions</li>
             </ul>
           </div>
@@ -315,7 +322,7 @@ export default function Landing() {
                       ></circle>
                     </svg>
                   </span>
-                  <form onSubmit={registerUser} className="w-full">
+                  <form onSubmit={registerUser} method="POST" className="w-full">
                     <input
                       className="w-full sm:w-[50%] mb-4 sm:mb-0 pl-8 sm:pl-4 py-5   rounded-full placeholder-gray-900 font-bold focus:placeholder-gray-500  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                       invalid:border-pink-500 invalid:text-pink-600
@@ -329,9 +336,9 @@ export default function Landing() {
                       onChange={validateEmail}
                       placeholder="Drop your Email"
                     />
-
                     <button
                       type="submit"
+                      name="submit"
                       onClick={() => toggleShow(!show)}
                       className="w-full sm:w-[50%] px-10 py-5 font-bold bg-black text-white hover:underline rounded-full transition duration-200"
                     >
