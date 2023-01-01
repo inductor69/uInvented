@@ -4,14 +4,7 @@ import React from "react";
 
 export const Portfolio = () => {
   const Projects = [
-    {
-        title:"Elekrity",
-        description:"Beat procrastination and get your personal goals completed as planned!",
-        link:"/",
-        image:"/images/portfolio.png",
-        bgColor:"#9df5fd",
-        controlColor:"#9969c9"
-    },
+    
     {
         title:"Personal Portfolio",
         description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
@@ -28,11 +21,17 @@ export const Portfolio = () => {
         image:"/images/relax.png",
         bgColor:"#ffefdf",
         controlColor:'rgb(37,99,235)'
-    }]
+    },{
+      title:"Elekrity",
+      description:"Beat procrastination and get your personal goals completed as planned!",
+      link:"/",
+      image:"/images/portfolio.png",
+      bgColor:"#9df5fd",
+      controlColor:"#9969c9"
+  }]
 ;
   return (
-    <div className="min-h-screen   bg-black relative ">
-      <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>
+      <div className="relative min-h-[40rem] xl:min-h-screen" >
         {Projects.map((project, index) => (
           <div key={index} className="">
             <input
@@ -132,6 +131,5 @@ export const Portfolio = () => {
           </div>
         ))}
       </div>
-    </div>
   );
 };

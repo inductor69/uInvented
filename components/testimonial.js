@@ -31,7 +31,6 @@ export const Testimonial = () => {
       </div>
 
       <div className="relative mx-auto grid max-w-lg grid-cols-1 gap-y-14 lg:pl-20">
-      <div class="divide-y divide-white mt-[4rem]">
         <div className="flex flex-col text-white">
           <div className="">
             <blockquote className="">
@@ -79,7 +78,6 @@ export const Testimonial = () => {
               <p className="text-blue-90 mt-0.5 text-sm">Esports Commentator</p>
             </div>
           </div>
-        </div>
         </div>
 
       </div>

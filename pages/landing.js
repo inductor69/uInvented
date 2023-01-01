@@ -115,7 +115,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial text-xl font-bold   mt-4">
+                <div className="flex-initial text-xl   mt-4">
                   Predictable pricing
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl font-bold  mt-4">
+                <div className="flex-initial w-56 text-xl   mt-4">
                   Payment in Installments
                 </div>
               </div>
@@ -153,7 +153,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl font-bold  mt-4">
+                <div className="flex-initial w-64 text-xl  mt-4">
                   Cancel anytime
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function Landing() {
                     alt="Landing"
                   />
                 </div>
-                <div className="flex-initial w-64 text-xl font-bold  mt-4">
+                <div className="flex-initial w-64 text-xl   mt-4">
                   15 day trial period
                 </div>
               </div>
@@ -202,6 +202,7 @@ export default function Landing() {
       </main>
       {/*SERVICES*/}
       <Wave index={0} />
+      <div className="bg-black"> 
 
       <div className="flex flex-col  bg-black text-white ">
         {/* <div className="flex mt-5 mb-5">
@@ -248,16 +249,15 @@ export default function Landing() {
       </div>
       {/*Our Portfolio*/}
 
-      <div className={`text-4xl sm:text-6xl bg-black text-[#fffbe9] text-center py-4` }>
+      <div className={`text-4xl sm:text-6xl  text-[#fffbe9] text-center py-4` }>
         Our Portfolio
       </div>
       <Portfolio/>
-      <div className="bg-black md:px-[10rem] p-8 "></div>
 
       {/*Our Testimonials*/}
 
-      <div className="w-full h-full bg-[#000]  ">
-        <div className=" text-white bg-black text-4xl   text-md text-center md:leading-[7rem] mb-10  ">
+      <div className="w-full h-full   ">
+        <div className=" text-white bg-black text-4xl sm:text-6xl   text-md text-center md:leading-[7rem] mb-10 md:mb-0  ">
           Our Testimonials
         </div>
         <Testimonial />
@@ -266,7 +266,7 @@ export default function Landing() {
 
 
       {/* Newsletter */}
-      <div className=" h-full bg-[#000]  ">
+      <div className=" h-full   ">
         <div className="container   mx-auto ">
           <div className="md:mx-auto pb-[4rem] pt-[4rem]">
             <div
@@ -364,6 +364,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
