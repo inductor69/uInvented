@@ -63,7 +63,7 @@ export default function Landing() {
             </div>
 
 
-            <div className="text-xs mb-8">
+            <div className="text-xs mb-3">
               <div className="title-wrap">
                 <div className="left-text">We will help you in your product</div>
                 <div className="right-text">
@@ -90,7 +90,7 @@ export default function Landing() {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center mb-[4rem]">
-            <div className="grid grid-cols-2 grid-rows-2 mx-2  ">
+            <div className="grid grid-cols-2 grid-rows-2   ">
               <div className="flex mt-5 mb-5">
                 <div
                   className="flex-none w-14 h-14 mt-3"
@@ -250,8 +250,8 @@ export default function Landing() {
 
       {/*Our Testimonials*/}
 
-      <div className="w-full h-full bg-[#000] pb-10 ">
-        <div className=" text-white bg-black text-4xl   text-md text-center md:leading-[7rem]  ">
+      <div className="w-full h-full bg-[#000]  ">
+        <div className=" text-white bg-black text-4xl   text-md text-center md:leading-[7rem] mb-10  ">
           Our Testimonials
         </div>
         <Testimonial />

@@ -5,7 +5,7 @@ export const Testimonial = () => {
 
   return (
     <>
-   <section className="py-6 text-blue-900 sm:py-16 lg:py-20   ">
+   <section className="py-6 text-blue-900 sm:py-16 lg:py-20 mx-[1rem]  ">
   <div className="mx-auto max-w-2xl px-4  lg:max-w-screen-lg lg:px-8  ">
     <div className="flex flex-col lg:flex-row">
       <div className="relative mx-auto mb-10 flex h-96 overflow-hidden rounded-xl bg-blue-600 shadow sm:mt-20 lg:h-auto lg:max-w-md lg:pt-20">
@@ -25,11 +25,13 @@ export const Testimonial = () => {
                 <p className="text-blue-90 mt-0.5 text-sm">Youtube Personality</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
       <div className="relative mx-auto grid max-w-lg grid-cols-1 gap-y-14 lg:pl-20">
+      <div class="divide-y divide-white mt-[4rem]">
         <div className="flex flex-col text-white">
           <div className="">
             <blockquote className="">
@@ -44,7 +46,8 @@ export const Testimonial = () => {
               <p className="mt-0.5 text-sm">CEO, Mavoline</p>
             </div>
           </div>
-        </div>
+         </div>
+
 
         <div className="flex flex-col text-white">
           <div className="">
@@ -77,6 +80,8 @@ export const Testimonial = () => {
             </div>
           </div>
         </div>
+        </div>
+
       </div>
     </div>
   </div>

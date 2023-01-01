@@ -30,7 +30,6 @@ export const Portfolio = () => {
         controlColor:'rgb(37,99,235)'
     }]
 ;
-  console.log(Projects);
   return (
     <div className="min-h-screen   bg-black relative ">
       <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>

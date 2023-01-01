@@ -260,8 +260,9 @@
 }
 
 .title-wrap {
-  color:white;
+  color:white; 
   font-size: 17px;
+
   line-height: 34px;
   display: flex;
   height: 34px;
@@ -275,6 +276,7 @@
 .right-text {
   margin-left: 5px;
   overflow: hidden;
+  
   color: #000;
 
 }
