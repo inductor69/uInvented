@@ -246,7 +246,6 @@ export default function Landing() {
           </div>
         </div>
       </div>
-
       {/*Our Portfolio*/}
 
       <div className={`text-4xl sm:text-6xl bg-black text-[#fffbe9] text-center py-4` }>
