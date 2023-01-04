@@ -23,8 +23,7 @@ export default function Pricing() {
             </div>
           </div>
           <div className="sm:text-2xl text-md   mt-[2rem] ">
-            Backed by our 15-day risk-free trial period, no credit card
-            required
+            Backed by our 15-day risk-free trial period, no credit card required
           </div>
         </div>
       </div>
@@ -57,7 +56,7 @@ export default function Pricing() {
                 Our Pricing Plan
               </h2>
               <p className="text-base text-body-color mx-[2rem]">
-              Full control. Upgrade easily. Cancel anytime.​
+                Full control. Upgrade easily. Cancel anytime.
               </p>
             </div>
           </div>
@@ -104,7 +103,7 @@ export default function Pricing() {
                 Best if you have your own, in house designer and regularly need
                 help with development.
               </p>
-              <div className="mb-[100px] ">
+              <div className="mb-[140px] md:mb-[110px] ">
                 <ul class="list-disc">
                   <li className=" text-base text-body-color leading-loose mb-1">
                     Unlimited requests and revisions
@@ -123,33 +122,45 @@ export default function Pricing() {
                   </li>
                 </ul>
               </div>
-              <a
-                href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
-                className="
-                flex-1
-
+              <div
+              className="
+              flex flex-col sm:flex-row absolute
+              bottom-0 left-0 right-0
+              m-3
+              md:m-5
+              text-xl
+              ">
+                <button
+                  href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
+                  className="
+                  flex-1
                   block
-                  text-base
-                  font-semibold
                   text-primary
                   bg-transparent
                   border-[#D4DEFF]
                   rounded-md
                   text-center
                   p-4
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
-
-                  absolute
-                  bottom-0 left-0 right-0
-                  m-6
-
-                  md:m-10
-
-
-                  "
+                  m-1
+                  md:w-1/2
+                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
+                    "
+                >
+                  Book Demo
+                </button>
+                <button
+                className="
+                  flex-1
+                  text-center
+                  md:w-1/2
+                  p-4
+                  m-1
+                   border hover:border-black bg-black hover:bg-white rounded  text-white hover:text-black transition duration-500 "
+                type="button"
               >
-                Book Demo
-              </a>
+                Subscribe Now
+              </button>
+              </div>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -450,9 +461,10 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                Ideal for those who need help in complete agile development of the product.​
+                Ideal for those who need help in complete agile development of
+                the product.
               </p>
-              <div className="mb-[100px] ">
+              <div className="mb-[140px] md:mb-[110px] ">
                 <ul class="list-disc ">
                   <li className="text-base text-body-color leading-loose mb-1">
                     Market Research Report
@@ -471,27 +483,46 @@ export default function Pricing() {
                   </li>
                 </ul>
               </div>
-              <a
-                href="javascript:void(0)"
-                className="
-                flex-1
+              <div
+              className="
+              flex flex-col sm:flex-row absolute
+              bottom-0 left-0 right-0
+              m-3
+              md:m-5
+              text-xl
+              ">
+                <button
+                  href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
+                  className="
+                  flex-1
                   block
-                  text-base
-                  font-semibold
                   text-primary
                   bg-transparent
-                  border border-[#D4DEFF]
+                  border-[#D4DEFF]
                   rounded-md
                   text-center
-                  p-4hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500 font-bold
-                  absolute
-                  bottom-0 left-0 right-0
-                  m-6
-                  md:m-10
-                  "
+                  p-4
+                  m-1
+                  md:w-1/2
+                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
+                    "
+                >
+                  Book Demo
+                </button>
+                <button
+                className="
+                  flex-1
+                  text-center
+                  md:w-1/2
+                  p-4
+                  m-1
+                   border hover:border-black bg-black hover:bg-white rounded  text-white hover:text-black transition duration-500 "
+                type="button"
               >
-                Book Demo
-              </a>
+                Subscribe Now
+              </button>
+              </div>
+
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg
@@ -795,7 +826,7 @@ export default function Pricing() {
                 Best if you are looking for occasional updates, tweaks or
                 feature to your website.
               </p>
-              <div className="mb-[100px] ">
+              <div className="mb-[140px] md:mb-[110px] ">
                 <ul class="list-disc">
                   <li className="text-base text-body-color leading-loose mb-1">
                     Includes design and development
@@ -811,29 +842,34 @@ export default function Pricing() {
                   </li>
                 </ul>
               </div>
-              <a
+              <div
+              className="
+              flex flex-col sm:flex-row absolute
+              bottom-0 left-0 right-0
+              m-3
+              md:m-5
+              text-xl
+              ">
+                <button
                 href="javascript:void(0)"
                 className="
-                flex-1
+                  flex-1
                   block
-                  text-base
-                  font-semibold
                   text-primary
                   bg-transparent
-                  border border-[#D4DEFF]
+                  border-[#D4DEFF]
                   rounded-md
                   text-center
                   p-4
+                  m-1
+                  md:w-1/2
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
-                  transition
-                  absolute
-                  bottom-0 left-0 right-0
-                  m-6
-                  md:m-10
-                  "
-              >
-                Book Demo
-              </a>
+                    "
+                >
+                  Get Estimate
+                </button>
+
+              </div>
               <div>
                 <span className="absolute right-0 top-7 z-[-1]">
                   <svg

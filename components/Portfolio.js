@@ -41,7 +41,7 @@ export const Portfolio = () => {
   };
   console.log(Projects);
   return (
-    <div className="min-h-[80vh] md:min-h-[85vh] lg:min-h-[95vh] bg-black relative ">
+    <div className="min-h-[1rem] mt-[12rem] mb-[25rem] xl:mt-[15rem] xl:mb-[32rem] bg-black relative ">
       <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>
         {Projects.map((project, id) =>(
 
