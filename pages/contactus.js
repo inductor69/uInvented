@@ -27,6 +27,11 @@ export default function ContactUs() {
       } else {
         toast('Please re-check your inputs.', { type: 'error' });
       }
+      // submit form
+      setName('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
     };
     // Implement your input state
 const [phone, setPhone] = useState("");
@@ -47,7 +52,7 @@ const numberHandler = val => {
       <div className="flex flex-col  bg-black text-white ">
       <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[0.5rem]   ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
-            <div className="py-1">contact us.</div>
+            <div className="py-1">contact us</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-1/2 pb-[1rem] mt-[2rem] leading-normal">
             Contact us for a quote, help or to join the team.
@@ -58,7 +63,7 @@ const numberHandler = val => {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
-          <div className="py-1">get in touch.</div>
+          <div className="py-1">get in touch</div>
         </div>
         <div className="sm:text-xl text-xl text-center md:w-1/2  text-[#575757] mt-[2rem] ">
           We've engineered something special.
@@ -71,12 +76,14 @@ const numberHandler = val => {
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div class="mb-12 max-w-[570px] lg:mb-0 ">
                 <h2 class="text-dark mb-6 text-[32px] font-bold text-center   sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                Contact Us.
+                Contact Us
                 </h2>
                 <p class="text-body-color mb-9 text-base leading-relaxed mx-[1rem]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                Thank you for considering us! We are a team of talented individual with a passion for creating innovative solutions for our clients. <br/>​
+
+If you have a project in mind or simply want to learn more about us, please don’t hesitate to reach out. You can contact us by phone or email or fill out the form on this page and we’ll get back to you as soon as possible. ​<br/>
+
+We look forward to hearing from you and discussing how we can help to bring your ideas to life.​
                 </p>
                 <div class="mb-8 flex w-full max-w-[370px]">
                   <div class="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">

@@ -66,15 +66,19 @@ export const Nav = () => {
               About us
               </a>
             </Link>
-            <Link href='/contactus'>
-              <a className='lg:inline-flex 	 lg:w-auto w-full px-3 py-2 rounded text-black  items-center justify-center hover:underline hover:text-black'>
-              Contact us
-              </a>
-            </Link>
+      
             <Link href='/howitworks'>
               <a className='lg:inline-flex 	 lg:w-auto w-full px-3 py-2 rounded text-black  items-center justify-center hover:underline hover:text-black'>
                How it works
               </a>
+            </Link>
+            <Link href="/contactus" passHref>
+              <button
+                className="border hover:border-black bg-black hover:bg-white rounded py-2 px-4 text-white hover:text-black transition duration-500 font-bold"
+                type="button"
+              >
+               Contact Us
+              </button>
             </Link>
             
           </div>

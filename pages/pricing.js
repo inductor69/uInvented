@@ -19,12 +19,12 @@ export default function Pricing() {
         <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[2rem] ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem]">
             <div className="py-1">
-              plans for ambitious scaleups and agencies.
+              plans for ambitious scaleups and agencies
             </div>
           </div>
           <div className="sm:text-2xl text-md   mt-[2rem] ">
             Backed by our 15-day risk-free trial period, no credit card
-            required.
+            required
           </div>
         </div>
       </div>
@@ -57,8 +57,7 @@ export default function Pricing() {
                 Our Pricing Plan
               </h2>
               <p className="text-base text-body-color mx-[2rem]">
-                No contracts or surprises. Cancel anytime. Upgrade or downgrade
-                at any time.
+              Full control. Upgrade easily. Cancel anytime.​
               </p>
             </div>
           </div>
@@ -451,8 +450,7 @@ export default function Pricing() {
                   border-b border-[#F2F2F2]
                   "
               >
-                Ideal for those looking for design & front-end development who
-                need regular help.
+                Ideal for those who need help in complete agile development of the product.​
               </p>
               <div className="mb-[100px] ">
                 <ul class="list-disc ">
