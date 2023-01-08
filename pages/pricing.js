@@ -136,6 +136,7 @@ export default function Pricing() {
                   flex-1
                   block
                   text-primary
+                  font-bold	
                   bg-transparent
                   border-[#D4DEFF]
                   rounded-md
@@ -151,6 +152,7 @@ export default function Pricing() {
                 <button
                 className="
                   flex-1
+                  font-bold	
                   text-center
                   md:w-1/2
                   p-4
@@ -502,6 +504,7 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
+                  font-bold	
                   m-1
                   md:w-1/2
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
@@ -512,6 +515,7 @@ export default function Pricing() {
                 <button
                 className="
                   flex-1
+                  font-bold	
                   text-center
                   md:w-1/2
                   p-4
@@ -861,6 +865,7 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
+                  font-bold	
                   m-1
                   md:w-1/2
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
@@ -1168,7 +1173,7 @@ export default function Pricing() {
           </div>
           <div>
             <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              conversion-rate-optimization (CRO) enabled
+              Conversion-Rate-Optimization enabled
             </div>
             <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               More than just web development. Make requests to track, test, and

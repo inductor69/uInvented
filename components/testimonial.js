@@ -19,10 +19,10 @@ export const Testimonial = () => {
             </div>
 
             <div className="mt-10 flex items-center">
-              <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+              <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/Shreyansh_elekrity.jpg" alt="" />
               <div className="ml-4 text-white">
-                <p className="text-base font-bold">Jacob Jones</p>
-                <p className="text-blue-90 mt-0.5 text-sm">Youtube Personality</p>
+                <p className="text-base font-bold">Shreyansh Chanani</p>
+                <p className="text-blue-90 mt-0.5 text-sm">Founder, Elekrity</p>
               </div>
             </div>
 
@@ -41,8 +41,8 @@ export const Testimonial = () => {
           <div className="mt-4 flex items-center">
             <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
             <div className="ml-4">
-              <p className="text-base font-bold">James Khawalski</p>
-              <p className="mt-0.5 text-sm">CEO, Mavoline</p>
+              <p className="text-base font-bold">Nitish Kumar</p>
+              <p className="mt-0.5 text-sm">Satpura House, IITD</p>
             </div>
           </div>
          </div>
@@ -56,10 +56,10 @@ export const Testimonial = () => {
           </div>
 
           <div className="mt-4 flex items-center ">
-            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/manan_enzoprep.jpg" alt="" />
             <div className="ml-4">
-              <p className="text-base  font-bold">Jacob Jones</p>
-              <p className="mt-0.5 text-sm">Youtube Personality</p>
+              <p className="text-base  font-bold">Manan Kumar</p>
+              <p className="mt-0.5 text-sm">Founder, EnzoPrep</p>
             </div>
           </div>
         </div>
