@@ -30,9 +30,10 @@ export default function Services() {
         <div className="text-5xl md:text-9xl mx-6  md:mx-14">websites</div>
         <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">apps</div>
         <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">content</div>
+        <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">UI/UX</div>
         {/* <div className="text-5xl md:text-9xl mx-6  md:mx-14 ">Reports</div> */}
         <div className="text-5xl md:text-9xl mx-6 pb-[2rem]  md:mx-14 mb-8">
-          reports
+          growth hack
         </div>
         <div className="w-full md:w-5/6">
           <div style={{lineHeight:"125%"}} className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
