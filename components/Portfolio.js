@@ -23,7 +23,7 @@ export const Portfolio = () => {
       link: "https://gmatplatform.vercel.app/",
       image: "/images/gmatprep.png",
       bgColor: "#f0f0f2",
-      controlColor: "rgb(37,99,235)",
+      controlColor: "#00252F",
     },{
       id:"1",
       title: "Elekrity",
@@ -32,7 +32,7 @@ export const Portfolio = () => {
       link: "https://www.elekrity.com/",
       image: "/images/elekrity2.svg",
       bgColor: "#9df5fd",
-      controlColor: "#9969c9",
+      controlColor: "#0129FF",
     }
 
   ];

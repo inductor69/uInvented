@@ -77,7 +77,7 @@ export const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto s lg:my-8 " />
         <div className="sm:flex sm:items-center  sm:justify-between pb-[4rem]  mx-[4rem]">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022{" "}
+            © {(new Date().getFullYear())}{" "}
             <a href="https://uinvented.com/" className="hover:underline">
               uInvented™
             </a>
