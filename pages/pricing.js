@@ -131,12 +131,11 @@ export default function Pricing() {
               text-xl
               ">
                 <button
-                  href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
+                  onClick={()=>window.location="./event"}
                   className="
                   flex-1
                   block
                   text-primary
-                  font-bold	
                   bg-transparent
                   border-[#D4DEFF]
                   rounded-md
@@ -150,9 +149,9 @@ export default function Pricing() {
                   Book Demo
                 </button>
                 <button
+                onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
                 className="
                   flex-1
-                  font-bold	
                   text-center
                   md:w-1/2
                   p-4
@@ -494,7 +493,7 @@ export default function Pricing() {
               text-xl
               ">
                 <button
-                  href="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"
+                  onClick={()=>window.location="./event"}
                   className="
                   flex-1
                   block
@@ -504,7 +503,6 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
-                  font-bold	
                   m-1
                   md:w-1/2
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
@@ -513,9 +511,9 @@ export default function Pricing() {
                   Book Demo
                 </button>
                 <button
+                onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
                 className="
                   flex-1
-                  font-bold	
                   text-center
                   md:w-1/2
                   p-4
@@ -865,7 +863,6 @@ export default function Pricing() {
                   rounded-md
                   text-center
                   p-4
-                  font-bold	
                   m-1
                   md:w-1/2
                   border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
@@ -1142,7 +1139,7 @@ export default function Pricing() {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[1rem]">
-          <div className="py-1">benefits</div>
+          <div className="py-1">benefits.</div>
         </div>
         <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem]  ">
           Everything you need in a managed web experience.
@@ -1173,7 +1170,7 @@ export default function Pricing() {
           </div>
           <div>
             <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              Conversion-Rate-Optimization enabled
+              conversion-rate-optimization (CRO) enabled
             </div>
             <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               More than just web development. Make requests to track, test, and
