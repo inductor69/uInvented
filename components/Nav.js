@@ -61,15 +61,16 @@ export const Nav = () => {
                
               </a>
             </Link>
-            <Link href='/about'>
-              <a className='lg:inline-flex 	 lg:w-auto w-full px-3 py-2 rounded text-black  items-center justify-center hover:underline hover:text-black'>
-              About us
-              </a>
-            </Link>
+      
       
             <Link href='/howitworks'>
               <a className='lg:inline-flex 	 lg:w-auto w-full px-3 py-2 rounded text-black  items-center justify-center hover:underline hover:text-black'>
                How it works
+              </a>
+            </Link>
+            <Link href='/about'>
+              <a className='lg:inline-flex 	 lg:w-auto w-full px-3 py-2 rounded text-black  items-center justify-center hover:underline hover:text-black'>
+              About Us
               </a>
             </Link>
             <Link href="/contactus" passHref>

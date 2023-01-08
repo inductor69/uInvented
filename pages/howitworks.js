@@ -15,12 +15,12 @@ export default function HowItWorks() {
       <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-1/2 mb-[2rem]   ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
             <div className="py-1">
-              simple process.
-              <br /> incredible results.
+              simple process
+              <br /> incredible results
             </div>
           </div>
           <div className="sm:text-2xl text-md  md:w-3/4 pb-[1rem] mt-[2rem] leading-normal">
-            Delegate web tasks like never before.
+            Delegate web tasks like never before
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function HowItWorks() {
             <div class="w-3/4 mx-auto">
               <div className=" ">
                 <div className="md:text-6xl text-4xl font-bold md:mt-[4rem]">
-                  <div className="py-1 mb-3">start risk-free.</div>
+                  <div className="py-1 mb-3">start risk-free</div>
                 </div>
                 <div className="sm:text-2xl text-md text-gray-700    md:mt-[2rem] ">
                   Start with the first 15 days to evaluate the service with full

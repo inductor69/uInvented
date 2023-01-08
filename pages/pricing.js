@@ -1101,7 +1101,7 @@ export default function Pricing() {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[1rem]">
-          <div className="py-1">benefits.</div>
+          <div className="py-1">benefits</div>
         </div>
         <div className="sm:text-2xl text-md text-center md:w-1/2  text-[#575757] mt-[2rem]  ">
           Everything you need in a managed web experience.
@@ -1175,7 +1175,7 @@ export default function Pricing() {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center mb-[3rem] ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[1rem]">
-          <div className="py-1">faqs.</div>
+          <div className="py-1">faqs</div>
         </div>
       </div>
       <Accordion />

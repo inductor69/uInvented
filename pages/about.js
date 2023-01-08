@@ -15,7 +15,7 @@ export default function AboutUs() {
       <div className="flex flex-col  bg-black text-white ">
         <div className="flex flex-col md:mx-[3rem] mx-8 w-2/3 md:w-2/3 mb-[2rem]   ">
           <div className="md:text-6xl text-4xl md:mt-[4rem] mt-[2rem] ">
-            <div className="py-1">about uInvented.</div>
+            <div className="py-1">about uInvented</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-2/3  mt-[2rem] ">
           Our goal is to improve user experiences through affordable, high-quality web services. Whether you're a small start-up or a large corporation, we're here to help you succeed online.​
@@ -26,7 +26,7 @@ export default function AboutUs() {
 
       <div className="md:grid grid-cols-2 gap-4 px-[2rem]">
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
-          the start of something new.
+          the start of something new
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             uInvented is a web services company based in India that offers growth-oriented organizations unlimited access to development and technical work at a flat rate. Our platform allows teams to easily create and update websites and marketing pages, helping businesses grow and succeed. With uInvented, organizations can create scalable, high-quality sites that drive their business forward.​
           </div>
@@ -53,10 +53,10 @@ export default function AboutUs() {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem] mt-[2rem]">
-          <div className="py-1">how we're getting it done.</div>
+          <div className="py-1">how we're getting it done</div>
         </div>
         <div className="sm:text-2xl text-lg text-center md:w-1/2  text-[#575757] mt-[2rem] ">
-          We've engineered something special.
+          We've engineered something special
         </div>
       </div>
 
@@ -131,7 +131,7 @@ export default function AboutUs() {
 
       <div className="flex flex-col md:mx-[3rem] mx-8 items-center justify-center ">
         <div className="md:text-6xl font-bold text-4xl md:mt-[4rem] mb-[4rem]">
-          <div className="py-1">faces behind uInvented.</div>
+          <div className="py-1">faces behind uInvented</div>
         </div>
       </div>
       <div>
