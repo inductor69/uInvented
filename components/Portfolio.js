@@ -4,52 +4,70 @@ import React from "react";
 
 export const Portfolio = () => {
   const Projects = [
-    
-    {
-        title:"Personal Portfolio",
-        description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
-        link:"/",
-        image:"/images/meet.png",
-        bgColor:"#F0E4FC",
-        controlColor:'rgb(202,138,4)'
 
+    {
+      id:"0",
+      title: "Personal Portfolio",
+      description:
+        "Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
+      link: "/",
+      image: "/images/meet.png",
+      bgColor: "#F0E4FC",
+      controlColor: "rgb(202,138,4)",
     },
     {
-        title:"Personal Portfolio",
-        description:"Personal Portfolio showcasing the work of Founders and Designers built with NextJS",
-        link:"/",
-        image:"/images/relax.png",
-        bgColor:"#ffefdf",
-        controlColor:'rgb(37,99,235)'
+      id:"2",
+      title: "GMAT Portal",
+      description:
+        "This is a portal designed to attempt GMAT mocks, and enhance GMAT scores",
+      link: "https://gmatplatform.vercel.app/",
+      image: "/images/gmatprep.png",
+      bgColor: "#f0f0f2",
+      controlColor: "rgb(37,99,235)",
     },{
-      title:"Elekrity",
-      description:"Beat procrastination and get your personal goals completed as planned!",
-      link:"/",
-      image:"/images/portfolio.png",
-      bgColor:"#9df5fd",
-      controlColor:"#9969c9"
-  }]
-;
+      id:"1",
+      title: "Elekrity",
+      description:
+        "Beat procrastination and get your personal goals completed as planned!",
+      link: "https://www.elekrity.com/",
+      image: "/images/elekrity2.svg",
+      bgColor: "#9df5fd",
+      controlColor: "#9969c9",
+    }
+
+  ];
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+  console.log(Projects);
   return (
-      <div className="relative min-h-[40rem] xl:min-h-screen" >
-        {Projects.map((project, index) => (
-          <div key={index} className="">
+    <div className="min-h-[1rem] mt-[12rem] mb-[25rem] xl:mt-[15rem] xl:mb-[32rem] bg-black relative ">
+      <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>
+        {Projects.map((project, id) =>(
+
+          <div key={(id + 1) % Projects.length} className="" >
             <input
               className="sr-only peer"
               type="radio"
               name="carousel"
-              id={`carousel-${((index + 1) % Projects.length) + 1}`}
+              id={`carousel-${((id + 1) % Projects.length)  }`}
               defaultChecked
             />
 
-            {/* content #index+1 */}
+            {/* content #id+1 */}
             <div
-              className={"2xl:container min-w-[80%]  md:mx-auto absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/3  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0 "}
+              className={
+
+                "2xl:container min-w-[80%]  md:mx-auto absolute top-1/3 left-1/2  transform -translate-x-1/2 -translate-y-1/3  rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0 "
+
+
+              }
             >
               <div
-                className={"flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl  text-black row align-baseline "}
-                style={{backgroundColor: `${project.bgColor}`}}
-
+                className={
+                  "py-2 flex rounded-[2rem] flex-wrap-reverse md:flex-nowrap lg:flex-row mx-auto transition ease-in-out duration-700 scale-[1]  hover:scale-[0.99]  max-w-screen-xl xl:max-w-screen-2xl  text-black row align-baseline "
+                }
+                style={{ backgroundColor: `${project.bgColor}`, position: "static"}}
               >
                 <div className="  p-10  md:mt-[15rem] xl:mt-[27rem]">
                   <p className="max-w-md text-3xl md:text-5xl font-semibold ">
@@ -58,17 +76,15 @@ export const Portfolio = () => {
                   <p className=" text-secondary text-xl md:text-2xl  mt-3">
                     {project.description}
                   </p>
-                  <Link href={project.link} passHref>
-                    <button
-                      href={project.link}
-                      className={"mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black  hover:text-black transition duration-500 font-bold projectButton "}
-
-                      style={{color: `${project.bgColor}`}}
-
-                    >
-                      View Project
-                    </button>
-                  </Link>
+                  <button
+                    onClick={() => openInNewTab(project.link)}
+                    className={
+                      "mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black  hover:text-black transition duration-500 font-bold projectButton "
+                    }
+                    style={{ color: `${project.bgColor}` }}
+                  >
+                    View Project
+                  </button>
                 </div>
                 <div className=" container  rounded-[2rem]  ">
                   <div
@@ -87,49 +103,53 @@ export const Portfolio = () => {
                     />
                   </div>
                 </div>
-              {/* controls */}
-              <div className="absolute top-1/2 w-full flex justify-between z-20">
-                <label
-                  htmlFor={`carousel-${(index % Projects.length) + 1}`}
-                  className={`inline-block cursor-pointer -translate-x-5   bg-white rounded-full shadow-md active:translate-y-0.5`}
-                  style={{color: `${project.controlColor}`}}
+                {/* controls */}
+                <div className="absolute top-1/2 w-full flex justify-between z-20"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
+                  <label
+                    // onClick={(e)=>e.preventDefault()}
+                    htmlFor={`carousel-${(id % Projects.length) }`}
+                    className={`inline-block cursor-pointer -translate-x-5   bg-white rounded-full shadow-md active:translate-y-0.5`}
+                    style={{ color: `${project.controlColor}` }}
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-                <label
-                  htmlFor={`carousel-${((index + 2) % Projects.length) + 1}`}
-                  className={`inline-block cursor-pointer   translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5`}
-                  style={{color: `${project.controlColor}`}}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-10 w-10"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </label>
+                  <label
+                    // onClick={(e)=>e.preventDefault()}
+                    htmlFor={`carousel-${((id + 2) % Projects.length) }`}
+                    className={`inline-block cursor-pointer   translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5`}
+                    style={{ color: `${project.controlColor}` }}
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </label>
-              </div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </label>
+                </div>
               </div>
             </div>
           </div>
         ))}
       </div>
+    </div>
   );
 };

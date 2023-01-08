@@ -25,7 +25,8 @@ export default function Meta({ title }) {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={twitter} />
       <meta name="twitter:creator" content={twitter} />
+      <link rel="icon"  href="/favicon.ico" />
     </Head>
-    
+
   );
 }
