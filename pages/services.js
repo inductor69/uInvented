@@ -166,7 +166,7 @@ export default function Services() {
           </div>
         </div>
         <div className="py-8 flex justify-center text-xl space-x-8 md:mb-[5rem] ">
-        <Link href="/contactus" passHref  className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold">
+        <Link href="/contactus" passHref  className="button2 rounded py-3 px-8 text-white font-bold">
 
       
               Contact Us

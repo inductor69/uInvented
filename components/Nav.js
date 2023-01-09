@@ -64,7 +64,7 @@ export const Nav = () => {
             </Link>
             <Link href="/contactus" passHref>
               <button
-                className="border hover:border-black bg-black hover:bg-white rounded py-2 px-4 text-white hover:text-black transition duration-500 font-bold"
+                className="button2  rounded py-2 px-4 text-white font-bold"
                 type="button"
               >
                Contact Us

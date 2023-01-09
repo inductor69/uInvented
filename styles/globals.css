@@ -518,7 +518,30 @@
 .owl-dots button.active {
 	width: 30px;
 }
-.projectButton:hover{
-  background-color:inherit;
-  color: black!important;;
+
+
+.button1 {
+  color: #121212;
+  border: 2px solid #252525;
+  background: #fafafa;
+  box-shadow: 3px 3px #252525;
+  cursor: pointer;
 }
+
+.button1:hover {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+.button2 {
+  color: #fafafa;
+  border: 2px solid #524f4f;
+  background: #121212;
+  box-shadow: 3px 3px #524f4f;
+  cursor: pointer;
+}
+
+.button2:hover {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+

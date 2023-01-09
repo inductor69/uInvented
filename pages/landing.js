@@ -88,7 +88,7 @@ export default function Landing() {
           <div className="py-8 flex justify-center text-xl space-x-8 mb-6">
             <Link href="/contactus" passHref>
               <button
-                className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
+                className=" button1 border  rounded py-3 px-8 text-white  font-bold"
                 type="button"
               >
                 Let's Work Together
@@ -321,11 +321,13 @@ export default function Landing() {
                         ></circle>
                       </svg>
                     </span>
+                    
                     <form
                       onSubmit={registerUser}
                       method="POST"
                       className="w-full"
                     >
+                      
                       <input
                         className="w-full sm:w-[50%] mb-4 sm:mb-0 pl-8 sm:pl-4 py-5   rounded-full placeholder-gray-900 font-bold focus:placeholder-gray-500  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                       invalid:border-pink-500 invalid:text-pink-600

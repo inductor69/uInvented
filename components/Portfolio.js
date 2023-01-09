@@ -78,9 +78,9 @@ export const Portfolio = () => {
                   <button
                     onClick={() => openInNewTab(project.link)}
                     className={
-                      "mt-10 px-8 py-2 rounded hover:border-black text-md xl:text-xl bg-black  hover:text-black transition duration-500 font-bold projectButton "
+                      " button1 mt-10 px-8 py-2 rounded k text-md xl:text-xl bg-black  font-bold  "
                     }
-                    style={{ color: `${project.bgColor}` }}
+                    style={{ backgroundColor: `${project.bgColor}`}}
                   >
                     View Project
                   </button>

@@ -133,6 +133,7 @@ export default function Pricing() {
                 <button
                   onClick={()=>window.location="./event"}
                   className="
+                  button1
                   flex-1
                   block
                   text-primary
@@ -143,7 +144,6 @@ export default function Pricing() {
                   p-4
                   m-1
                   md:w-1/2
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
                     "
                 >
                   Book Demo
@@ -151,12 +151,18 @@ export default function Pricing() {
                 <button
                 onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
                 className="
-                  flex-1
-                  text-center
-                  md:w-1/2
-                  p-4
-                  m-1
-                   border hover:border-black bg-black hover:bg-white rounded  text-white hover:text-black transition duration-500 "
+                button2
+                flex-1
+                block
+                text-primary
+                bg-transparent
+                border-[#D4DEFF]
+                rounded-md
+                text-center
+                p-4
+                m-1
+                md:w-1/2
+                  "
                 type="button"
               >
                 Subscribe Now
@@ -495,6 +501,7 @@ export default function Pricing() {
                 <button
                   onClick={()=>window.location="./event"}
                   className="
+                  button1
                   flex-1
                   block
                   text-primary
@@ -505,7 +512,6 @@ export default function Pricing() {
                   p-4
                   m-1
                   md:w-1/2
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
                     "
                 >
                   Book Demo
@@ -513,12 +519,18 @@ export default function Pricing() {
                 <button
                 onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
                 className="
-                  flex-1
-                  text-center
-                  md:w-1/2
-                  p-4
-                  m-1
-                   border hover:border-black bg-black hover:bg-white rounded  text-white hover:text-black transition duration-500 "
+                button2
+                flex-1
+                block
+                text-primary
+                bg-transparent
+                border-[#D4DEFF]
+                rounded-md
+                text-center
+                p-4
+                m-1
+                md:w-1/2
+                  "
                 type="button"
               >
                 Subscribe Now
@@ -855,18 +867,18 @@ export default function Pricing() {
                 <button
                 href="javascript:void(0)"
                 className="
-                  flex-1
-                  block
-                  text-primary
-                  bg-transparent
-                  border-[#D4DEFF]
-                  rounded-md
-                  text-center
-                  p-4
-                  m-1
-                  md:w-1/2
-                  border hover:border-black bg-white hover:bg-black text-black hover:text-white transition duration-500
-                    "
+                button1
+                flex-1
+                block
+                text-primary
+                bg-transparent
+                border-[#D4DEFF]
+                rounded-md
+                text-center
+                p-4
+                m-1
+                md:w-1/2
+                  "
                 >
                   Get Estimate
                 </button>
