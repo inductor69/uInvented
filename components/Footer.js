@@ -60,8 +60,8 @@ export const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
-                  <a href="./terms" className="hover:underline">
+                <li className="mb-4">
+                  <a href="./terms" className="hover:underline ">
                     Terms &amp; Conditions
                   </a>
                 </li>
