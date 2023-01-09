@@ -64,7 +64,7 @@ export const Nav = () => {
             </Link>
             <Link href="/contactus" passHref>
               <button
-                className="button2  rounded py-2 px-4 text-white font-bold"
+                className="button2  rounded py-2 px-4  text-white font-bold"
                 type="button"
               >
                Contact Us

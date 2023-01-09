@@ -8,9 +8,9 @@
   @font-face {
     font-family: "ITC";
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     src: local("DM Sans Medium"),
-      url("/fonts/Gilroy-Medium.ttf");
+      url("/fonts/Outfit-Regular.ttf");
   }
 }
 @layer components {
