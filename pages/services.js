@@ -4,6 +4,8 @@ import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import Wave from "../components/Wave";
 import Meta from "../components/Meta";
+import Balancer from 'react-wrap-balancer'
+
 export default function Services() {
   return (
     <>
@@ -37,12 +39,14 @@ export default function Services() {
         </div>
         <div className="w-full md:w-5/6">
           <div style={{lineHeight:"125%"}} className="  text-xl md:text-4xl mx-8 md:mx-14 mb-14">
+          <Balancer>
             We design compelling Brand Identities and impactful Digital
             Experiences for innovative companies around the world. <br/><br/>Using the
             industry-proven methods Jobs to be Done and Design Sprint, we've
             developed a highly optimised design delivery process that brings
             results in just a few weeks. <br/><br/>
             Sounds like what you’re looking for?
+            </Balancer>
           </div>
         </div>
       </div>
@@ -152,22 +156,20 @@ export default function Services() {
             <div className="py-1">Who is it for?</div>
           </div>
           <div className="sm:text-2xl text-md text-center md:w-3/5  mt-[2rem] ">
+          <Balancer>
             We work with companies at launch, product-market fit and growth
             stages. Our cross-functional team of Product and Branding experts
             acts as the extension of your team, bringing in-depth design and
             product expertise to help you discover and fix complex product
             challenges and build the most engaging version of your product.
+            </Balancer>
           </div>
         </div>
         <div className="py-8 flex justify-center text-xl space-x-8 md:mb-[5rem] ">
-        <Link href="/contactus" passHref>
+        <Link href="/contactus" passHref  className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold">
 
-            <a
-              href="/contactus"
-              className="border hover:border-black bg-black hover:bg-white rounded py-3 px-8 text-white hover:text-black transition duration-500 font-bold"
-            >
+      
               Contact Us
-            </a>
           </Link>
         </div>
       </div>

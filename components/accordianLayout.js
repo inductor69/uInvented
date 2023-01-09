@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/bs'
-import { useState } from 'react/cjs/react.production.min';
 
 const AccordionLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
   const handleSetIndex = (index) => {

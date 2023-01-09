@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Script from 'next/script';
 
 import { ThemeProvider } from "next-themes";
+import { Provider } from 'react-wrap-balancer'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,7 +20,10 @@ function MyApp({ Component, pageProps }) {
     `}
 </Script>
     <div className="">
+    <Provider>
+
       <Component {...pageProps} />
+      </Provider>
     </div>
     </>
   );

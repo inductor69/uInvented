@@ -3,6 +3,7 @@ import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 import Meta from "../components/Meta";
+import Balancer from 'react-wrap-balancer'
 
 
 export default function HowItWorks() {
@@ -39,10 +40,12 @@ export default function HowItWorks() {
                   <div className="py-1 mb-3">start risk-free</div>
                 </div>
                 <div className="sm:text-2xl text-md text-gray-700    md:mt-[2rem] ">
+                <Balancer>
                   Start with the first 15 days to evaluate the service with full
                   app access and a limited build scope—no credit-card required.
                   Pay and unlock the full scope anytime before the 15 days when
                   you're happy with the work.
+                  </Balancer>
                 </div>
               </div>
             </div>

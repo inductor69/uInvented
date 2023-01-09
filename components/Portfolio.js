@@ -39,7 +39,6 @@ export const Portfolio = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
-  console.log(Projects);
   return (
     <div className="min-h-[1rem] mt-[12rem] mb-[25rem] xl:mt-[15rem] xl:mb-[32rem] bg-black relative ">
       <div className="bg-black" style={{ scrollSnapType: "x mandatory" }}>

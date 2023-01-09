@@ -187,8 +187,8 @@ export default function Landing() {
             >
               <Image
                 src="/images/top.svg" // Route of the image file
-                width="200%"
-                height="100%"
+                width={64}
+                height={64}
                 layout="responsive"
                 alt="Your Name"
                 objectFit="contain"
@@ -233,7 +233,7 @@ export default function Landing() {
             <div className="text-4xl md:text-6xl mx-6 font-bold md:mx-14 mb-8">
               Our Promises
             </div>
-            <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14">
+            <div className="text-2xl md:text-3xl mx-6 md:mx-14 mb-14 md:w-3/4 w-1/1">
               Our expertise is in digital products like websites, mobile apps,
               e-commerce platforms, content and much more for startups and
               iconic companies.
@@ -256,7 +256,7 @@ export default function Landing() {
 
         {/*Our Testimonials*/}
 
-        <div className="w-full h-full   ">
+        <div className="w-full h-full pt-[3rem]  ">
           <div className=" text-white bg-black text-4xl sm:text-6xl   text-md text-center md:leading-[7rem] mb-10 md:mb-0  ">
             Our Testimonials
           </div>

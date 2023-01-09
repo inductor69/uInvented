@@ -4,6 +4,8 @@ import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
 import Meta from "../components/Meta";
+import Balancer from 'react-wrap-balancer'
+
 
 export default function AboutUs() {
   return (
@@ -18,7 +20,9 @@ export default function AboutUs() {
             <div className="py-1">about uInvented</div>
           </div>
           <div className="sm:text-2xl text-md  md:w-2/3  mt-[2rem] ">
+          <Balancer>
           Our goal is to improve user experiences through affordable, high-quality web services. Whether you're a small start-up or a large corporation, we're here to help you succeed online.​
+          </Balancer>
           </div>
         </div>
       </div>
@@ -28,7 +32,9 @@ export default function AboutUs() {
         <div className="text-5xl md:text-7xl font-bold mx-6 pb-[2rem]  md:mx-14 mt-[2rem] ">
           the start of something new
           <div className="text-xl font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
+          <Balancer>
             uInvented is a web services company based in India that offers growth-oriented organizations unlimited access to development and technical work at a flat rate. Our platform allows teams to easily create and update websites and marketing pages, helping businesses grow and succeed. With uInvented, organizations can create scalable, high-quality sites that drive their business forward.​
+            </Balancer>
           </div>
           <div className="text-xl  font-medium sm:w-3/4 text-md text-[#575757] mt-[2rem] ">
             We're driven by a relentless focus on great work and culture. Our
@@ -74,9 +80,11 @@ export default function AboutUs() {
               global remote team
             </h5>
             <p className="mb-3 font-normal text-gray-700 ">
+            <Balancer>
               Our battle-tested team of top developers and technical specialists
               from around the world allows us to offer exceptional work with a
               faster turnaround.
+              </Balancer>
             </p>
           </div>
         </div>
@@ -97,9 +105,11 @@ export default function AboutUs() {
                 </h5>
               </div>
               <p className="mb-3 font-normal text-gray-700 ">
+              <Balancer>
                 We use purpose-built technology combined with a specialized
                 toolset to offer our unchained development and technical scope
                 on an enterprise level.
+                </Balancer>
               </p>
             </div>
           </div>
@@ -120,9 +130,11 @@ export default function AboutUs() {
                 </h5>
               </div>
               <p className="mb-3 font-normal text-gray-700 ">
+              <Balancer>
                 Our orchestration is our secret sauce. We've developed a
                 proprietary rigor of web ops complemented by an app to deliver a
                 game-changing experience for you.
+                </Balancer>
               </p>
             </div>
           </div>
