@@ -164,7 +164,7 @@ export default function AboutUs() {
                         </h1>
                         {/* Title */}
                         <div className="text-gray-700 font-light mb-2">
-                          Founder &amp; Technical Lead
+                          Co-Founder &amp; Technical Lead
                         </div>
                       </div>
                     </div>
@@ -189,7 +189,7 @@ export default function AboutUs() {
                         </h1>
                         {/* Title */}
                         <div className="text-gray-700 font-light mb-2">
-                          Founder &amp; Product Designer
+                        Co-Founder &amp; Product Designer
                         </div>
                       </div>
                     </div>
