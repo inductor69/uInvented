@@ -56,6 +56,14 @@
   }
 }
 
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 /* Testimonial */
 .testimonial {
   text-align: center;
@@ -260,7 +268,7 @@
 }
 
 .title-wrap {
-  color:white; 
+  color:white;
   font-size: 17px;
 
   line-height: 34px;
@@ -276,7 +284,7 @@
 .right-text {
   margin-left: 5px;
   overflow: hidden;
-  
+
   color: #000;
 
 }

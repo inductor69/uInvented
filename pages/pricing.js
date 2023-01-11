@@ -104,7 +104,7 @@ export default function Pricing() {
                 help with development.
               </p>
               <div className="mb-[140px] md:mb-[110px] ">
-                <ul class="list-disc">
+                <ul className="list-disc">
                   <li className=" text-base text-body-color leading-loose mb-1">
                     Unlimited requests and revisions
                   </li>
@@ -472,7 +472,7 @@ export default function Pricing() {
                 the product.
               </p>
               <div className="mb-[140px] md:mb-[110px] ">
-                <ul class="list-disc ">
+                <ul className="list-disc ">
                   <li className="text-base text-body-color leading-loose mb-1">
                     Market Research Report
                   </li>
@@ -841,7 +841,7 @@ export default function Pricing() {
                 feature to your website.
               </p>
               <div className="mb-[140px] md:mb-[110px] ">
-                <ul class="list-disc">
+                <ul className="list-disc">
                   <li className="text-base text-body-color leading-loose mb-1">
                     Includes design and development
                   </li>
@@ -1172,7 +1172,7 @@ export default function Pricing() {
           </div>
           <div>
             <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              world-class support
+              world-className support
             </div>
             <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               Your point project manager will guide you and ensure you have a

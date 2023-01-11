@@ -31,10 +31,10 @@ export default function HowItWorks() {
       </div>
       <Wave index={1} />
 
-      <div class="md:flex ">
-        <div class="md:w-1/2 ">
-          <div class="py-10 md:py-20 md:sticky md:top-0 md:left-0">
-            <div class="w-3/4 mx-auto">
+      <div className="md:flex ">
+        <div className="md:w-1/2 ">
+          <div className="py-10 md:py-20 md:sticky md:top-0 md:left-0">
+            <div className="w-3/4 mx-auto">
               <div className=" ">
                 <div className="md:text-6xl text-4xl font-bold md:mt-[4rem]">
                   <div className="py-1 mb-3">start risk-free</div>
