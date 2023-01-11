@@ -39,7 +39,7 @@ export const Testimonial = () => {
           </div>
 
           <div className="mt-4 flex items-center">
-            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/nitish_satpura.jpg" alt="" />
             <div className="ml-4">
               <p className="text-base font-bold">Nitish Kumar</p>
               <p className="mt-0.5 text-sm">Satpura House, IITD</p>
@@ -72,10 +72,10 @@ export const Testimonial = () => {
           </div>
 
           <div className="mt-4 flex items-center">
-            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/person1.png" alt="" />
+            <img className="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/ashish_samsung.jpg" alt="" />
             <div className="ml-4">
-              <p className="text-base font-bold">Jenny Wilson</p>
-              <p className="text-blue-90 mt-0.5 text-sm">Esports Commentator</p>
+              <p className="text-base font-bold">Ashish Bhaskar</p>
+              <p className="text-blue-90 mt-0.5 text-sm">SDE, Samsung </p>
             </div>
           </div>
         </div>

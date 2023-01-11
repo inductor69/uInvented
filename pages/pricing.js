@@ -87,7 +87,7 @@ export default function Pricing() {
                 basic
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $2999
+                $1499
                 <span className="text-base text-body-color font-medium">
                   /month
                 </span>
@@ -149,7 +149,7 @@ export default function Pricing() {
                   Book Demo
                 </button>
                 <button
-                onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
+                onClick={()=>window.location="https://buy.stripe.com/3cscNT0ojaAH1j2dQQ"}
                 className="
                 button2
                 flex-1
@@ -455,7 +455,7 @@ export default function Pricing() {
                 advance
               </span>
               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                $4599
+                $2999
                 <span className="text-base text-body-color font-medium">
                   /month
                 </span>
@@ -517,7 +517,7 @@ export default function Pricing() {
                   Book Demo
                 </button>
                 <button
-                onClick={()=>window.location="https://buy.stripe.com/test_5kAcNY9CE8b61QQ8wx"}
+                onClick={()=>window.location="https://buy.stripe.com/7sI3dj1sn8szbXGdQR"}
                 className="
                 button2
                 flex-1
@@ -865,7 +865,7 @@ export default function Pricing() {
               text-xl
               ">
                 <button
-                href="javascript:void(0)"
+                onClick={()=>window.location="./event"}
                 className="
                 button1
                 flex-1
@@ -1182,7 +1182,7 @@ export default function Pricing() {
           </div>
           <div>
             <div className="flex flex-col font-bold  sm:text-2xl text-md  ">
-              conversion-rate-optimization (CRO) enabled
+              conversion-rate-optimization(CRO) enabled
             </div>
             <div className="flex flex-col font-medium justify-center items-center text-[#575757] sm:text-md text-md mt-2 ">
               More than just web development. Make requests to track, test, and
