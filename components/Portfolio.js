@@ -13,17 +13,27 @@ export const Portfolio = () => {
       link: "/",
       image: "/images/meet.png",
       bgColor: "#F0E4FC",
-      controlColor: "rgb(202,138,4)",
+      controlColor: "#8960b5",
     },
     {
       id:"2",
       title: "GMAT Portal",
       description:
-        "This is a portal designed to attempt GMAT mocks, and enhance GMAT scores",
+        "This is a full stack portal designed to attempt GMAT mocks, and enhance GMAT scores",
       link: "https://gmatplatform.vercel.app/",
       image: "/images/gmatprep.png",
       bgColor: "#f0f0f2",
       controlColor: "#00252F",
+    },
+    {
+      id:"3",
+      title: "Satpura",
+      description:
+        "Pushing Boundaries On multiple Ideas And Craft",
+      link: "https://satpura-house.vercel.app/",
+      image: "/images/satpura.png",
+      bgColor: "#f0aab1",
+      controlColor: "#cc646e",
     },{
       id:"1",
       title: "Elekrity",
