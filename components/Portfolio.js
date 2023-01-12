@@ -43,7 +43,7 @@ export const Portfolio = () => {
       image: "/images/satpura.png",
       bgColor: "#f0aab1",
       controlColor: "#cc646e",
-    },
+    }
    
   ];
 
@@ -55,8 +55,6 @@ export const Portfolio = () => {
     }, 2000);
     return () => clearInterval(intervalId);
 }, [currentIndex]);
-  console.log(currentIndex)
-
 
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -70,7 +68,7 @@ export const Portfolio = () => {
               className="sr-only peer"
               type="radio"
               name="carousel"
-              defaultChecked={currentIndex === id}
+              checked={currentIndex === id}
 
             />
 
