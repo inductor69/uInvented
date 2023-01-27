@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Script from 'next/script';
+import "cal-sans";
 
 import { ThemeProvider } from "next-themes";
 import { Provider } from 'react-wrap-balancer'

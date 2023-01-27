@@ -6,7 +6,7 @@ export default function Meta({ title }) {
   const keywords = "Development";
   const twitter = "@uInvented";
   const image =
-    "https://og-image.vercel.app/**Next.js**%20Starter%20%3Cbr%2F%3E%20%40exu3.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg";
+    "./images/logo.jpg";
   return (
     <Head>
       <meta charSet="utf-8" />
