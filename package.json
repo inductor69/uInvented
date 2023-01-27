@@ -21,7 +21,7 @@
     "react-toastify": "^9.1.1",
     "react-wrap-balancer": "^0.3.0",
     "shortid": "^2.2.16",
-    "stripe": "^9.1.0",
+    "stripe": "^11.8.0",
     "swr": "^1.2.2"
   },
   "devDependencies": {
