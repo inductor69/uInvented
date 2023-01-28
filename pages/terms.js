@@ -24,9 +24,6 @@ export default function AboutUs() {
 
 
       <div className="flex flex-col md:mx-[3rem] mx-8  ">
-        <div className="md:text-6xl font-bold text-4xl md:mt-[4rem]">
-          <div className="py-1">how we're getting it done.</div>
-        </div>
         <div className="sm:text-2xl text-md text-left  text-[#575757] mt-[2rem] ">
         Acceptance of these terms of use<br/><br/>
 Use of the Site is subject to the following Terms of Use. By navigating within the Site, or clicking on any object on the Site, you are agreeing to these Terms of Use. We reserve the right to update the Terms of Use at any time as the need arises without any notice to you. You can review the Terms of Use at any time by clicking on the “Privacy and Terms of Use” link at the bottom of this Site’s web pages.

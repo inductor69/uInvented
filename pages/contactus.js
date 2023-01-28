@@ -154,7 +154,7 @@ We look forward to hearing from you and discussing how we can help to bring your
               </div>
             </div>
 
-            <div className="w-1/2 px-4 lg:w-1/2 xl:w-5/12">
+            <div className=" px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
                 <form onSubmit={submitForm}>
                   <div className="mb-6">
