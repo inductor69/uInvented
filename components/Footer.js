@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { BsMailbox2, BsVoicemail } from "react-icons/bs";
+import Link from "next/link";
 export const Footer = () => {
   return (
     <>

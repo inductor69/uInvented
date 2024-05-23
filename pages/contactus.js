@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
+
 import { Nav } from "../components/Nav";
 import Wave from "../components/Wave";
 import { Footer } from "../components/Footer";
@@ -129,7 +128,7 @@ We look forward to hearing from you and discussing how we can help to bring your
                       Phone Number
                     </h4>
                     <p className="text-body-color text-base">
-                      (+91) 96500 93751
+                      (+91) 81269 10474
                     </p>
                   </div>
                 </div>
@@ -154,7 +153,7 @@ We look forward to hearing from you and discussing how we can help to bring your
               </div>
             </div>
 
-            <div className="w-1/2 px-4 lg:w-1/2 xl:w-5/12">
+            <div className=" px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
                 <form onSubmit={submitForm}>
                   <div className="mb-6">

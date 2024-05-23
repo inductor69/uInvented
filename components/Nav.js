@@ -12,7 +12,7 @@ export const Nav = () => {
     <>
       <nav className='flex items-center flex-wrap p-3 pt-5 border-b-2 border-black mb-3 '>
         <Link href='/' className='inline-flex items-center p-2 mr-4 '>
-            <img width='32'height='32'  src='./images/logo.png'></img>
+            <img width='32'height='32'  src='./images/logo.svg'></img>
             <span className='text-xl text-black font-bold tracking-wide'>
               Invented
             </span>
